@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.mohistmc</groupId>
+  <artifactId>mohistdev</artifactId>
+  <versioning>
+    <latest>0.1-SNAPSHOT</latest>
+    <versions>
+      <version>0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20201205152058</lastUpdated>
+  </versioning>
+</metadata>
