@@ -220,7 +220,7 @@ p {
 
 /* error */
 .error-page {
-	background: url(../images/wallpaper.jpg) no-repeat top;
+	background: url(http://maven.mohistmc.com/images/wallpaper.jpg) no-repeat top;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
