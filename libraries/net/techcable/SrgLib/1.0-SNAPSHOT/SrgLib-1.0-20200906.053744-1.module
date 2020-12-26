@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.techcable",
+    "module": "SrgLib",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "p767kmveqfgrbejriv6sjk7ysu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "1.3.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SrgLib-1.0-SNAPSHOT.jar",
+          "url": "SrgLib-1.0-SNAPSHOT.jar",
+          "size": 52998,
+          "sha512": "d97f19bb54f6c1fd74bc1da2639b975f24761906e9a64f15babe573a7a667308159d4730fad3abfcd5f51e2f07cafe598b1b5e49c35188b74bf8c411d2748d4a",
+          "sha256": "d3d88c759c2f3984473e36512cc28143b2f8dea7ddf46f6788b63dd56356e648",
+          "sha1": "836d079b7f2aeb9a5fc4d380eed773a783736f5b",
+          "md5": "56b9f6a66db405172ddae10fcd60aacf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "1.3.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "SrgLib-1.0-SNAPSHOT.jar",
+          "url": "SrgLib-1.0-SNAPSHOT.jar",
+          "size": 52998,
+          "sha512": "d97f19bb54f6c1fd74bc1da2639b975f24761906e9a64f15babe573a7a667308159d4730fad3abfcd5f51e2f07cafe598b1b5e49c35188b74bf8c411d2748d4a",
+          "sha256": "d3d88c759c2f3984473e36512cc28143b2f8dea7ddf46f6788b63dd56356e648",
+          "sha1": "836d079b7f2aeb9a5fc4d380eed773a783736f5b",
+          "md5": "56b9f6a66db405172ddae10fcd60aacf"
+        }
+      ]
+    }
+  ]
+}
