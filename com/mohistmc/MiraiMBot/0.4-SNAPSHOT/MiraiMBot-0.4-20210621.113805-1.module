@@ -1,0 +1,265 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "MiraiMBot",
+    "version": "0.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "cijrkl6lv5dgjdjn5o6fdfvc7u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.mamoe",
+          "module": "mirai-core",
+          "version": {
+            "requires": "2.7-M1"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jansi",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jna",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-reader",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MiraiMBot-0.4-SNAPSHOT.jar",
+          "url": "MiraiMBot-0.4-SNAPSHOT.jar",
+          "size": 1371465,
+          "sha512": "3cee98d9d4182c5cbd6b1cbf0bf3f2842cca0bd00bd6470675f7ab2202337a6fda97325b8e155d9c77929367f4e33d0d42bda76983dd4ec53e3d61e5e68ea742",
+          "sha256": "124a6f9a0d2b355a7b1902ea736a654532399c3ca852476b341b768e3bd41b4a",
+          "sha1": "e4ccdfe765647c41fc9561093c41ea272d8cd413",
+          "md5": "ba7e11b1a69e5e690e477f7afc9e2a53"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.mamoe",
+          "module": "mirai-core",
+          "version": {
+            "requires": "2.7-M1"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jansi",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jna",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-reader",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MiraiMBot-0.4-SNAPSHOT.jar",
+          "url": "MiraiMBot-0.4-SNAPSHOT.jar",
+          "size": 1371465,
+          "sha512": "3cee98d9d4182c5cbd6b1cbf0bf3f2842cca0bd00bd6470675f7ab2202337a6fda97325b8e155d9c77929367f4e33d0d42bda76983dd4ec53e3d61e5e68ea742",
+          "sha256": "124a6f9a0d2b355a7b1902ea736a654532399c3ca852476b341b768e3bd41b4a",
+          "sha1": "e4ccdfe765647c41fc9561093c41ea272d8cd413",
+          "md5": "ba7e11b1a69e5e690e477f7afc9e2a53"
+        }
+      ]
+    }
+  ]
+}
