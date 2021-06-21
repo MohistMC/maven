@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.mohistmc</groupId>
+  <artifactId>MiraiMBot</artifactId>
+  <versioning>
+    <latest>0.4-SNAPSHOT</latest>
+    <versions>
+      <version>0.4-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210621112043</lastUpdated>
+  </versioning>
+</metadata>
