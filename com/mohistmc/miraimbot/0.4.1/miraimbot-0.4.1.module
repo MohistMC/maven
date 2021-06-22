@@ -2,16 +2,16 @@
   "formatVersion": "1.1",
   "component": {
     "group": "com.mohistmc",
-    "module": "MiraiMBot",
-    "version": "0.4-SNAPSHOT",
+    "module": "miraimbot",
+    "version": "0.4.1",
     "attributes": {
-      "org.gradle.status": "integration"
+      "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
       "version": "6.3",
-      "buildId": "cijrkl6lv5dgjdjn5o6fdfvc7u"
+      "buildId": "a7jnudnibbcfnevp7f7k3alf3a"
     }
   },
   "variants": [
@@ -128,13 +128,13 @@
       ],
       "files": [
         {
-          "name": "MiraiMBot-0.4-SNAPSHOT.jar",
-          "url": "MiraiMBot-0.4-SNAPSHOT.jar",
+          "name": "miraimbot-0.4.1.jar",
+          "url": "miraimbot-0.4.1.jar",
           "size": 1371465,
-          "sha512": "3cee98d9d4182c5cbd6b1cbf0bf3f2842cca0bd00bd6470675f7ab2202337a6fda97325b8e155d9c77929367f4e33d0d42bda76983dd4ec53e3d61e5e68ea742",
-          "sha256": "124a6f9a0d2b355a7b1902ea736a654532399c3ca852476b341b768e3bd41b4a",
-          "sha1": "e4ccdfe765647c41fc9561093c41ea272d8cd413",
-          "md5": "ba7e11b1a69e5e690e477f7afc9e2a53"
+          "sha512": "4f0cecde340424bce1d8d236df63d94dff1b9aa532237f01590667dbcaeb2fec4b085e69c19dcb1d6ab280b8d7c5acddc5746bf115f7dd14495c9de0fd6ad9af",
+          "sha256": "388a2897d37ef2a89bb3536ebd80bcd06e43bbc00fde0273486eaa2288175e11",
+          "sha1": "548d6a7586dc9a5b959ec41ede8216c509f712ae",
+          "md5": "049a51421a0c2cccfb65e5a506ab6e8b"
         }
       ]
     },
@@ -251,13 +251,13 @@
       ],
       "files": [
         {
-          "name": "MiraiMBot-0.4-SNAPSHOT.jar",
-          "url": "MiraiMBot-0.4-SNAPSHOT.jar",
+          "name": "miraimbot-0.4.1.jar",
+          "url": "miraimbot-0.4.1.jar",
           "size": 1371465,
-          "sha512": "3cee98d9d4182c5cbd6b1cbf0bf3f2842cca0bd00bd6470675f7ab2202337a6fda97325b8e155d9c77929367f4e33d0d42bda76983dd4ec53e3d61e5e68ea742",
-          "sha256": "124a6f9a0d2b355a7b1902ea736a654532399c3ca852476b341b768e3bd41b4a",
-          "sha1": "e4ccdfe765647c41fc9561093c41ea272d8cd413",
-          "md5": "ba7e11b1a69e5e690e477f7afc9e2a53"
+          "sha512": "4f0cecde340424bce1d8d236df63d94dff1b9aa532237f01590667dbcaeb2fec4b085e69c19dcb1d6ab280b8d7c5acddc5746bf115f7dd14495c9de0fd6ad9af",
+          "sha256": "388a2897d37ef2a89bb3536ebd80bcd06e43bbc00fde0273486eaa2288175e11",
+          "sha1": "548d6a7586dc9a5b959ec41ede8216c509f712ae",
+          "md5": "049a51421a0c2cccfb65e5a506ab6e8b"
         }
       ]
     }
