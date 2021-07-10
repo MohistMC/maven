@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.miraimbot",
+    "module": "annotations",
+    "version": "0.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "6yhvrww44vhttoex3ujpfwmawi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-0.4.1.jar",
+          "url": "annotations-0.4.1.jar",
+          "size": 5078,
+          "sha512": "6442174ca3100e57c181ef01374cfad319ae9d179e6b5e6ef04c54440a4d962b3a6eb45c0ca654e38a224b26a253750167504a12f2ac11382d8c2c21156d0ca8",
+          "sha256": "e890b62263a6911dcdcc9de18acf812e3a06c6e35ac6943d4e9b05146584c3ec",
+          "sha1": "d28d2cf8c550337f462dd4a746d257072ca254c4",
+          "md5": "712f83a03b643b15b154104d52b19ec2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-0.4.1.jar",
+          "url": "annotations-0.4.1.jar",
+          "size": 5078,
+          "sha512": "6442174ca3100e57c181ef01374cfad319ae9d179e6b5e6ef04c54440a4d962b3a6eb45c0ca654e38a224b26a253750167504a12f2ac11382d8c2c21156d0ca8",
+          "sha256": "e890b62263a6911dcdcc9de18acf812e3a06c6e35ac6943d4e9b05146584c3ec",
+          "sha1": "d28d2cf8c550337f462dd4a746d257072ca254c4",
+          "md5": "712f83a03b643b15b154104d52b19ec2"
+        }
+      ]
+    }
+  ]
+}

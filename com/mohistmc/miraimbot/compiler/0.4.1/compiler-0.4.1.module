@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.miraimbot",
+    "module": "compiler",
+    "version": "0.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "6yhvrww44vhttoex3ujpfwmawi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "com.mohistmc.miraimbot",
+          "module": "annotations",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compiler-0.4.1.jar",
+          "url": "compiler-0.4.1.jar",
+          "size": 1290160,
+          "sha512": "45c3240027ed46347da6569b1c8948d43a9f524d3af84ab8bcd53e4bcfff041a897aea15dcbe9e81f63fb335e0aa6ddd416aed80d8119896ea17310ffdcd664a",
+          "sha256": "40d74b5be68c06aba8e1292c3d4b8425a1c746487cefd4230c06a7327370ca75",
+          "sha1": "dfa70c7bdacf8532323ed1e6a46c4ecd9601fa15",
+          "md5": "3888d6ae4f2ccbff9d7779b473279f83"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "com.mohistmc.miraimbot",
+          "module": "annotations",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compiler-0.4.1.jar",
+          "url": "compiler-0.4.1.jar",
+          "size": 1290160,
+          "sha512": "45c3240027ed46347da6569b1c8948d43a9f524d3af84ab8bcd53e4bcfff041a897aea15dcbe9e81f63fb335e0aa6ddd416aed80d8119896ea17310ffdcd664a",
+          "sha256": "40d74b5be68c06aba8e1292c3d4b8425a1c746487cefd4230c06a7327370ca75",
+          "sha1": "dfa70c7bdacf8532323ed1e6a46c4ecd9601fa15",
+          "md5": "3888d6ae4f2ccbff9d7779b473279f83"
+        }
+      ]
+    }
+  ]
+}
