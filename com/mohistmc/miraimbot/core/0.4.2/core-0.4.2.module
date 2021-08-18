@@ -1,0 +1,293 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.miraimbot",
+    "module": "core",
+    "version": "0.4.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "c6nslpohu5ahhdacmlhzqr6h3a"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.mamoe",
+          "module": "mirai-core",
+          "version": {
+            "requires": "2.7-M1"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jansi",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jna",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-reader",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "com.mohistmc.miraimbot",
+          "module": "annotations",
+          "version": {
+            "requires": "0.4.2"
+          }
+        },
+        {
+          "group": "org.javacord",
+          "module": "javacord",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.4.2.jar",
+          "url": "core-0.4.2.jar",
+          "size": 1378496,
+          "sha512": "61ef9aece69d350d9850e00441252afdb3627f16ef676ff4f6ce37267c10f8765d2a8eb13716aaadfe04522f98794c119867d9eb1cd69c2ce843e9b728dd9573",
+          "sha256": "d9ca904d44480c4fb7e9473c9c495270de88b0cd15e52f4a39d1268f15bf2cef",
+          "sha1": "d828c0870d1a4405570920366278c18cc35c330c",
+          "md5": "28fd57c94f2b90849627c7fb0f062f50"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.mamoe",
+          "module": "mirai-core",
+          "version": {
+            "requires": "2.7-M1"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jansi",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jna",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-reader",
+          "version": {
+            "requires": "3.12.1"
+          }
+        },
+        {
+          "group": "com.mohistmc.miraimbot",
+          "module": "annotations",
+          "version": {
+            "requires": "0.4.2"
+          }
+        },
+        {
+          "group": "org.javacord",
+          "module": "javacord",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.20"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.20-RC"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.4.2.jar",
+          "url": "core-0.4.2.jar",
+          "size": 1378496,
+          "sha512": "61ef9aece69d350d9850e00441252afdb3627f16ef676ff4f6ce37267c10f8765d2a8eb13716aaadfe04522f98794c119867d9eb1cd69c2ce843e9b728dd9573",
+          "sha256": "d9ca904d44480c4fb7e9473c9c495270de88b0cd15e52f4a39d1268f15bf2cef",
+          "sha1": "d828c0870d1a4405570920366278c18cc35c330c",
+          "md5": "28fd57c94f2b90849627c7fb0f062f50"
+        }
+      ]
+    }
+  ]
+}
