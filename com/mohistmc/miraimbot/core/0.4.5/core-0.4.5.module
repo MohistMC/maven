@@ -1,0 +1,419 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.miraimbot",
+    "module": "core",
+    "version": "0.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "cekeevcyz5dl3d4vngu3m3i2iu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "core-0.4.5-plain.jar",
+          "url": "core-0.4.5-plain.jar",
+          "size": 2596074,
+          "sha512": "d737ef510a750cae6177f23c4be50e57961821cbde91cb929f21318e87073bff40b395a5fff1e0d353885d7577bf784858e17f6998031f4e5fe19d21f027263d",
+          "sha256": "acf4d6abf8d946c801a8d4b7456bde0c9c8263fd68313e58b9a2f1f034918a6e",
+          "sha1": "57cf1595d68d6815ec6b99669c7f6b7afe58eaea",
+          "md5": "cae33b009fdec926c98fce022d77719d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "2.5.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-thymeleaf",
+          "version": {
+            "requires": "2.5.6"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "net.mamoe",
+          "module": "mirai-core-jvm",
+          "version": {
+            "requires": "2.8.0-M1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "net.mamoe",
+              "module": "mirai-core-api"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            },
+            {
+              "group": "net.mamoe",
+              "module": "mirai-core-utils"
+            }
+          ]
+        },
+        {
+          "group": "net.mamoe",
+          "module": "mirai-core-api-jvm",
+          "version": {
+            "requires": "2.8.0-M1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            },
+            {
+              "group": "net.mamoe",
+              "module": "mirai-core-utils"
+            }
+          ]
+        },
+        {
+          "group": "net.mamoe",
+          "module": "mirai-core-utils-jvm",
+          "version": {
+            "requires": "2.8.0-M1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.78"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "commons-fileupload",
+          "module": "commons-fileupload",
+          "version": {
+            "requires": "1.3.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.4"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "cn.hutool",
+          "module": "hutool-all",
+          "version": {
+            "requires": "5.7.15"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "net.minecrell",
+          "module": "terminalconsoleappender",
+          "version": {
+            "requires": "1.3.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jansi",
+          "version": {
+            "requires": "3.20.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-terminal-jna",
+          "version": {
+            "requires": "3.20.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-reader",
+          "version": {
+            "requires": "3.20.0"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "com.mohistmc.miraimbot",
+          "module": "annotations",
+          "version": {
+            "requires": "0.4.5"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "org.javacord",
+          "module": "javacord",
+          "version": {
+            "requires": "3.3.2"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.14.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.14.1"
+          },
+          "excludes": [
+            {
+              "group": "ognl",
+              "module": "ognl"
+            },
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "core-0.4.5-plain.jar",
+          "url": "core-0.4.5-plain.jar",
+          "size": 2596074,
+          "sha512": "d737ef510a750cae6177f23c4be50e57961821cbde91cb929f21318e87073bff40b395a5fff1e0d353885d7577bf784858e17f6998031f4e5fe19d21f027263d",
+          "sha256": "acf4d6abf8d946c801a8d4b7456bde0c9c8263fd68313e58b9a2f1f034918a6e",
+          "sha1": "57cf1595d68d6815ec6b99669c7f6b7afe58eaea",
+          "md5": "cae33b009fdec926c98fce022d77719d"
+        }
+      ]
+    }
+  ]
+}

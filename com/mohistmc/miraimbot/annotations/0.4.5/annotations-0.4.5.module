@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.miraimbot",
+    "module": "annotations",
+    "version": "0.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "cekeevcyz5dl3d4vngu3m3i2iu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-0.4.5.jar",
+          "url": "annotations-0.4.5.jar",
+          "size": 5143,
+          "sha512": "ad8bac56d56da3a97d3e3aa4fe7b9f97aa44ec0aa100a37a4e8700bf4346af60c0130944a2a7f1d87d663d8c93c53c7779410c1c6aa754bf3304267edf535c38",
+          "sha256": "efee9fb1758deac43c58e2b6ac7891ddaf54b7dcd180eaba43e6b2968c4dea70",
+          "sha1": "27fffab8d07de3003bd671764c856649b4d1cbca",
+          "md5": "99bd77211ed689ba5a93756eec1f94f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotations-0.4.5.jar",
+          "url": "annotations-0.4.5.jar",
+          "size": 5143,
+          "sha512": "ad8bac56d56da3a97d3e3aa4fe7b9f97aa44ec0aa100a37a4e8700bf4346af60c0130944a2a7f1d87d663d8c93c53c7779410c1c6aa754bf3304267edf535c38",
+          "sha256": "efee9fb1758deac43c58e2b6ac7891ddaf54b7dcd180eaba43e6b2968c4dea70",
+          "sha1": "27fffab8d07de3003bd671764c856649b4d1cbca",
+          "md5": "99bd77211ed689ba5a93756eec1f94f8"
+        }
+      ]
+    }
+  ]
+}

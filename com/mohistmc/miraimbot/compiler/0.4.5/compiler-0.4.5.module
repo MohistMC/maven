@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.miraimbot",
+    "module": "compiler",
+    "version": "0.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "cekeevcyz5dl3d4vngu3m3i2iu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.22"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "com.mohistmc.miraimbot",
+          "module": "annotations",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compiler-0.4.5.jar",
+          "url": "compiler-0.4.5.jar",
+          "size": 1291066,
+          "sha512": "fbce1892926935f9d51cd58a005c56a3623f5e15c707f835756ed1aadfc500dde82eaa95986d28a6a2fc105fe71c0298f3d71b817f405271be3403fb6828c4ba",
+          "sha256": "7784adff7fa1134f0a1c682bea995ff38a98af17377b500dd9888b261eaee0a8",
+          "sha1": "6fb565eb891c4bc6c30773e9576d4420dd9bffa0",
+          "md5": "b9fe406e79ffa3af6c6af066cb201a4c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.22"
+          }
+        },
+        {
+          "group": "com.mohistmc.yaml",
+          "module": "Yaml",
+          "version": {
+            "requires": "0.1"
+          }
+        },
+        {
+          "group": "com.mohistmc.miraimbot",
+          "module": "annotations",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "javapoet",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compiler-0.4.5.jar",
+          "url": "compiler-0.4.5.jar",
+          "size": 1291066,
+          "sha512": "fbce1892926935f9d51cd58a005c56a3623f5e15c707f835756ed1aadfc500dde82eaa95986d28a6a2fc105fe71c0298f3d71b817f405271be3403fb6828c4ba",
+          "sha256": "7784adff7fa1134f0a1c682bea995ff38a98af17377b500dd9888b261eaee0a8",
+          "sha1": "6fb565eb891c4bc6c30773e9576d4420dd9bffa0",
+          "md5": "b9fe406e79ffa3af6c6af066cb201a4c"
+        }
+      ]
+    }
+  ]
+}
