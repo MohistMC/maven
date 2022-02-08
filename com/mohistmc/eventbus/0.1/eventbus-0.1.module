@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.3",
-      "buildId": "qzmawy2z6nd3zlye2q4phnrvgu"
+      "buildId": "7lsup4x4njbr5njrphq7zs3paq"
     }
   },
   "variants": [
@@ -24,15 +24,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.8.+"
+          }
+        }
+      ],
       "files": [
         {
           "name": "eventbus-0.1.jar",
           "url": "eventbus-0.1.jar",
-          "size": 2243,
-          "sha512": "a25c0de9b82713993486cc181f0e8bab806ccf43931721338834a85864c868ca6a6293c29862b5f58aa28374ebdbfaaeb75862747bb08d7a01c6fb816e7bc038",
-          "sha256": "1ecc73b51b99d41ed1c8e896c16552443276a3078da53281ebe0a04b8a9f3c79",
-          "sha1": "166d0fcc8ac5ba1d8efd93260d759f21940deab3",
-          "md5": "4ccdc113c65b1f596b2a7106a715a635"
+          "size": 44626,
+          "sha512": "c9d911e2148958d20bde108db7ceef8094581c855f6648eceb0c8f9bbb999d882649cba4bf2da0ba0227e70f8f74b93eca783457801bc9602ca34fb6c5f201b2",
+          "sha256": "4aa02865bdd577eb429c89ad2de5430b35bbce3160a3070a8906fc78ef651370",
+          "sha1": "3265b7708abd365d4efcea396399d46308f64d3f",
+          "md5": "24a33757ebd0d2cb946c9b4af01e00a5"
         }
       ]
     },
@@ -47,17 +56,67 @@
       },
       "dependencies": [
         {
-          "group": "net.minecraftforge",
-          "module": "eventbus",
-          "version": {
-            "requires": "4.0.0"
-          }
-        },
-        {
           "group": "org.spigotmc",
           "module": "spigot-api",
           "version": {
             "requires": "1.16.5-R0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "7.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "7.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "7.2"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.11.+"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "modlauncher",
+          "version": {
+            "requires": "6.1.+"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "modlauncher",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "api"
+            }
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.8.+"
           }
         }
       ],
@@ -65,11 +124,11 @@
         {
           "name": "eventbus-0.1.jar",
           "url": "eventbus-0.1.jar",
-          "size": 2243,
-          "sha512": "a25c0de9b82713993486cc181f0e8bab806ccf43931721338834a85864c868ca6a6293c29862b5f58aa28374ebdbfaaeb75862747bb08d7a01c6fb816e7bc038",
-          "sha256": "1ecc73b51b99d41ed1c8e896c16552443276a3078da53281ebe0a04b8a9f3c79",
-          "sha1": "166d0fcc8ac5ba1d8efd93260d759f21940deab3",
-          "md5": "4ccdc113c65b1f596b2a7106a715a635"
+          "size": 44626,
+          "sha512": "c9d911e2148958d20bde108db7ceef8094581c855f6648eceb0c8f9bbb999d882649cba4bf2da0ba0227e70f8f74b93eca783457801bc9602ca34fb6c5f201b2",
+          "sha256": "4aa02865bdd577eb429c89ad2de5430b35bbce3160a3070a8906fc78ef651370",
+          "sha1": "3265b7708abd365d4efcea396399d46308f64d3f",
+          "md5": "24a33757ebd0d2cb946c9b4af01e00a5"
         }
       ]
     }
