@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.3",
-      "buildId": "3sd5happujactdlvlxgqid553e"
+      "buildId": "fs5a3wgzhbh7vhn6vsygcvuxea"
     }
   },
   "variants": [
@@ -28,11 +28,11 @@
         {
           "name": "eventbus-0.1.jar",
           "url": "eventbus-0.1.jar",
-          "size": 1921,
-          "sha512": "aed6e73bbc778a2f5ce544550a4c7ff94e48b9b847c74eb26a830b109bce754f456a9d41f522005584d909a1376e72e41d8db10ee038babd8068400763015dfa",
-          "sha256": "c037b66b16734e0677ca4a97ab901fc343e65b2c8fcb55a2e4ca444747acec67",
-          "sha1": "cbdf44088637100ec1dbbfefa8095a1b0b30470c",
-          "md5": "bee6fc48f9e27be15d9b418abf690c7e"
+          "size": 1539,
+          "sha512": "5558add6333d746261a3b0284990bc49f706557dd127c3b2e2d8673a9d4dc33e0b2be937557de685c57801e290d76b11ee702e7c8653657540ac7abcfe452dd8",
+          "sha256": "282241eaa5e15a4afa37590ef7dca0ce3c871d811264b75d8f21e04164f36837",
+          "sha1": "feadb23a9d9187b13b0fef8c2c6113938f5c7dd6",
+          "md5": "bc867a560933c2e63fe8ef96d601ee81"
         }
       ]
     },
@@ -65,11 +65,11 @@
         {
           "name": "eventbus-0.1.jar",
           "url": "eventbus-0.1.jar",
-          "size": 1921,
-          "sha512": "aed6e73bbc778a2f5ce544550a4c7ff94e48b9b847c74eb26a830b109bce754f456a9d41f522005584d909a1376e72e41d8db10ee038babd8068400763015dfa",
-          "sha256": "c037b66b16734e0677ca4a97ab901fc343e65b2c8fcb55a2e4ca444747acec67",
-          "sha1": "cbdf44088637100ec1dbbfefa8095a1b0b30470c",
-          "md5": "bee6fc48f9e27be15d9b418abf690c7e"
+          "size": 1539,
+          "sha512": "5558add6333d746261a3b0284990bc49f706557dd127c3b2e2d8673a9d4dc33e0b2be937557de685c57801e290d76b11ee702e7c8653657540ac7abcfe452dd8",
+          "sha256": "282241eaa5e15a4afa37590ef7dca0ce3c871d811264b75d8f21e04164f36837",
+          "sha1": "feadb23a9d9187b13b0fef8c2c6113938f5c7dd6",
+          "md5": "bc867a560933c2e63fe8ef96d601ee81"
         }
       ]
     }
