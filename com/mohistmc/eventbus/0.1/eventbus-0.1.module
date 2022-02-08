@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "eventbus",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "hgx5cvvnk5bgtovngdbgukrp4i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "eventbus-0.1.jar",
+          "url": "eventbus-0.1.jar",
+          "size": 1921,
+          "sha512": "aed6e73bbc778a2f5ce544550a4c7ff94e48b9b847c74eb26a830b109bce754f456a9d41f522005584d909a1376e72e41d8db10ee038babd8068400763015dfa",
+          "sha256": "c037b66b16734e0677ca4a97ab901fc343e65b2c8fcb55a2e4ca444747acec67",
+          "sha1": "cbdf44088637100ec1dbbfefa8095a1b0b30470c",
+          "md5": "bee6fc48f9e27be15d9b418abf690c7e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "eventbus",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "org.spigotmc",
+          "module": "spigot-api",
+          "version": {
+            "requires": "1.16.5-R0.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eventbus-0.1.jar",
+          "url": "eventbus-0.1.jar",
+          "size": 1921,
+          "sha512": "aed6e73bbc778a2f5ce544550a4c7ff94e48b9b847c74eb26a830b109bce754f456a9d41f522005584d909a1376e72e41d8db10ee038babd8068400763015dfa",
+          "sha256": "c037b66b16734e0677ca4a97ab901fc343e65b2c8fcb55a2e4ca444747acec67",
+          "sha1": "cbdf44088637100ec1dbbfefa8095a1b0b30470c",
+          "md5": "bee6fc48f9e27be15d9b418abf690c7e"
+        }
+      ]
+    }
+  ]
+}
