@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.yaml",
+    "module": "yaml",
+    "version": "0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "yaml-0.2.jar",
+          "url": "yaml-0.2.jar",
+          "size": 360853,
+          "sha512": "18615f65f98f66cee4f76696b005b3a02b0134fe5872fbedb3ad94f022beab9b946056c1c701d2132700fe985866a80a7ad318c5bd74aec5dbe0f7632c2f4bcb",
+          "sha256": "eb446f15021394908c0c05cc19f56100d92e85f04fe7648fb9d6460b133945a6",
+          "sha1": "5cdab7e12713dfa5e0c20c169e5da19b0c0416d6",
+          "md5": "637550270b85730f2259b0823f5a1c2d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yaml-0.2.jar",
+          "url": "yaml-0.2.jar",
+          "size": 360853,
+          "sha512": "18615f65f98f66cee4f76696b005b3a02b0134fe5872fbedb3ad94f022beab9b946056c1c701d2132700fe985866a80a7ad318c5bd74aec5dbe0f7632c2f4bcb",
+          "sha256": "eb446f15021394908c0c05cc19f56100d92e85f04fe7648fb9d6460b133945a6",
+          "sha1": "5cdab7e12713dfa5e0c20c169e5da19b0c0416d6",
+          "md5": "637550270b85730f2259b0823f5a1c2d"
+        }
+      ]
+    }
+  ]
+}
