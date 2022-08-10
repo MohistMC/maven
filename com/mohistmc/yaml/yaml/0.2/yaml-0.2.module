@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "yaml-0.2.jar",
           "url": "yaml-0.2.jar",
-          "size": 34341,
-          "sha512": "aba72e0a84ae0020485e6f4a01d54a3bf512dc28a6b20ddd129a5e35958bc1d139dccb25746d476f2946b152bbd08c0f7e11c7c337121eaf5df792ea571c3ac6",
-          "sha256": "b17babb43585f3b70895edadf8bd83f53283cd46471d6248d50193e96cca3cdc",
-          "sha1": "96801fd96b460d2faaa55fa61fc8d94e217dd193",
-          "md5": "f62bccafe11c877414de8a17bb8cc5df"
+          "size": 34550,
+          "sha512": "206993d341be970ac4f46623dea62b4b20b3094277800c050db9f1bf60939b58434c9fdd4f98a60c05cf10986c4d565e4ddfb127f3040210dcc83c42cf404cef",
+          "sha256": "a18786d16422d85b240af4e8cf0a35596dde8cb081fe3440211a8ef4429e8788",
+          "sha1": "c5e9e78de36c0c32f06ef6f3e21b8f6369b14db8",
+          "md5": "0cac2f8464639d645abe4575a28d543a"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -57,11 +57,11 @@
         {
           "name": "yaml-0.2.jar",
           "url": "yaml-0.2.jar",
-          "size": 34341,
-          "sha512": "aba72e0a84ae0020485e6f4a01d54a3bf512dc28a6b20ddd129a5e35958bc1d139dccb25746d476f2946b152bbd08c0f7e11c7c337121eaf5df792ea571c3ac6",
-          "sha256": "b17babb43585f3b70895edadf8bd83f53283cd46471d6248d50193e96cca3cdc",
-          "sha1": "96801fd96b460d2faaa55fa61fc8d94e217dd193",
-          "md5": "f62bccafe11c877414de8a17bb8cc5df"
+          "size": 34550,
+          "sha512": "206993d341be970ac4f46623dea62b4b20b3094277800c050db9f1bf60939b58434c9fdd4f98a60c05cf10986c4d565e4ddfb127f3040210dcc83c42cf404cef",
+          "sha256": "a18786d16422d85b240af4e8cf0a35596dde8cb081fe3440211a8ef4429e8788",
+          "sha1": "c5e9e78de36c0c32f06ef6f3e21b8f6369b14db8",
+          "md5": "0cac2f8464639d645abe4575a28d543a"
         }
       ]
     }
