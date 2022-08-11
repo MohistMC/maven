@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.yaml",
+    "module": "yaml",
+    "version": "0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "yaml-0.3.jar",
+          "url": "yaml-0.3.jar",
+          "size": 34550,
+          "sha512": "231f0b4ca1ded24b02ec1164f022693a04b9f63740af99abc5323a7bd86abb86998201d269f5b1a99a2a2e661c03d3bd76a7979ad79b151321f974bb165b5ecb",
+          "sha256": "e99c430b707e3b3aba2c5ebced4168db6cb2bae56ffd38b286c46d27ae803c04",
+          "sha1": "59ba63e989e3f18116aa89c18835b218e4e98bf9",
+          "md5": "e4dbb5e9dbe375465e707281dc358cb5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yaml-0.3.jar",
+          "url": "yaml-0.3.jar",
+          "size": 34550,
+          "sha512": "231f0b4ca1ded24b02ec1164f022693a04b9f63740af99abc5323a7bd86abb86998201d269f5b1a99a2a2e661c03d3bd76a7979ad79b151321f974bb165b5ecb",
+          "sha256": "e99c430b707e3b3aba2c5ebced4168db6cb2bae56ffd38b286c46d27ae803c04",
+          "sha1": "59ba63e989e3f18116aa89c18835b218e4e98bf9",
+          "md5": "e4dbb5e9dbe375465e707281dc358cb5"
+        }
+      ]
+    }
+  ]
+}
