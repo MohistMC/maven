@@ -28,10 +28,10 @@
           "name": "yaml-0.3.jar",
           "url": "yaml-0.3.jar",
           "size": 34550,
-          "sha512": "231f0b4ca1ded24b02ec1164f022693a04b9f63740af99abc5323a7bd86abb86998201d269f5b1a99a2a2e661c03d3bd76a7979ad79b151321f974bb165b5ecb",
-          "sha256": "e99c430b707e3b3aba2c5ebced4168db6cb2bae56ffd38b286c46d27ae803c04",
-          "sha1": "59ba63e989e3f18116aa89c18835b218e4e98bf9",
-          "md5": "e4dbb5e9dbe375465e707281dc358cb5"
+          "sha512": "fe65c120ca5ed94bd47033b37080731871750b5f512fbe7ffda882daa8f02adf99a85a80e4672bbd5f2cb21ae1591e17115028c812271824fbe681bf4bd06a9d",
+          "sha256": "151345d73bd6a402108c9094c05979cb5a110211970c8a98591ca19035564f57",
+          "sha1": "e4e45bab6f133f54ad640de0cd890c64fb7d2774",
+          "md5": "a40aec7ef275c816d2355c2ce1faeb8d"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "org.yaml",
           "module": "snakeyaml",
           "version": {
-            "requires": "1.30"
+            "requires": "1.33"
           }
         }
       ],
@@ -58,10 +58,10 @@
           "name": "yaml-0.3.jar",
           "url": "yaml-0.3.jar",
           "size": 34550,
-          "sha512": "231f0b4ca1ded24b02ec1164f022693a04b9f63740af99abc5323a7bd86abb86998201d269f5b1a99a2a2e661c03d3bd76a7979ad79b151321f974bb165b5ecb",
-          "sha256": "e99c430b707e3b3aba2c5ebced4168db6cb2bae56ffd38b286c46d27ae803c04",
-          "sha1": "59ba63e989e3f18116aa89c18835b218e4e98bf9",
-          "md5": "e4dbb5e9dbe375465e707281dc358cb5"
+          "sha512": "fe65c120ca5ed94bd47033b37080731871750b5f512fbe7ffda882daa8f02adf99a85a80e4672bbd5f2cb21ae1591e17115028c812271824fbe681bf4bd06a9d",
+          "sha256": "151345d73bd6a402108c9094c05979cb5a110211970c8a98591ca19035564f57",
+          "sha1": "e4e45bab6f133f54ad640de0cd890c64fb7d2774",
+          "md5": "a40aec7ef275c816d2355c2ce1faeb8d"
         }
       ]
     }
