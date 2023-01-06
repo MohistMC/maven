@@ -1,0 +1,583 @@
+FG_5.0 Changelog
+5.1
+===
+ - 5.1.60 Make mappings a runtime-only dependency (#891)
+ - 5.1.59 Remove trailing `minecraft_classpath` path separator (#894)
+ - 5.1.58 Add jvm args and log output properties to JarExec (#890)
+ - 5.1.57 Support customization of the java launcher for run tasks (#889)
+ - 5.1.56 Introduce support for Project based Jar-In-Jar dependencies (#882)
+ - 5.1.55 Fix a crash that can occur when JiJ is enabled (#881)
+ - 5.1.54 [5.x] Add more configuration to jarJar (#879)
+ - 5.1.53 Allow run configurations to build all projects (#878)
+ - 5.1.52 Fix DynamicJarExec task
+ - 5.1.51 Fix use of raw net.minecraft dependencies
+ - 5.1.50 Update some dep versions in Utils
+ - 5.1.49 Add BasicAuthentication support to MavenArtifactDownloader
+ - 5.1.48 Migrate to piston-meta for version manifest info
+ - 5.1.47 Disable natives guessing when parsing version json
+ - 5.1.46 Require MD5 checksum for downloading files by FG (#855)
+ - 5.1.45 Fix broken link to Gradle flat dir info
+ - 5.1.44 Fix UPDATE_SOURCESETS gradle property in userdev
+ - 5.1.43 Add jar-in-jar support and maven POM cleaning (#863)
+ - 5.1.42 Replace support bot with support action
+ - 5.1.41 Fix project name in Eclipse and VSCode run generators (#861)
+ - 5.1.40 Avoid eager creation of tasks in more places (#852)
+ - 5.1.39 [5.x] Add CheckJarCompatibility task (#856)
+ - 5.1.38 Lazily construct values for transient fields in Artifact (#860)
+          This lazily constructs and assigns the values of the transient fields
+          only when requested through the getters, rather than in the
+          package-private constructor.
+          This fixes an issue where equals and hashCode (which use a transient
+          field) are called on an Artifact after being deserialized, causing an
+          NPE as the transient fields have no value after deserialization.
+ - 5.1.37 Extract natives that do not have native json entries.
+ - 5.1.36 [5.x] Enable plugin markers (#858)
+          Update Gradle to 7.4.2
+ - 5.1.35 Fix IntelliJ run configurations for multiprojects built with IntelliJ (#851)
+ - 5.1.34 [5.x] Fix incompatibility with IntelliJ IDEA 2022.1 (#847)
+ - 5.1.33 Fix eclipse run configurations for multi-projects (#828)
+ - 5.1.32 Delete pr-check github workflow (#846)
+ - 5.1.31 Add the additional builds using a unique ID.
+ - 5.1.30 Fix the typo.
+ - 5.1.29 Add support for building PullRequests on Java 8, 11 and 17 as well as set the default build environment to 7.4 on Java 8
+ - 5.1.28 Build all FG_* branches as the main branch build.
+ - 5.1.27 teamcity
+ - 5.1.26 Dedicated Server Bundleer support in MinecraftRepo
+ - 5.1.25 1.18 fixes (#831)
+          Support listing server libraries with bundler
+          Fix `MinecraftRepo#getMCVersion` and clarify its purpose
+          Update AccessTransformers and FART
+ - 5.1.24 Fix IntelliJ downloading sources (#830)
+ - 5.1.23 Fix EnvironmentChecks error message variables being in wrong order. (#824)
+ - 5.1.22 Migrate to ForgeAutoRenamingTool in userdev repo, which allows us to set the SourceFile correctly for the non-recompiled jar.
+ - 5.1.21 Fix Minecraft repos being a little to lenient, and returning the wrong file.
+ - 5.1.20 Add support for generic mappings channel extensions (#796)
+ - 5.1.19 Bump `codever` for Official mappings
+          Fixes issues with cached bad mapping files for 1.17+ from FG4
+ - 5.1.18 Add inheritArgs and inheritJvmArgs run config properties
+ - 5.1.17 Allow specifying lazy tokens in run configs
+ - 5.1.16 Lazily evaluate run config tokens
+ - 5.1.15 Fix configuration resolution method to preserve strategies and exclusions (#816)
+ - 5.1.14 Add minecraft_classpath_file and runtime_classpath_file
+ - 5.1.13 Bump InstallerTools to 1.2.8 (#815)
+ - 5.1.12 Use `ConfigurationContainer#detachedConfiguration`
+ - 5.1.11 Default to key if it isn't a valid token
+ - 5.1.10 Replace caching with removing configurations
+ - 5.1.9  Add minecraft_classpath token for userdev
+          Make run config token expansion better, copied from Installer repo
+ - 5.1.8  Maintain compatibility with sourceCompat
+ - 5.1.7  Bump InstallerTools to 1.2.7
+          Closes #813
+ - 5.1.6  Throw error if java toolchain is misconfigured
+ - 5.1.5  Resolve the runtime classpath differently so that multi-project userdev workspaces work
+ - 5.1.4  Filter out empty files in McpNames
+ - 5.1.3  Inherit client property from parent run configs
+ - 5.1.2  Allow setting client value for run configs
+ - 5.1.1  Replace tokens in jvm args
+          Hackily fix RunConfig#isClient for now
+ - 5.1.0  FG5.1
+
+5.0
+===
+ - 5.0.38 Fix onlyIf for a few patcher tasks
+ - 5.0.37 Fix FG breaking IntelliJ's DownloadSources
+ - 5.0.36 Add a param to update multiple source sets when updateMappings
+ - 5.0.35 [FG5] Make DownloadAssets more configurable (#802)
+ - 5.0.34 [FG5] Use MCPConfig java_target to select JRE for running MCPFunctions (#805)
+ - 5.0.33 Fix overwritten arguments (#808)
+ - 5.0.32 Fix userdevJar and related for no-patch patchers
+ - 5.0.31 Fix crash when setting run config args
+ - 5.0.30 Reorder recomp jar to put manifest first
+ - 5.0.29 Userdev fixes
+ - 5.0.28 Fix ExtractInheritance property
+ - 5.0.27 Switch to GradleUtils for git info
+ - 5.0.26 Fix SignJar annotations
+          Closes #797
+ - 5.0.25 Change replaceArgs to accept Map<String, Collection<?>> (#806)
+          Previously, because of how multimaps worked, a multi-replacement without any
+          values would result in the replacement token (and the prefix) remaining in place.
+          By changing from a mulitmap to a map of collections, this allows for
+          'empty inputs', where the key still exists in the map and therefore the
+          replacement token and prefix are removed even if there are no values
+          for that key.
+ - 5.0.24 Set ExtractRangeMap sourceCompat based on java toolchain
+ - 5.0.23 Add `setMinimumRuntimeJavaVersion` to JarExec
+          Change apply and extract rangemap tasks to use this method
+ - 5.0.22 Be safer when retrieving JavaPluginExtension
+ - 5.0.21 Use Srg2Source 8.+
+ - 5.0.20 add in token for "runtime_classpath" that allows late binding of full computed classpath
+ - 5.0.19 Fix two threads writing to the same file while downloading assets. (#801)
+          This happens if two assets use the same remote file, and causes the validation to fail sometimes.
+ - 5.0.18 Allow genBinPatch inputs to be overridden
+ - 5.0.17 Fix HackyJavaCompile changing the Java toolchain for the entire project (#799)
+ - 5.0.16 Use project java toolchain for run tasks
+ - 5.0.15 Major cleanup, use Gradle properties and providers (#794)
+          * Cleanup buildscript and dependencies
+           - Set wrapper task version in buildscript to 7.0.2
+           - Remove jcenter and gradle libs repositories
+           - Update to cadixdev.licenser plugin 0.6.0, ben-manes.versions plugin 0.39.0,
+             srgutils 0.4.3
+           - Remove commented out shadow plugin
+           - Remove lzma-java and javaxdelta library
+             LZMA-java and javaxdelta was used for creating binary patches, which is
+             now done using Forge's BinaryPatcher tool.
+          * Standardize tasks subpackages to `tasks` instead of `task`
+          * Standardize tasks names by removing `Task` affixes
+          * Convert tasks to use lazy task properties
+          Also cleanup imports in affected files, and converts ReobfuscateJar to
+          be a subclass of JarExec.
+          * Convert extensions to use lazy properties
+          * Cleanup plugin logic to use lazy properties more smartly
+          Most of the changes do not move any code, but instead cleanup the
+          existing code in place.
+          * Move environment checks to separate class outside of Utils
+          * Make MCPFunction serializable
+          Fixes issue where Gradle couldn't serialize a property with MCPFunctions.
+          * Cleanup Patcher and Userdev plugins
+          * Change group for run tasks to 'ForgeGradle runs'
+          This is more descriptive than 'fg_runs', and will look better in the
+          tasks list.
+          * Move download utility functions from Utils to separate class
+          * Modify Util#createRunConfigTasks to use task providers
+          * Add manual property fields for properties with setters
+          Gradle doesn't manage properties which have a non-abstract setter, so
+          we have to provide the property ourselves.
+          * Remove deprecated method in MojangLicenseHelper
+          * Cleanup Artifact and HashFunction classes
+          * Add package-infos with NonnullApi nullability annotation
+          * Cleanup and add nullable annotations to util classes
+          * Cleanup and add nullability annotations to deobf, mcp, repo, and config classes
+          * Cleanup and simplify parts of regexes
+          * Fix compilation error undetected by IDE
+          * Ensure binary patches tasks run after patch generation task
+          * Define gradle plugins using `gradlePlugin` block
+          * Add jar artifact to pluginMaven publication manually
+          Somehow, using the gradlePlugins block and disabling the automated
+          publishing removed the jar artifact from the pluginMaven publication
+          * Apply code review suggestions from @pupnewfster
+          Also adds a few additional nullability annotations.
+          * Update to Gradle 7.1, Licenser plugin 6.1
+          * Remove uses of deprecated code
+          Notably, Gradle 8 is moving towards removal of Conventions in favor of
+          Extensions. Most of the deprecation warnings are from `Project#getConvention()`
+          and `JavaPluginConvention`, which has been replaced by `JavaPluginExtension`.
+          * Use automated publishing once more
+          * Disable automated publishing once more
+          * Add helper methods for adding access transformers
+          Since this is a user-facing extension, and access transformers are
+          commonly used by modders, this eases the upgrade path from FG4 to FG5.
+          Equivalent helpers are not added for sided annotation strippers, as these
+          are not meant for normal modder use.
+          * Mark classpath property in JarExec with proper annotation
+          * Fix incorrect method call
+          * Fix source and target compatibility with JarExec
+          * Fix replaceArgs bug
+          * Update SpecialSource
+          * Use SRGUtils instead of manual parsing
+          * Use `named()` to retrieve tasks
+          * Update EnvironmentChecks#checkEnvironment javadoc
+          * Update JavadocAdder to use google commons `Lists`
+          * Allow setting the runtime java version for JarExec
+ - 5.0.14 Fix SRG classnames and parameter regex
+          obf_to_srg and variants now correctly use Mojmap classnames on official MCPConfig exports
+          SRG regex for new SRG parameters now works correctly
+ - 5.0.13 Fix IDEA runs with project names with spaces
+          Gradle seems to use underscores by default for module names
+ - 5.0.12 Fix JavaExec deprecated method
+ - 5.0.11 Fix issue with HackyJavaCompile and java 8 (#792)
+ - 5.0.10 Make JarExec respect the project java toolchain (#791)
+ - 5.0.9  Update MergeTool (#790)
+ - 5.0.8  Bump DiffPatch
+ - 5.0.7  Add lineEnding config to patch generation tasks.
+ - 5.0.6  Update ExtractMCPData for MCPConfig v2/Official Class names, and fixes for Gradle 7 (#788)
+ - 5.0.5  Revert "Update ExtractMCPData and fixes for Gradle 7"
+          This reverts commit 6a689712
+ - 5.0.4  Update ExtractMCPData and fixes for Gradle 7
+          ExtractMCPData has been modified to remap SRG classnames to their mojmap equivalent
+          Changed the default format in GenerateSRG to be TSRGv2
+          Moved stuff checking the MCP timestamp to use `MinecraftRepo.MCP_CONFIG_VERSION`
+          Update annotations to fix Gradle 7 errors
+          Remove useless TSRGv2 code from TaskCreateExc
+ - 5.0.3  Support the new MCPConfig format (#786)
+ - 5.0.2  Update Artifactural and AccessTransformers (#785)
+          Update Gradle annotations to fix errors with forgedev on Gradle 7
+ - 5.0.1  Update the version checks for FG5 (#784)
+ - 5.0.0  Update gradle wrapper to 7.0.2 based on sciwhiz's work: https://github.com/MinecraftForge/ForgeGradle/pull/763
+
+4.1
+===
+ - 4.1.12 Add upper bounds for gradle and java version ranges, now that we know FG4 doesn't work under Gradle7 / Java16 (#782)
+ - 4.1.11 Fix issues when artifacts are being downloaded concurrently (#755)
+ - 4.1.10 Automatically configure repositories (#772)
+ - 4.1.9  Fix classpath order in Reobf Task
+ - 4.1.8  Add artifact only if downloads.artifact is not null, fixes mojang versions that don't list main artifact. (#770)
+ - 4.1.7  Use proper docker image.
+ - 4.1.6  Update Forge Maven URL and Jenkinsfile.
+ - 4.1.5  Display official license in the warning & add a task to 'hide' it (#760)
+ - 4.1.4  Bump DiffPatch version.
+          Resolves issues with system specific line endings.
+ - 4.1.3  Add Gradle Version Tests (FG4) (#753)
+ - 4.1.2  Bump default SpecialSource version.
+ - 4.1.1  Bump SRGUtils
+          Bump Srg2Source version, cleaner output file & some mixin processors.
+          Fix TaskApplyPaatches output typo
+          Fix places where MCPConfig v2 wasn't read.
+          Make patch tasks less verbose
+          Support MCPConfig's that don't have static/constructor files.
+ - 4.1.0  Update official mappings warning, and add to Patcher Plugin.
+
+4.0
+===
+ - 4.0.23 Fix typo in step output name (#751)
+ - 4.0.22 Fix compiler errors due to gradle caching issue.
+ - 4.0.21 License header.
+ - 4.0.20 MCPConfig v2 {Java Target, encoding, mapping download tasks}
+          Moved all MCPFunction classes to package private.
+ - 4.0.19 Set aPrefix and bPrefix when building patch operation (#749)
+ - 4.0.18 Enable offset matching for mcp patches.
+ - 4.0.17 Fix fg.deobf source not loading (#746)
+          * Fix fg.deobf source not loading
+          * Fix fg.deobf source not loading
+ - 4.0.16 Bump DiffPatch version
+ - 4.0.15 Use Project#javaexec instead of creating a JavaExec task (#744)
+          * Use Project#javaexec instead of creating a JavaExec task
+          * Don't close the logger there
+          * Forgot to throw here
+ - 4.0.14 Switch to DiffPatch (#710)
+          * Switch to DiffPatch
+          * Remove deprecated legacy compat.
+          * Use forge published DiffPatch
+ - 4.0.13 Fix csv writer closing the stream eagerly.
+ - 4.0.12 Fix NPE when generating official mappings and they contain classes that don't exist.
+ - 4.0.11 Implementation config can't be resolved, so make custom config for resolving in reobf tasks.
+ - 4.0.10 Change Patcher MC config to implementation, fixes Gradle 7 warning.
+ - 4.0.9  Fix reobf issues.
+          You may have to `./gradlew clean` to remove old cache.
+ - 4.0.8  PR Workflow, builds on Java 8, 11, 15. (#742)
+ - 4.0.7  Revert change to BaseRepo.
+          Apparently generics can't properly be inferred here.
+ - 4.0.6  Deprecation removal, apply some inspection cleanup.
+          Remove deprecated ApplyBinPatches duplicate and deobf configuration.
+          Apply some code cleanup inspections whilst looking everything over.
+ - 4.0.5  Support Gradle 7.0 by updating the licenser plugin
+          Turned out to be pretty trivial, only one plugin seemed to be causing deprecation warnings and the author behind the plugin already updated it to fix said warnings in the next release.
+          The author of the plugin changed the namespace after publishing 0.4.1, hence why 0.4.1 shows up as "latest" when looking up the original namespace.
+          https://github.com/CadixDev/licenser/commit/f0212fb827413bb193d4b9cdb91eb5f81b606b92
+ - 4.0.4  Update SRGUtils to create directories when writing mappings files. Closes #740
+          Update Jenkinsfile to build download page.
+ - 4.0.3  Remove references to internal gradle HashUtil.
+ - 4.0.2  Remove MappingFile {use SRGUtils} and cleanup gradle deprecation warnings.
+ - 4.0.1  Upgrade Artifactural, and other dep/6.8 cleanup.
+ - 4.0.0  Bump project to Gradle 6.8 and upgrade ForgeGradle 4 as a version
+
+3.0
+===
+ - 3.0.191 Bump project to Gradle 6.8 and upgrade ForgeGradle 4 as a version
+ - 3.0.190 Fix HashFunction padding on some locales, and remove debug line in SAS task.
+ - 3.0.189 Fix Gradle crash trying to serialize Charset during task evaluation. (#734)
+ - 3.0.188 Introduced sourceFileEncoding setting to config.json (#730)
+           * Introduced sourceFileEncoding setting to config.json
+           - `sourceFileEncoding` setting added to `UserdevConfigV2`.
+             Kept as `String` to make serialisation easier. Could be Charset
+             but would then require custom serialisation logic.
+           - `sourceFileEncoding` added to `TaskGenerateUserdevConfig`.
+             This one is a `Charset` because type safety in build scripts
+             is a good idea, but I added an overload taking `String` for
+             convenience of people who don't care.
+           - `Deobfuscator` now uses UTF-8 - it looks like the string it's
+             writing was originally read as UTF-8 in the method called on 
+             the line above.
+ - 3.0.187 Fix Apply Mappings task not preserving new lines at end of files.
+           Allow the Apply Mappings task to skip lambda arguments.
+           There is no unique way to identify lambda arguments so S2S can't unmap them correctly.
+           So disable lambda mappings by default for the Patcher plugin.
+ - 3.0.186 Escape mapped names before applying them. (#721)
+ - 3.0.185 Support special case in mcp renaming
+ - 3.0.184 Fix client download
+ - 3.0.183 Check local install for assets and client.jar. Hash all assets. (#707)
+           Also some minor clean up.
+ - 3.0.182 Change the resource downloading url to https. (#702)
+ - 3.0.181 Strip JAR signatures when using deobfuscating libraries (#688)
+ - 3.0.180 Add multithread download for downloadAssets. (#689)
+ - 3.0.179 Use MCP specific slim/extra.
+ - 3.0.178 Better support special MC versions.
+ - 3.0.177 Allow disabling forced System.exit for run config tasks (#686)
+ - 3.0.176 Dump patch reject files on failure. (#687)
+ - 3.0.175 Move to using SRGUtils.
+           This deletes util.MinecraftVersion but FG's internals are intended as internal so doesn't get the same bin compat as modder facing task API.
+           Closes #685
+ - 3.0.174 Continue replacing variable names.
+ - 3.0.173 Don't add javadocs to non-vanilla classes.
+ - 3.0.172 Revert "Fix fg.deobf dependencies not having attached sources (#637)"
+           This reverts commit fec0419a13bd00858ee42233157eacdc3a4140bb.
+ - 3.0.171 Fix fg.deobf dependencies not having attached sources (#637)
+ - 3.0.170 Fixing an issue where FG3 pre-resolve was not able to resolve dependencies on the Forge-Internal maven repository because it was added afterwards. (#671)
+ - 3.0.169 Fix patcher extract methods not properly depending on downloadConfig.
+ - 3.0.168 Add missing toArray() in the gradle run generation breaking run config args. (#657)
+           Fix intellij delegation detection logic.
+           Fix args/jvmargs with spaces not being delimited.
+ - 3.0.167 Fix createSrg2Mcp on mcp parents.
+ - 3.0.166 Fix license header.
+ - 3.0.165 Introduce uderdev v2 which allows for source processors pre-patching.
+           Lots of cleanup and removal of some duplicated task classes.
+ - 3.0.164 Fix JavaVersionParser not parsing some OpenJDK version strings.
+           Added test connections to Forge's and Mojang's mavens to validate certificate chains are installed.
+           Use -Dnet.minecraftforge.gradle.test_certs=false to disable certs test
+           Use -Dnet.minecraftforge.gradle.test_java=false to disable java version tests
+ - 3.0.163 Fix ListLibraries erroring for libraries without a main artifact download, and expanded it to include classified artifacts.
+ - 3.0.162 Fix NPE caused by version json not having new argument format.
+ - 3.0.161 Read the project info to discover if intellij is configured with gradle delegation enabled (default), and if so, use gradle output paths. (#656)
+ - 3.0.160 Rework run config generation. (#648)
+ - 3.0.159 Revert "Automatically make jar tasks finalized by reobf tasks."
+           This reverts commit 56a551794d2d01a67edf7ccf6a8cb0fd6c600bfe.
+ - 3.0.158 Automatically make jar tasks finalized by reobf tasks.
+ - 3.0.157 Create package-info's for com/mojang/ package in MC 1.15+
+ - 3.0.156 Added support.yml (#640)
+           This enables the Forum tag auto-closing and locking Issues and PRs, assuming the bot is watching the ForgeGradle repo
+ - 3.0.155 Bump Access Transformer default version.
+ - 3.0.154 Add class javadoc injection (#617)
+ - 3.0.153 Add updateMappings task to userdev (#628)
+           Add warning message when using official mappings from Mojang
+ - 3.0.152 Add support for VSCode run configs (#589)
+ - 3.0.151 Set mappings for reobf extension to MCP->SRG to default (#616)
+           Fixes #615
+ - 3.0.150 Fix Obfuscation deadlock with IntelliJ (#630)
+ - 3.0.149 Add input files to caching check for AT/SAS functions.
+ - 3.0.148 Add extra mapping support to RenameJar/RenameJarInPlace. SpecialSource supports multiple mapping files by specifying the --srg-in argument multiple times.
+ - 3.0.147 Make Maven helper return correct version for non-dynamic version artifacts.
+ - 3.0.146 Fix timezone issues with zip files. Java is being too "helpful"
+ - 3.0.145 Fix stability issue with older java versions by using a date that is within dos range.
+ - 3.0.144 Extend utility for updating mappings in existing patcher projects.
+ - 3.0.143 Make GenerateSRG task use fake maven repos for Mappings.
+ - 3.0.142 Fix HackyCompile for Gradle 5.1+ to ignore compilation time reporting. (#625)
+ - 3.0.141 Fix mapping file not being found (#621)
+ - 3.0.140 Expose Mojang's official mappings as a MCP mappings channel usable in the normal config.
+           Usage:
+             mappings channel: 'official', version: 'MCVersion[-MCPVersion]'
+           Due to the obvious legal reasons, these mappings are created locally. And it is advised modders DO NOT publish them to source repos until Mojang clears up the legality.
+           Class names are still pulled from MCPConfig. But that process will be assessed for future versions, once we know what we can legally do.
+ - 3.0.139 Filter libraries based on json rules (#608)
+ - 3.0.138 Fix jenkinsfile
+ - 3.0.137 Add Discord Integration to ForgeGradle Repo (#614)
+ - 3.0.136 Make parent directory in SideStripper if necessary.
+ - 3.0.135 Externalize all code that directly uses ASM libraries into executable jars.
+ - 3.0.134 Fix typo in sas getter.
+ - 3.0.133 Add Side Annotation Stripper support to Patchers.
+ - 3.0.132 Add gradle delayed file support to extract inheritance.
+ - 3.0.131 Add debugging information to JarExec task's log.
+           Add ExtractInheritance task to make working with inheritance from gradle easier.
+ - 3.0.130 Allow lazy resolution of RenameJar tasks' inputs.
+           Throw exception if Patcher library classifier contains a . as that's not parse-able from URLs
+ - 3.0.129 Allow deobf dependencies to be configured (#593)
+           Resolves #592
+ - 3.0.128 Back to client extra as joined doesn't contain data files from the client jar.
+ - 3.0.127 Support Joined extra,  to pull in extra dependnecies.
+           Removed ForgeDevPlugin.java and renamed all plugins to remove 'forgedev'.
+ - 3.0.126 Keep imports when applying range map (#594)
+ - 3.0.125 Decouple Srg2Source tasks to use external executable Jars.
+ - 3.0.124 Only extract range from main source set by default.
+           As that's the only data used by default apply tasks.
+           Patcher users can add additional source sets manually.
+ - 3.0.123 Fix EclipseHacks crash when Eclipse plugin is not present (#591)
+ - 3.0.122 Revert "Fix MOD_CLASSES injection not replacing empty string"
+           This reverts commit 1aec866a1f0b67440568873bc757f40c900c136f.
+ - 3.0.121 Fix MOD_CLASSES injection not replacing empty string
+ - 3.0.120 Make EclipseHacks code nicer (#587)
+ - 3.0.119 Add compatibility with Gradle 5.x (#585)
+           The internal Gradle class TaskExecutionHistory is removed in 5.1, so we
+           need to call the updated method when running on Gradle 5.1 or above
+ - 3.0.118 Fixing Task iteration in an InitScript. (#586)
+ - 3.0.117 Implement fg.deobf to allow deobf for all dependency types (#577)
+ - 3.0.116 Allow passing Groovy GStrings for mappings (#581)
+ - 3.0.115 Resolve maven deps without trailing slash and support https redirects (#576) Fixes #571
+ - 3.0.114 Remove dependency on 'eclipseClasspath' for 'genEclipseRuns' task. Fix setting of tokens
+ - 3.0.113 Fix missing space between mapped desc and original class in reverse SRG
+ - 3.0.112 Add offline check to DownloadEtag.
+ - 3.0.111 Fix typo in original deobf dependency string. Fixing deobf deps. Closes #571
+ - 3.0.110 Fix minimum version to account for the requirement to support Let's Encrypt certificates.
+ - 3.0.109 Add Java version check, to refuse running in unsupported jdk versions.
+ - 3.0.108 Import JavaVersionPatcher from the Amazon AWS SDK (Apache License 2.0)
+ - 3.0.107 Fix inverted logic.
+ - 3.0.106 Add more debugging information to UserRepo, and fix some logic errors in recomp/source caching.
+ - 3.0.105 Merge data and extra jar, as it breaks the dedicated server's log4j config when split.
+ - 3.0.104 [FG_3.0] Various fixes/changes to run configs
+ - 3.0.103 Various fixes/changes to run configs
+ - 3.0.102 Complete refactoring of RunConfig setup.
+           > Created an abstract MinecraftExtension, in common, to avoid
+           duplicate code.
+           > Added the ability, for a run config, to have parent and/or child
+           run configs which will be merged into itself.
+           > Added the ability to create multiple ModConfigs, within each run
+           config, that allow for specifying an arbitrary number of mods that each
+           have their own specific source sets, resources and/or classes.
+           > Set 'asset_index' token, for run configs, based off of the version
+           json file.
+ - 3.0.101 Merge pull request #555 from Aaron1011/fix/final-deadlock
+           Fix depedency resolution issues, take 3
+ - 3.0.100 Extract JavaCompile hacks into its own class
+ - 3.0.99  Evaluate config during project initialization
+           This works around yet another deadlock
+ - 3.0.98  Fix side-only injections in MinecraftUserRepo
+ - 3.0.97  Don't invoke JavaExec task through normal Gradle API
+ - 3.0.96  Add 'UPDATING' property to patcher that prevents the build from failing when patches fail.
+ - 3.0.95  Fix extractMapped not properly updating extracted files when input changes.
+ - 3.0.94  Fix AIOOB error in MinecraftRepo.
+ - 3.0.93  Filter client and server injected code.
+ - 3.0.92  Include MCP Mappings zip in classpath of patcher dev time.
+ - 3.0.91  Only inject package-info's into MC code.
+ - 3.0.90  Use artifact name when not using a patcher. Potentially fixes #594
+ - 3.0.89  More further away from using Gradle in MavenArtifactDownloader by adding support for maven wild card versions (1.+)
+           Ivy Repos, and -SNAPSHOTS are on todo.
+ - 3.0.88  Copy paste derp.
+ - 3.0.87  Log MCP Execute function's console output to file.
+ - 3.0.86  Fix cases where https wasn't being used for Forge's maven.
+ - 3.0.85  Allow for multiple calls to different elements to be called at once.
+ - 3.0.84  Add Synchronized block around findFile to prevent race conditions if Gradle decides to thread dependency resolution.
+ - 3.0.83  Merge pull request #547 from SpongePowered/FG_3.0
+           Fix NPE when depending on a non-patched Minecraft
+ - 3.0.82  Prevent NPE when attempting to find patches for a vanilla Minecraft dependency.
+           When a userdev environment requests the following as a dependency:
+           `minecraft("net.minecraft:server:1.13")`
+           Minecraft itself will not have a set of patches to apply to it's own
+           source, so, we need to acknowledge that it will not have it's own
+           additional run arguments to add onto the runs configurations like
+           patchers will (like depending on forge).
+           There are no side effects to this change except fixing dependency
+           resolution for vanilla jars.
+ - 3.0.81  Revert "Rewrite runconfigs and merging to cleanup buildscript and allow arbitrary inheritance."
+           Discussion on Discord caused us to decide a different approach was better.
+           This reverts commit 60b6bf3dfb9c9c4e139b1b23b07910459c3c59ea, reversing
+           changes made to f27f146ae9c528a74922b502fde2d96994a8f311.
+ - 3.0.80  Rewrite runconfigs and merging to cleanup buildscript and allow arbitrary inheritance.
+ - 3.0.79  Update AccessTransformer version for 0.14. also put the string in a
+           single place, fix handling AT outputs properly.
+ - 3.0.78  Refactor extensions and runconfigs to allow for parent/child runs with multiple sources/projects
+ - 3.0.77  Merge pull request #544 from JDLogic/FG_3.0-osjvmargs
+           Detect and add additional jvm args to client run configs
+ - 3.0.76  Allow RunConfig workDir to be null.
+           Move cache to project build directory if using custom ATs to not pollute the central cache.
+           Make JarExec task use unique names now to prevent some unknown issues.
+ - 3.0.75  Detect and add additional jvm args to client run configs
+ - 3.0.74  Filter signature data in renamed/recomped jars.
+ - 3.0.73  Inject resources into recomp jar. And fix lazy source generation.
+ - 3.0.72  Enable debug text for extract range as jenkins is broken and I need to find out why.
+ - 3.0.71  Add mcp injected classes to generated main jar.
+           Recompile generated sources jar, to better align line numbers and include debugging information.
+ - 3.0.70  Fix errors adding tasks caused by JavaExec tasks that error out.
+ - 3.0.69  Rework how run configs are managed.
+           Now allows for any number of run configs, as well as the userdev config specifying default run configs.
+           Include MCP Mappings zip file in classpath for deobfed dependencies. Allowing access to csv mappings.
+ - 3.0.68  Fix userdev configurations that have dependencies with the same group:name but different classifier or extension.
+           Cleanup BaseRepo to only ask for raw files not checksum files.
+           Quiet maven downloader print on file not found issues.
+ - 3.0.67  Change generated artifact name to "useddev", so it doesn't conflict
+           with existing "forge" artifact name, allowing loading from it.
+ - 3.0.66  Fix useddev to add to environment rather than nuking for runs. Allows working on linux.
+ - 3.0.65  Merge pull request #536 from JDLogic/FG_3.0-mci
+           Apply MCInjector to userdev jar
+ - 3.0.64  Apply MCInjector to userdev jar
+ - 3.0.63  Fix reobf missing --live argument
+ - 3.0.62  Merge pull request #535 from gigaherz/derp
+           Fix crash in forgedev due to working directory not being assigned.
+ - 3.0.61  Fix crash in forgedev due to working directory not being assigned.
+ - 3.0.60  Merge pull request #531 from gigaherz/run-tasks
+           Gradle run tasks and genIntellijRuns.
+ - 3.0.59  Gradle run tasks and genIntellijRuns:
+           * Generate gradle tasks and intellij/eclipse configs based on the provided run configurations.
+           * Give the injector the ability to concatenate ServiceLoader files.
+           * Make run configs be declared in the mods' build scripts to avoid referencing forge classes explicitly.
+ - 3.0.58  Merge pull request #534 from mcenderdragon/patch-1
+           Write "libraries.txt" in UTF-8.
+ - 3.0.57  added mssing ;
+ - 3.0.56  Write "libraries.txt" in UTF-8.
+ - 3.0.55  Fix issues with inject functionality.
+ - 3.0.54  Implement licenser plugin/headers.
+           Implement access transformers in UserDev.
+ - 3.0.53  More work to move even further away from magic gradle internals in MavenArtifactDownloader.
+ - 3.0.52  Merge pull request #528 from Librazy/FG_3.0
+           Ensure output folder is created when downloadEtag
+ - 3.0.51  Ensure output folder is there when downloadEtag
+           So no FileNotFoundException from FileOutputStream as it requires the directory exists.
+ - 3.0.50  Fix MCPRepo
+ - 3.0.49  Add more robust etag downloader for minecraft json files.
+ - 3.0.48  Fix pom builder not using classifiers.
+ - 3.0.47  Merge pull request #521 from JDLogic/FG_3.0-mac
+           Skip problematic mac native when generating pom
+ - 3.0.46  Introduce the concept of deobf config for defining SRG names mod dependencies to be renamed.
+ - 3.0.45  Restructure maven downloader again, to better control code flow.
+ - 3.0.44  Better null protection in Maven Downloader cache.
+ - 3.0.43  Change sources classifier to prevent recursion.
+ - 3.0.42  Make MavenDownloader bypass gradle's internal cache for our custom repos.
+ - 3.0.41  Move to newer AF, using local maven instead of remote. Still running into caching issues, but progress.
+ - 3.0.40  Add natives and assets tasks to userdev. Begin run config work.
+ - 3.0.39  Fix Srg method descriptor remapping.
+ - 3.0.38  Fixed issue in loading SRG methods.
+           Added -DFG_INVALIDATE_CACHE=true argument to invalid all cached files.
+ - 3.0.37  Fix nulls related to no access transforemrs.
+ - 3.0.36  Readd unique counter for thread safety-ish in maven downloader.
+ - 3.0.35  Don't use Artifactual for srg files. Rebuild them the old way.
+           Mod jars now obf correctly.
+ - 3.0.34  Revert fix for duplicate entries in pom file
+ - 3.0.33  Add userdev source jar generation.
+ - 3.0.32  Some userdev reobf work.
+ - 3.0.31  Make MavenArtifactDownloader use an expiring cache to prevent redundant/overloading lookups.
+           Seems to solve it randomly failing.
+           Small hack to attach gradle API source to eclipse workspace.
+ - 3.0.30  Skip problematic mac native when generating pom
+ - 3.0.29  More work on UserDev.
+           MCP named patcher jar is now created.
+           Had to randomly generate the artifact name every run to trick gradle into actually running our tasks. Need to have @Amadorness take a look at that.
+           Fixed sources jar including the vanilla minecraft code.
+           Moved universal jar out of userdev, we cna just download it from maven.
+           Added libraries to userdev config.
+           AND LOTS OF REWRITES.
+ - 3.0.28  Major rework of everything related to custom Repos.
+           Seems gradle/Artifactual only supports ONE custom repo at a time.
+           So everything is now added to a single wrapper repo.
+           MCP/Minecraft repos update. MCP now provides SRG mapped jars.
+           Reworked patcher plugin to use MCPRepo's srg files instead of cuztom tasks.
+           Fixed dependency issue with genPatches.
+           Refactored MCP runtime to not use Ama's MCPConfig, using clean class based config instead.
+ - 3.0.27  Begin work on userdev plugin. The repos are not behaving nicely and MCPRuntime needs cleanup to gain access to some internals.
+ - 3.0.26  Generate the bin file instead of the source for now
+           Since the pipeline currently only supports outputting one file, make that the binary so we can build against it. Sources are kind of useless in that regard.
+ - 3.0.25  Mostly finished the new MCP maven repo
+           Access transformers are still not handled by the core MCP system in any way, but they are already identified and addressed by the repository to avoid overlap between setups with different ATs.
+           Repository-generated files will be stored in `mcp/<mcversion>/<pipeline>/<athash>` under the gradle caches directory.
+           "Extras" files are not handled either. These are the libraries and other things that are extracted from the client and server jars before they are deobfuscated and which should be added back to the classpath to allow the game to function correctly.
+           Dependency passthrough from Minecraft to the artifact is not implemented, but the core system to allow it is. A bit of reference code has been left to show how it could be done.
+ - 3.0.24  Restructured and interfaced the MCP framework
+           These changes were made in preparation for the mavenification of the MCP deobfuscation and decompilation chain, in order to be able to work with its outputs as artifacts directly.
+ - 3.0.23  Attempt to fix cpw's workspace.
+ - 3.0.22  Attach data dep as well, as the pom doesn't seem to be doing that.
+ - 3.0.21  Do not sort slim/extra/data so we match JarSplitter.
+ - 3.0.20  Add slim and data entries to MinecraftRepo
+           Refactor out a base JarExec task.
+           Add ApplyBinPatches task.
+ - 3.0.19  Move repo injection to apply, so that the build script can download things from the specific servers.
+           Include the resolved BinPatcher jar as a input to make sure it update when and update is found in the dependency.
+ - 3.0.18  More installer related tasks.
+           Task for downloading maven artifacts.
+           Forced MCP config to a string, no reason to support files directly.
+ - 3.0.17  Tweak jenkinsfile to fix branch issues and remove artifacts that don't exist
+ - 3.0.16  Add ability to generate bin patches against SRG named jars. And reobf universal to SRG.
+ - 3.0.15  Port TaskGenerateBinPatches to use BinaryPatcher fatjar.
+ - 3.0.14  Add SignJar util task.
+ - 3.0.13  Apparently you cant have a empty stage.
+ - 3.0.12  Try it without the git repo at all. Pipeline seems to auto-inject it.
+ - 3.0.11  Try it without Forge's shared lib.
+ - 3.0.10  Try disabling changelog for jenkins...
+ - 3.0.9   Add task to update mappings, and support for extra Exc files.
+ - 3.0.8   Merge pull request #518 from kashike/ex
+           Remove exclamation from basic messages
+ - 3.0.7   Remove exclamation from basic messages
+ - 3.0.6   Change AT version to hopefully make it update...
+ - 3.0.5   Fix applyRangeBase not skipping when patches folder is not set.
+ - 3.0.4   Allow patcher to set system properties in eclipse run. And expose assets directory from DownloadAssets task.
+ - 3.0.3   patcher plugin can now configure the eclipse run configs.
+ - 3.0.2   Fix patches generating whitespace wrong.
+ - 3.0.1   Fix access transformers not redoing setupMCP
+           Fix mcp function re-runs not cascading down to child functions.
+           Added error debug to apply patch.
+ - 3.0.0   Add jenkins file, change version number to be based on tags. And publish to Forge maven.
+
