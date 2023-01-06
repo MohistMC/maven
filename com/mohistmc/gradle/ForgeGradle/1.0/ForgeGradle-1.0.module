@@ -98,6 +98,19 @@
           ]
         },
         {
+          "group": "com.mohistmc",
+          "module": "artifactural",
+          "version": {
+            "requires": "1.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
           "group": "net.minecraftforge",
           "module": "unsafe",
           "version": {

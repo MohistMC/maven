@@ -60,6 +60,18 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>com.mohistmc</groupId>
+      <artifactId>artifactural</artifactId>
+      <version>1.0</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>net.minecraftforge</groupId>
       <artifactId>unsafe</artifactId>
       <version>0.2.0</version>
