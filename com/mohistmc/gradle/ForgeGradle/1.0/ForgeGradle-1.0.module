@@ -28,10 +28,10 @@
           "name": "ForgeGradle-1.0.jar",
           "url": "ForgeGradle-1.0.jar",
           "size": 454037,
-          "sha512": "8681dc960a7cb3cd1ceac0e9e418dfc406fbf8e0993fb789c1b5c214145eb01a387551192f0c67e8d6559dd654de1fe32e9d890c9200a20e8831ea55af30d17e",
-          "sha256": "a257abfee8fc7de2985bc3c40a0460ac45bed6322e13c08ecec8c587015dd853",
-          "sha1": "62086b6f691828d30d833336869c3152eb852157",
-          "md5": "b502e6e093eb0a4794644cefcf0827b8"
+          "sha512": "80d4f9070a4f05e8ccc34e96f76e8e00f870f528b81f9d7233edea901ced0321bb0649ed25697a0c94596e4f1eb3bbed4f12c511f6057f82f60d9bd92c02b80a",
+          "sha256": "b9e63be526504994df963ad6557fac669ffa5fd9fcd1a3531cca44d03b7f2578",
+          "sha1": "ad5dfafb6ccd7f892f2191557bb857964779575e",
+          "md5": "4629b814abf545c7eb76e3b2adf536ca"
         }
       ]
     },
@@ -215,10 +215,10 @@
           "name": "ForgeGradle-1.0.jar",
           "url": "ForgeGradle-1.0.jar",
           "size": 454037,
-          "sha512": "8681dc960a7cb3cd1ceac0e9e418dfc406fbf8e0993fb789c1b5c214145eb01a387551192f0c67e8d6559dd654de1fe32e9d890c9200a20e8831ea55af30d17e",
-          "sha256": "a257abfee8fc7de2985bc3c40a0460ac45bed6322e13c08ecec8c587015dd853",
-          "sha1": "62086b6f691828d30d833336869c3152eb852157",
-          "md5": "b502e6e093eb0a4794644cefcf0827b8"
+          "sha512": "80d4f9070a4f05e8ccc34e96f76e8e00f870f528b81f9d7233edea901ced0321bb0649ed25697a0c94596e4f1eb3bbed4f12c511f6057f82f60d9bd92c02b80a",
+          "sha256": "b9e63be526504994df963ad6557fac669ffa5fd9fcd1a3531cca44d03b7f2578",
+          "sha1": "ad5dfafb6ccd7f892f2191557bb857964779575e",
+          "md5": "4629b814abf545c7eb76e3b2adf536ca"
         }
       ]
     },
@@ -235,10 +235,10 @@
           "name": "ForgeGradle-1.0-sources.jar",
           "url": "ForgeGradle-1.0-sources.jar",
           "size": 239210,
-          "sha512": "14cd6577d7cc94dfe806ed1790ec832f765907c3e58868aa16e4aa9769ba45c8491859fb6ffc0ca53e6dde6e3ab414b36d64769b81af5a086e8539fd49d47e9c",
-          "sha256": "7d7927864f5558e2d0183f164f96c02aaf87eece9301665c08fe5640cf9273c2",
-          "sha1": "448c3b04ea9d0d56ffb68e424c9ce66ab24ec92b",
-          "md5": "93bbdf404c57fefecb1e26382db0a2ef"
+          "sha512": "b5192a3ad532ed519a455de8cb21f6f2f9ed13a9cd2c55d328468acf9a0329132b3073d9880c8a9adb378040bdbf8d54c9aa3d9cb1e0ceb09d75d80d993aeecb",
+          "sha256": "43802501f9b8886b2f1a19ff50b4d6702222544615ba981dff1e8b5f3d4808a3",
+          "sha1": "6c679860114f23fe68636bdf1c4802a53f53a6be",
+          "md5": "12a967810b2d6441a34deef3df692652"
         }
       ]
     }
