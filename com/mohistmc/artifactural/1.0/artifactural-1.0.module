@@ -28,10 +28,10 @@
           "name": "artifactural-1.0.jar",
           "url": "artifactural-1.0.jar",
           "size": 56745,
-          "sha512": "9cda94cb3e4998581bd9f8543ad174c92aafcf2bb19df2a2f5a81564eba757459f1fc5d1ef047068e4792f422efe516d91be69e00ac5eeec6c4aa8d99ffc6a80",
-          "sha256": "289fc80f9c0f71c46602c39bd5a765793ee81d41f73d74c9532904294496d52b",
-          "sha1": "3dacbd24e3d6559bd4a57642e826ab9fd573e468",
-          "md5": "6a5fcd7fa9c2077806188f7dcc797a4e"
+          "sha512": "9446e5290040f7c2acf003968adc7b36f01fd81cba5fab90a4e382fde413a02b7b5aeebde787d3b18eee7f3cce376dcd86953fad7100f73ccd8cf2660398eab9",
+          "sha256": "66148fd2eaa13b6caf4e5533e8fe87cc769ba5ace469ac27ab61b48d8ae24462",
+          "sha1": "544f49d9194a0445d66a726446cafaeec01e0479",
+          "md5": "b14dfe34e7807334adc82de02a53308b"
         }
       ]
     },
@@ -65,10 +65,10 @@
           "name": "artifactural-1.0.jar",
           "url": "artifactural-1.0.jar",
           "size": 56745,
-          "sha512": "9cda94cb3e4998581bd9f8543ad174c92aafcf2bb19df2a2f5a81564eba757459f1fc5d1ef047068e4792f422efe516d91be69e00ac5eeec6c4aa8d99ffc6a80",
-          "sha256": "289fc80f9c0f71c46602c39bd5a765793ee81d41f73d74c9532904294496d52b",
-          "sha1": "3dacbd24e3d6559bd4a57642e826ab9fd573e468",
-          "md5": "6a5fcd7fa9c2077806188f7dcc797a4e"
+          "sha512": "9446e5290040f7c2acf003968adc7b36f01fd81cba5fab90a4e382fde413a02b7b5aeebde787d3b18eee7f3cce376dcd86953fad7100f73ccd8cf2660398eab9",
+          "sha256": "66148fd2eaa13b6caf4e5533e8fe87cc769ba5ace469ac27ab61b48d8ae24462",
+          "sha1": "544f49d9194a0445d66a726446cafaeec01e0479",
+          "md5": "b14dfe34e7807334adc82de02a53308b"
         }
       ]
     },
