@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.6"
+      "version": "8.0-rc-1"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "ForgeGradle-1.0.jar",
           "url": "ForgeGradle-1.0.jar",
-          "size": 454037,
-          "sha512": "80d4f9070a4f05e8ccc34e96f76e8e00f870f528b81f9d7233edea901ced0321bb0649ed25697a0c94596e4f1eb3bbed4f12c511f6057f82f60d9bd92c02b80a",
-          "sha256": "b9e63be526504994df963ad6557fac669ffa5fd9fcd1a3531cca44d03b7f2578",
-          "sha1": "ad5dfafb6ccd7f892f2191557bb857964779575e",
-          "md5": "4629b814abf545c7eb76e3b2adf536ca"
+          "size": 458346,
+          "sha512": "b588882e12fdf4e352a2c899870e909674a80ad38084b5b046acc753448fa676587b8d85373908224aef223c11f95186c8aebbdca1f63fdcd5812fec6b760a14",
+          "sha256": "841f356974494a805c943310d3345cd0dbd209a436dc31a7e94b8c7970fceab8",
+          "sha1": "dd94d149cfbdb95da45437e6025de8e797f3278e",
+          "md5": "9e5f364fb3c521ea270046727949c9cd"
         }
       ]
     },
@@ -214,11 +214,11 @@
         {
           "name": "ForgeGradle-1.0.jar",
           "url": "ForgeGradle-1.0.jar",
-          "size": 454037,
-          "sha512": "80d4f9070a4f05e8ccc34e96f76e8e00f870f528b81f9d7233edea901ced0321bb0649ed25697a0c94596e4f1eb3bbed4f12c511f6057f82f60d9bd92c02b80a",
-          "sha256": "b9e63be526504994df963ad6557fac669ffa5fd9fcd1a3531cca44d03b7f2578",
-          "sha1": "ad5dfafb6ccd7f892f2191557bb857964779575e",
-          "md5": "4629b814abf545c7eb76e3b2adf536ca"
+          "size": 458346,
+          "sha512": "b588882e12fdf4e352a2c899870e909674a80ad38084b5b046acc753448fa676587b8d85373908224aef223c11f95186c8aebbdca1f63fdcd5812fec6b760a14",
+          "sha256": "841f356974494a805c943310d3345cd0dbd209a436dc31a7e94b8c7970fceab8",
+          "sha1": "dd94d149cfbdb95da45437e6025de8e797f3278e",
+          "md5": "9e5f364fb3c521ea270046727949c9cd"
         }
       ]
     },
@@ -234,11 +234,11 @@
         {
           "name": "ForgeGradle-1.0-sources.jar",
           "url": "ForgeGradle-1.0-sources.jar",
-          "size": 239210,
-          "sha512": "b5192a3ad532ed519a455de8cb21f6f2f9ed13a9cd2c55d328468acf9a0329132b3073d9880c8a9adb378040bdbf8d54c9aa3d9cb1e0ceb09d75d80d993aeecb",
-          "sha256": "43802501f9b8886b2f1a19ff50b4d6702222544615ba981dff1e8b5f3d4808a3",
-          "sha1": "6c679860114f23fe68636bdf1c4802a53f53a6be",
-          "md5": "12a967810b2d6441a34deef3df692652"
+          "size": 244108,
+          "sha512": "001923c616ac9e9f5218553d072caa5d2c7b117d4529e2efce9c0f6bc46b2c234ae8b53354bf4b4c0f03190fcd19d8cb2dbe028ec26fa39ebeb3ae22d616b1fb",
+          "sha256": "d3ddd116383d934fadd1e41cc1a2e4e11f7eb8af3a61ed840973a9c98826d571",
+          "sha1": "16c648fc9440c1393ada339fffbe3ea70f5c54ee",
+          "md5": "ab2aa58512c96c8cfdbbc537b35bc0ca"
         }
       ]
     }
