@@ -8,7 +8,7 @@
   <dependencies>
     <dependency>
       <groupId>com.mohistmc.gradle</groupId>
-      <artifactId>ForgeGradle</artifactId>
+      <artifactId>MohistGradle</artifactId>
       <version>1.0</version>
     </dependency>
   </dependencies>
