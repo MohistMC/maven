@@ -27,11 +27,11 @@
         {
           "name": "MohistGradle-1.0.jar",
           "url": "MohistGradle-1.0.jar",
-          "size": 453658,
-          "sha512": "081aef6ea2eff9eb9a942b5b60dd4cbbef8c1acd5dd24fd583f8b9600371a05a82bd13db69aca6a7c94d76cf5a1f0675eae9c5003b44b1e43beb7b8e6bbe17e3",
-          "sha256": "7b4733f37b48788e307d9235a7873e918f137f2506909c4baab2dfee786306ba",
-          "sha1": "51a8618e4b1a5e0dc743f81fc3bb603254cf6479",
-          "md5": "833a88008d8a4e72d8e13e91200e1067"
+          "size": 453692,
+          "sha512": "0eead407a9f2a7bf3ff42263d61a296dc09ef1a3aa8dc71569f5b7bef879c0cf556d3688ca80d6626624e2514261a72db6ce0b96d86d77390f35d3a4842e7e08",
+          "sha256": "ffc3ed604ef9395df579a537afbede8b9c2ec041169f935180536a15cdb0a65c",
+          "sha1": "225e86c6ae6ec1e0d0224c1f53d78bacd127abda",
+          "md5": "c47aa6011edcd3062c9020c83d88ee59"
         }
       ]
     },
@@ -214,11 +214,11 @@
         {
           "name": "MohistGradle-1.0.jar",
           "url": "MohistGradle-1.0.jar",
-          "size": 453658,
-          "sha512": "081aef6ea2eff9eb9a942b5b60dd4cbbef8c1acd5dd24fd583f8b9600371a05a82bd13db69aca6a7c94d76cf5a1f0675eae9c5003b44b1e43beb7b8e6bbe17e3",
-          "sha256": "7b4733f37b48788e307d9235a7873e918f137f2506909c4baab2dfee786306ba",
-          "sha1": "51a8618e4b1a5e0dc743f81fc3bb603254cf6479",
-          "md5": "833a88008d8a4e72d8e13e91200e1067"
+          "size": 453692,
+          "sha512": "0eead407a9f2a7bf3ff42263d61a296dc09ef1a3aa8dc71569f5b7bef879c0cf556d3688ca80d6626624e2514261a72db6ce0b96d86d77390f35d3a4842e7e08",
+          "sha256": "ffc3ed604ef9395df579a537afbede8b9c2ec041169f935180536a15cdb0a65c",
+          "sha1": "225e86c6ae6ec1e0d0224c1f53d78bacd127abda",
+          "md5": "c47aa6011edcd3062c9020c83d88ee59"
         }
       ]
     },
@@ -234,11 +234,11 @@
         {
           "name": "MohistGradle-1.0-sources.jar",
           "url": "MohistGradle-1.0-sources.jar",
-          "size": 241928,
-          "sha512": "1b583114db79ab53f368b48cc1cbbd93dfae255ad1784005d73b0ae895b18bfa1500c79f74a26f0ff52f107b053950974a9c0ef66af61d3492fdf3f824f9e484",
-          "sha256": "35fd546b961dcacf6f7dcdc38a27adce4846bc67e038e47476843be81d3e40ae",
-          "sha1": "73b286d3601695a5daef59792f9c89da41313fbf",
-          "md5": "1562bd6093c669c21c08f856f3cc1b0a"
+          "size": 241935,
+          "sha512": "f27e22d34a08cc76a6b68c5798c9d2182fa1d824fe2c4c7a1d97546f46942abec7d6dac9cafba7f435f4c21ef4bdb53182890fd02a69f4c6989647ccc1ae4b53",
+          "sha256": "bb0fb7b0f9119f81d3ecdef60cff78d8cd813ff2706388f96609347f8fc978b0",
+          "sha1": "a2d2bad2eb770e67e339527f3f37835d22bb4806",
+          "md5": "128b67c6adf72d74d1ec97880889e38f"
         }
       ]
     }
