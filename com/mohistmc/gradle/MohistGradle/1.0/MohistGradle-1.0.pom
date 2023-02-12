@@ -133,6 +133,18 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>net.md-5</groupId>
+      <artifactId>SpecialSource</artifactId>
+      <version>1.11.1-SNAPSHOT</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>org.ow2.asm</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>net.minecraftforge</groupId>
       <artifactId>JarJarMetadata</artifactId>
       <version>0.3.17</version>

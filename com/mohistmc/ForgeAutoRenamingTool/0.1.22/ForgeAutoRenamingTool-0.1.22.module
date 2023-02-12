@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "ForgeAutoRenamingTool",
+    "version": "0.1.22",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "srgutils",
+          "version": {
+            "requires": "0.4.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ForgeAutoRenamingTool-0.1.22.jar",
+          "url": "ForgeAutoRenamingTool-0.1.22.jar",
+          "size": 89890,
+          "sha512": "fb56f3109a6f7f45c0cd45499a33236e93f3d6ba9ec680a9eacee6bfd3e550b0f7d770cc5cf1eaff3e2ba6718ea4be568618f52c5200247fdb2ad395827e3568",
+          "sha256": "cce9cdd4bc3391443cf771eedde80b5e78f804907d78de4b5b2d0bf83545b224",
+          "sha1": "2d4314d3459149f5f40d28943906532c0c596a39",
+          "md5": "5ca1b85d19f3736fc0bcc3fb89b07f35"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "6.0-alpha-3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "srgutils",
+          "version": {
+            "requires": "0.4.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ForgeAutoRenamingTool-0.1.22.jar",
+          "url": "ForgeAutoRenamingTool-0.1.22.jar",
+          "size": 89890,
+          "sha512": "fb56f3109a6f7f45c0cd45499a33236e93f3d6ba9ec680a9eacee6bfd3e550b0f7d770cc5cf1eaff3e2ba6718ea4be568618f52c5200247fdb2ad395827e3568",
+          "sha256": "cce9cdd4bc3391443cf771eedde80b5e78f804907d78de4b5b2d0bf83545b224",
+          "sha1": "2d4314d3459149f5f40d28943906532c0c596a39",
+          "md5": "5ca1b85d19f3736fc0bcc3fb89b07f35"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ForgeAutoRenamingTool-0.1.22-all.jar",
+          "url": "ForgeAutoRenamingTool-0.1.22-all.jar",
+          "size": 436185,
+          "sha512": "1eb25aac1ebca63e2dd800ac8feac42b84bfe97eab509544f3900a532d8fc7dbed21f1646f044595c3b3dbb3924f2bd11938c93d8a09f57896336a697cf29652",
+          "sha256": "6f5e0e880dc5d01ec6904e42770053649c5096f3450c971ed229f3642bc847ab",
+          "sha1": "049e705c9f560d6ce59639260a38d19f31df6120",
+          "md5": "db6000b0b790bca3635d2a47e3f2f5af"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ForgeAutoRenamingTool-0.1.22-sources.jar",
+          "url": "ForgeAutoRenamingTool-0.1.22-sources.jar",
+          "size": 44019,
+          "sha512": "d7fca451fba999adcb6375b372391d5a9bc8ef97b659e36bc66251cc184b443902cf9356826669dfa7046b7e496bbd002bfa0ae9a37d3e6c0952fed53c30cfde",
+          "sha256": "5f7f692b83b2fab8335b30cdfafbc7cd43255a58a92aaa17f86e6174bd2d603c",
+          "sha1": "bf9d7cecbb04d3e410f23507881fa9631c16df0b",
+          "md5": "5e8fbcc3658ff416320d77cb3f29a96c"
+        }
+      ]
+    }
+  ]
+}

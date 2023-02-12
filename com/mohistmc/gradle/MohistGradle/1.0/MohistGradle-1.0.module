@@ -27,11 +27,11 @@
         {
           "name": "MohistGradle-1.0.jar",
           "url": "MohistGradle-1.0.jar",
-          "size": 453693,
-          "sha512": "5e7a811fa0aaca7b049f2ac2ad578033afb5489cbe5957a961f87b8ac893218c5d5a51c9b9da9371fd671a839d6315722e71e4999402ebc46ffda14054349e37",
-          "sha256": "e036e7b4dae7d38dda976e54f2a6cdb5ed9b38e3a49e85e4990f8ed30a17a6e4",
-          "sha1": "9708ddcd7954738fad34682024d2b7a0c8785e06",
-          "md5": "b5432aaf65e70f1975e42be612b613e1"
+          "size": 453755,
+          "sha512": "70354813de5c3e8d802ba22bb09e4b6bc9f55d5c46b0766b9fc07b2f33e160434f9c3b430facfe294d58fbf636db4c2f2e8dc87c5672c64c66e3f12679cd5f46",
+          "sha256": "938a9631cd1ea5eb0568c0a569293ba61c5b05bf336a4c0187237def0adda740",
+          "sha1": "1e5dcae2e0d2f775f755cfc8794ea970dd9e894b",
+          "md5": "71b931058aba24461c25a7b481f1812a"
         }
       ]
     },
@@ -184,6 +184,19 @@
           }
         },
         {
+          "group": "net.md-5",
+          "module": "SpecialSource",
+          "version": {
+            "requires": "1.11.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
           "group": "net.minecraftforge",
           "module": "JarJarMetadata",
           "version": {
@@ -214,11 +227,11 @@
         {
           "name": "MohistGradle-1.0.jar",
           "url": "MohistGradle-1.0.jar",
-          "size": 453693,
-          "sha512": "5e7a811fa0aaca7b049f2ac2ad578033afb5489cbe5957a961f87b8ac893218c5d5a51c9b9da9371fd671a839d6315722e71e4999402ebc46ffda14054349e37",
-          "sha256": "e036e7b4dae7d38dda976e54f2a6cdb5ed9b38e3a49e85e4990f8ed30a17a6e4",
-          "sha1": "9708ddcd7954738fad34682024d2b7a0c8785e06",
-          "md5": "b5432aaf65e70f1975e42be612b613e1"
+          "size": 453755,
+          "sha512": "70354813de5c3e8d802ba22bb09e4b6bc9f55d5c46b0766b9fc07b2f33e160434f9c3b430facfe294d58fbf636db4c2f2e8dc87c5672c64c66e3f12679cd5f46",
+          "sha256": "938a9631cd1ea5eb0568c0a569293ba61c5b05bf336a4c0187237def0adda740",
+          "sha1": "1e5dcae2e0d2f775f755cfc8794ea970dd9e894b",
+          "md5": "71b931058aba24461c25a7b481f1812a"
         }
       ]
     },
@@ -234,11 +247,11 @@
         {
           "name": "MohistGradle-1.0-sources.jar",
           "url": "MohistGradle-1.0-sources.jar",
-          "size": 241938,
-          "sha512": "dde558dfd8e4b53031bc02d50e616cadddf0b5cbf5eaf38e4b6b6ca44b22b08142fe3116ab58b6a61691b84a6156443020b3f554ed305f3c898124995c093428",
-          "sha256": "7bcb10e05ce4a0478e317d7602b85eccd901da7e1e63f99d92327a7869f1b2ea",
-          "sha1": "724cffb5349740072c99ed1f5bb194b53f70957a",
-          "md5": "80603798f168f70e6b495818d61486a2"
+          "size": 241954,
+          "sha512": "cfc4aee4e6e7d5e43f60a0a8ace2203444740d6203ca9beb49335c32b3d29a53a4d5d1fbef2f23141d90f29fe34533300d4fe471c5cb8a6e44243636ee2859e1",
+          "sha256": "a4f84beb9079937c717a5881d8907bcd93b33b1a668e3ea6145053c1fd0252d6",
+          "sha1": "7482b0142441cbef958f383af728257642534057",
+          "md5": "e5af321f3f85a09dcd9776ff3f517737"
         }
       ]
     }
