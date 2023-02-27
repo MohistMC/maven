@@ -27,11 +27,11 @@
         {
           "name": "dynamicenum-0.1.jar",
           "url": "dynamicenum-0.1.jar",
-          "size": 4595,
-          "sha512": "2c82d7ec0ce698f092b833e2ce229dab2436219b44835024e6237ce4d83be64e85e84691ac2b96b9f96d4818ddbb82b46210f3188d5b36db068159ca0f8a03b9",
-          "sha256": "3359394cbdf690230d20aa172e3c280004b2767bae4335cefb01cac74ba93c15",
-          "sha1": "9cff446f43ce111e9cf513ff2f166d5ce243a7cf",
-          "md5": "545a4d8ec77268877fa0df8b3dc3b6d4"
+          "size": 4587,
+          "sha512": "24713489b8162e3fd86a52a2884c56c1fc444f77ea8da18265b62075c8a435ce085f8269b1db1546d199d9e7553aa137b8c439b14dd40c1342d6f51e2df28d23",
+          "sha256": "a78b2eed9af52899ada8236be287c1ce5987244a07d54badcfb02f995d0c9301",
+          "sha1": "893eb553c6b5e3ce308bca1805516cfe3fbbef56",
+          "md5": "ae876076bdcc7ee5673b445c313d3be5"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "dynamicenum-0.1.jar",
           "url": "dynamicenum-0.1.jar",
-          "size": 4595,
-          "sha512": "2c82d7ec0ce698f092b833e2ce229dab2436219b44835024e6237ce4d83be64e85e84691ac2b96b9f96d4818ddbb82b46210f3188d5b36db068159ca0f8a03b9",
-          "sha256": "3359394cbdf690230d20aa172e3c280004b2767bae4335cefb01cac74ba93c15",
-          "sha1": "9cff446f43ce111e9cf513ff2f166d5ce243a7cf",
-          "md5": "545a4d8ec77268877fa0df8b3dc3b6d4"
+          "size": 4587,
+          "sha512": "24713489b8162e3fd86a52a2884c56c1fc444f77ea8da18265b62075c8a435ce085f8269b1db1546d199d9e7553aa137b8c439b14dd40c1342d6f51e2df28d23",
+          "sha256": "a78b2eed9af52899ada8236be287c1ce5987244a07d54badcfb02f995d0c9301",
+          "sha1": "893eb553c6b5e3ce308bca1805516cfe3fbbef56",
+          "md5": "ae876076bdcc7ee5673b445c313d3be5"
         }
       ]
     }
