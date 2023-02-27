@@ -27,11 +27,11 @@
         {
           "name": "mohistremapper-0.1.jar",
           "url": "mohistremapper-0.1.jar",
-          "size": 695003,
-          "sha512": "c369f5cd72c3fd013245b3ff33377638995cc095f3a149668c9700c19373db0b34c51720edc053626c02277037af1dc7467482c7bf4ef10ba2fd96d9a78309e4",
-          "sha256": "65e0684a6c76a2dc8ee4d21a0a4b8733852cea88aac6d22b63a4583b0353acb6",
-          "sha1": "00b2aeef149257f75fbb45aa4341d880d1e7a65a",
-          "md5": "016a01679a95e203373fe20c5937a2fa"
+          "size": 695075,
+          "sha512": "7f1ec38a32c614835d39f8340490cfb6ef5cbbf2c0936d99176adc3fcafdf14044a82543f97d02262796e573a48376a2cb714f13c6f80aae74a984464303ed4e",
+          "sha256": "2cefd3482ba79184423276c4d5efc12100465ed597dbfd08c0697f46210de9c3",
+          "sha1": "8f18ecbb3222d073c5eb44a147fd39da92ddbaf2",
+          "md5": "7068c75aef5e987156b97d49cc3ead25"
         }
       ]
     },
@@ -148,11 +148,11 @@
         {
           "name": "mohistremapper-0.1.jar",
           "url": "mohistremapper-0.1.jar",
-          "size": 695003,
-          "sha512": "c369f5cd72c3fd013245b3ff33377638995cc095f3a149668c9700c19373db0b34c51720edc053626c02277037af1dc7467482c7bf4ef10ba2fd96d9a78309e4",
-          "sha256": "65e0684a6c76a2dc8ee4d21a0a4b8733852cea88aac6d22b63a4583b0353acb6",
-          "sha1": "00b2aeef149257f75fbb45aa4341d880d1e7a65a",
-          "md5": "016a01679a95e203373fe20c5937a2fa"
+          "size": 695075,
+          "sha512": "7f1ec38a32c614835d39f8340490cfb6ef5cbbf2c0936d99176adc3fcafdf14044a82543f97d02262796e573a48376a2cb714f13c6f80aae74a984464303ed4e",
+          "sha256": "2cefd3482ba79184423276c4d5efc12100465ed597dbfd08c0697f46210de9c3",
+          "sha1": "8f18ecbb3222d073c5eb44a147fd39da92ddbaf2",
+          "md5": "7068c75aef5e987156b97d49cc3ead25"
         }
       ]
     }
