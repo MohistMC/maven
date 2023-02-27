@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc.remapper",
+    "module": "mohistremapper",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mohistremapper-0.1.jar",
+          "url": "mohistremapper-0.1.jar",
+          "size": 82322,
+          "sha512": "dd5c3cc83dff4d7a59294fce480ffd7f1de0693093de4961e791791499b20fdc33aebd09cedb7fa78915024de26ebf3273cc025c14a022034c72b32cc6191ec7",
+          "sha256": "0400458f251f650e72cc4fd10479fb94423736447ffc4e2660d89764203ee7f8",
+          "sha1": "496af4643897b9faddc224cffece969a59005d15",
+          "md5": "22812490755c330c545c65b42b8d89bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "net.md-5",
+          "module": "SpecialSource",
+          "version": {
+            "requires": "1.8.5"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "io.izzel",
+          "module": "tools",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "modlauncher",
+          "version": {
+            "requires": "10.0.8"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "mixin",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "securejarhandler",
+          "version": {
+            "requires": "2.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mohistremapper-0.1.jar",
+          "url": "mohistremapper-0.1.jar",
+          "size": 82322,
+          "sha512": "dd5c3cc83dff4d7a59294fce480ffd7f1de0693093de4961e791791499b20fdc33aebd09cedb7fa78915024de26ebf3273cc025c14a022034c72b32cc6191ec7",
+          "sha256": "0400458f251f650e72cc4fd10479fb94423736447ffc4e2660d89764203ee7f8",
+          "sha1": "496af4643897b9faddc224cffece969a59005d15",
+          "md5": "22812490755c330c545c65b42b8d89bb"
+        }
+      ]
+    }
+  ]
+}
