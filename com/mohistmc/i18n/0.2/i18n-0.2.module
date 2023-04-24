@@ -3,7 +3,7 @@
   "component": {
     "group": "com.mohistmc",
     "module": "i18n",
-    "version": "0.1",
+    "version": "0.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "i18n-0.1.jar",
-          "url": "i18n-0.1.jar",
-          "size": 2695,
-          "sha512": "ddae4b0be35b74c253b7b839ea0c8d2f45eef9081c970a62f41fc4d7675f9de36f0569a18b061c05e1c8a806d45b029c0db8546fb1101206a36ff319ded064d8",
-          "sha256": "e08d089db0f9653bb2d2b6c7424835e31f8c3473a90d8189e7ca35e79442adcb",
-          "sha1": "16201e778a18362db86311da69b3f794c70d0427",
-          "md5": "012e81b705b91aeb7d94bb2790ae0c7a"
+          "name": "i18n-0.2.jar",
+          "url": "i18n-0.2.jar",
+          "size": 2516,
+          "sha512": "cb9aced24b00dc7e0a84c5bd064872fc3feb53afe6ff8dbe7421d1c2336aa9de9cdf2488294661d934cae9967b269de8ca2ac8219eb12593655d3d8f757d1d80",
+          "sha256": "371ab58ff84c2bb4f08e35e59c557ba84c97710c009f519d8784fc935a4a414e",
+          "sha1": "35bca13806165104f7494db86e6f621184f6c487",
+          "md5": "956a8d30a6e464eef86027fb74fd7177"
         }
       ]
     },
@@ -46,13 +46,13 @@
       },
       "files": [
         {
-          "name": "i18n-0.1.jar",
-          "url": "i18n-0.1.jar",
-          "size": 2695,
-          "sha512": "ddae4b0be35b74c253b7b839ea0c8d2f45eef9081c970a62f41fc4d7675f9de36f0569a18b061c05e1c8a806d45b029c0db8546fb1101206a36ff319ded064d8",
-          "sha256": "e08d089db0f9653bb2d2b6c7424835e31f8c3473a90d8189e7ca35e79442adcb",
-          "sha1": "16201e778a18362db86311da69b3f794c70d0427",
-          "md5": "012e81b705b91aeb7d94bb2790ae0c7a"
+          "name": "i18n-0.2.jar",
+          "url": "i18n-0.2.jar",
+          "size": 2516,
+          "sha512": "cb9aced24b00dc7e0a84c5bd064872fc3feb53afe6ff8dbe7421d1c2336aa9de9cdf2488294661d934cae9967b269de8ca2ac8219eb12593655d3d8f757d1d80",
+          "sha256": "371ab58ff84c2bb4f08e35e59c557ba84c97710c009f519d8784fc935a4a414e",
+          "sha1": "35bca13806165104f7494db86e6f621184f6c487",
+          "md5": "956a8d30a6e464eef86027fb74fd7177"
         }
       ]
     }
