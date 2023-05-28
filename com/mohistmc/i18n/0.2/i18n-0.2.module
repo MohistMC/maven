@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.0"
+      "version": "8.1.1"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "i18n-0.2.jar",
           "url": "i18n-0.2.jar",
-          "size": 2516,
-          "sha512": "cb9aced24b00dc7e0a84c5bd064872fc3feb53afe6ff8dbe7421d1c2336aa9de9cdf2488294661d934cae9967b269de8ca2ac8219eb12593655d3d8f757d1d80",
-          "sha256": "371ab58ff84c2bb4f08e35e59c557ba84c97710c009f519d8784fc935a4a414e",
-          "sha1": "35bca13806165104f7494db86e6f621184f6c487",
-          "md5": "956a8d30a6e464eef86027fb74fd7177"
+          "size": 2664,
+          "sha512": "06caf6b63ef5ffb1f14cb256551ff7d5e7cdc621dad9306dfb86c28d0deb9a3b9ba04cc8525336d3036641d1b0588f85bf36997b588156099b55ec1b486d4c6f",
+          "sha256": "5bb920c60374d77321c5936f8fd46ac03e54a21b3f115b4379a20d49b6db1d03",
+          "sha1": "8a4f2119bb44143ed09e1943b015e5512d170965",
+          "md5": "cd9251cab2c7fda3c03497defdc0048c"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "i18n-0.2.jar",
           "url": "i18n-0.2.jar",
-          "size": 2516,
-          "sha512": "cb9aced24b00dc7e0a84c5bd064872fc3feb53afe6ff8dbe7421d1c2336aa9de9cdf2488294661d934cae9967b269de8ca2ac8219eb12593655d3d8f757d1d80",
-          "sha256": "371ab58ff84c2bb4f08e35e59c557ba84c97710c009f519d8784fc935a4a414e",
-          "sha1": "35bca13806165104f7494db86e6f621184f6c487",
-          "md5": "956a8d30a6e464eef86027fb74fd7177"
+          "size": 2664,
+          "sha512": "06caf6b63ef5ffb1f14cb256551ff7d5e7cdc621dad9306dfb86c28d0deb9a3b9ba04cc8525336d3036641d1b0588f85bf36997b588156099b55ec1b486d4c6f",
+          "sha256": "5bb920c60374d77321c5936f8fd46ac03e54a21b3f115b4379a20d49b6db1d03",
+          "sha1": "8a4f2119bb44143ed09e1943b015e5512d170965",
+          "md5": "cd9251cab2c7fda3c03497defdc0048c"
         }
       ]
     }
