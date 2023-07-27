@@ -9,5 +9,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mojang</groupId>
   <artifactId>brigadier</artifactId>
-  <version>mohist-1.12.1</version>
+  <version>mohist-1.20.1</version>
 </project>

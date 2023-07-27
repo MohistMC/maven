@@ -3,7 +3,7 @@
   "component": {
     "group": "com.mojang",
     "module": "brigadier",
-    "version": "mohist-1.12.1",
+    "version": "mohist-1.20.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "brigadier-mohist-1.12.1.jar",
-          "url": "brigadier-mohist-1.12.1.jar",
+          "name": "brigadier-mohist-1.20.1.jar",
+          "url": "brigadier-mohist-1.20.1.jar",
           "size": 79543,
-          "sha512": "502b92ea93294756fa6df482813993486ed4fe4fd3b683f5f02969a056788eb4e5f8e36e52a03a1b80db59acdb70058885c66c913b9d24fe440c2b9b49bcda91",
-          "sha256": "81f241a8a7f1cc8cf6af8d71fbc0ff948d2ecf540c067bcf2e7c7ceac392c484",
-          "sha1": "8aa246dfe2d185167536f40530704457249cc678",
-          "md5": "3e5dfd4d2475ef08dd9a9fb1b609ca56"
+          "sha512": "bdc666419959e0ec348cfbd27c9a42c95e1a53cb657c26ca32d7b4b80b6398d1f790bdffb34cd8510c6166e17ce04431dc79fb4e4c38f560b065831b3b8c81c5",
+          "sha256": "3ab525b5501b1bccaecc47fe34aeacb466b4cd6ae45432a713908a2591224aa8",
+          "sha1": "6dd91ba2d71c78b3113a3248b79fac500f210805",
+          "md5": "c24d6084546d76c0aec6169a8c6acd62"
         }
       ]
     },
@@ -46,13 +46,13 @@
       },
       "files": [
         {
-          "name": "brigadier-mohist-1.12.1.jar",
-          "url": "brigadier-mohist-1.12.1.jar",
+          "name": "brigadier-mohist-1.20.1.jar",
+          "url": "brigadier-mohist-1.20.1.jar",
           "size": 79543,
-          "sha512": "502b92ea93294756fa6df482813993486ed4fe4fd3b683f5f02969a056788eb4e5f8e36e52a03a1b80db59acdb70058885c66c913b9d24fe440c2b9b49bcda91",
-          "sha256": "81f241a8a7f1cc8cf6af8d71fbc0ff948d2ecf540c067bcf2e7c7ceac392c484",
-          "sha1": "8aa246dfe2d185167536f40530704457249cc678",
-          "md5": "3e5dfd4d2475ef08dd9a9fb1b609ca56"
+          "sha512": "bdc666419959e0ec348cfbd27c9a42c95e1a53cb657c26ca32d7b4b80b6398d1f790bdffb34cd8510c6166e17ce04431dc79fb4e4c38f560b065831b3b8c81c5",
+          "sha256": "3ab525b5501b1bccaecc47fe34aeacb466b4cd6ae45432a713908a2591224aa8",
+          "sha1": "6dd91ba2d71c78b3113a3248b79fac500f210805",
+          "md5": "c24d6084546d76c0aec6169a8c6acd62"
         }
       ]
     }
