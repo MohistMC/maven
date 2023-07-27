@@ -27,11 +27,11 @@
         {
           "name": "brigadier-1.20.1.jar",
           "url": "brigadier-1.20.1.jar",
-          "size": 79415,
-          "sha512": "0a8f344a63d67b8682ab7b0b297967cd456f2246f3fe6403848468de915c43530c85fcc0a072c2f647c67cba600afecd6d85b408e3efddb55fecdca2a92c2820",
-          "sha256": "4b47b9fda01deb310888fd4538d6c2f33cbc148628b05a2d9b590e2b6bf8a677",
-          "sha1": "4fef01150fbc4fd4600dd974a8daffa8262f73d3",
-          "md5": "d43ad6ce497519314cbb344a39ae9b7d"
+          "size": 79473,
+          "sha512": "25131ce4d2c50cd727b20eec637149d9b375ee0ff8bd83e6d16fede7c8aceff4aff08908d9903e11bf7b48cf6481d72af0cec1d0ff0b0da4b0d8e1dd583c5089",
+          "sha256": "70dae94f871e888941f97178c0f355c918fcaf89d8a2140ddc964cf6299d3c0d",
+          "sha1": "28ba030405f3e15670c3f21e45d7e0fcb50cec0f",
+          "md5": "e3e8813a955432f238f04bc9ff8c786f"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "brigadier-1.20.1.jar",
           "url": "brigadier-1.20.1.jar",
-          "size": 79415,
-          "sha512": "0a8f344a63d67b8682ab7b0b297967cd456f2246f3fe6403848468de915c43530c85fcc0a072c2f647c67cba600afecd6d85b408e3efddb55fecdca2a92c2820",
-          "sha256": "4b47b9fda01deb310888fd4538d6c2f33cbc148628b05a2d9b590e2b6bf8a677",
-          "sha1": "4fef01150fbc4fd4600dd974a8daffa8262f73d3",
-          "md5": "d43ad6ce497519314cbb344a39ae9b7d"
+          "size": 79473,
+          "sha512": "25131ce4d2c50cd727b20eec637149d9b375ee0ff8bd83e6d16fede7c8aceff4aff08908d9903e11bf7b48cf6481d72af0cec1d0ff0b0da4b0d8e1dd583c5089",
+          "sha256": "70dae94f871e888941f97178c0f355c918fcaf89d8a2140ddc964cf6299d3c0d",
+          "sha1": "28ba030405f3e15670c3f21e45d7e0fcb50cec0f",
+          "md5": "e3e8813a955432f238f04bc9ff8c786f"
         }
       ]
     }
