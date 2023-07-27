@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "brigadier",
+    "version": "1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "brigadier-1.20.1.jar",
+          "url": "brigadier-1.20.1.jar",
+          "size": 79543,
+          "sha512": "c63c70768b27506871aa04b39626ded79c45cb45a834043ceecd1d2f7303b3fd99b08464a2cccad48686327ba3e99bbd2988354cb72ae5704e515aedb32d16e4",
+          "sha256": "cf55463b616326e085cb3a4c15e99b10d9c685b8af851652ee51c97264319f8c",
+          "sha1": "2fd443d03bd81605eefdeaaf35921e7161e65574",
+          "md5": "8aa5f7f64dd450b460b87cf35dd0582f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "brigadier-1.20.1.jar",
+          "url": "brigadier-1.20.1.jar",
+          "size": 79543,
+          "sha512": "c63c70768b27506871aa04b39626ded79c45cb45a834043ceecd1d2f7303b3fd99b08464a2cccad48686327ba3e99bbd2988354cb72ae5704e515aedb32d16e4",
+          "sha256": "cf55463b616326e085cb3a4c15e99b10d9c685b8af851652ee51c97264319f8c",
+          "sha1": "2fd443d03bd81605eefdeaaf35921e7161e65574",
+          "md5": "8aa5f7f64dd450b460b87cf35dd0582f"
+        }
+      ]
+    }
+  ]
+}
