@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cpw.mods",
+    "module": "securejarhandler",
+    "version": "mohist-2.1.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securejarhandler-mohist-2.1.11.jar",
+          "url": "securejarhandler-mohist-2.1.11.jar",
+          "size": 89195,
+          "sha512": "02708d8b59a5bf351be6c810fb860298e25e6a968caf2ae30ae8632dcbc603d875f9c6c1ddf37a1df19726966a41746d9457353d7a263e3630fa8c68b6378fbb",
+          "sha256": "0edbf6952ac5afe12f6a3297f754b7a7af390def70dce74eaaf18a80e4e1c756",
+          "sha1": "9e903be1b9bc2876505c411f9067311777403749",
+          "md5": "4c2be045f5f00b07c61c3a552a7cf53d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securejarhandler-mohist-2.1.11.jar",
+          "url": "securejarhandler-mohist-2.1.11.jar",
+          "size": 89195,
+          "sha512": "02708d8b59a5bf351be6c810fb860298e25e6a968caf2ae30ae8632dcbc603d875f9c6c1ddf37a1df19726966a41746d9457353d7a263e3630fa8c68b6378fbb",
+          "sha256": "0edbf6952ac5afe12f6a3297f754b7a7af390def70dce74eaaf18a80e4e1c756",
+          "sha1": "9e903be1b9bc2876505c411f9067311777403749",
+          "md5": "4c2be045f5f00b07c61c3a552a7cf53d"
+        }
+      ]
+    }
+  ]
+}
