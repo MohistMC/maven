@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cpw.mods",
+    "module": "modlauncher",
+    "version": "mohist-8.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "7.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "7.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "modlauncher-mohist-8.1.3.jar",
+          "url": "modlauncher-mohist-8.1.3.jar",
+          "size": 126968,
+          "sha512": "0ef3c01cd0ffed1bfa67f756053a9d836892947397daf9a23f66dec1b5429ab1b95afda2bcaabaf91160c2bdc1d68e3ed28b774b48671b46390f06aa93d4b085",
+          "sha256": "801e7d1b7f7eabc0a7b8b1e288c41179b863c04b67be0cfe980414c4460080aa",
+          "sha1": "ce3be95e41fffeaff1e7ed8ebe4fb28ed886cd52",
+          "md5": "da9193a3a657e3c8b6b5b290cb49515c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.11.2"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "grossjava9hacks",
+          "version": {
+            "requires": "1.3.+"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "7.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "7.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "modlauncher-mohist-8.1.3.jar",
+          "url": "modlauncher-mohist-8.1.3.jar",
+          "size": 126968,
+          "sha512": "0ef3c01cd0ffed1bfa67f756053a9d836892947397daf9a23f66dec1b5429ab1b95afda2bcaabaf91160c2bdc1d68e3ed28b774b48671b46390f06aa93d4b085",
+          "sha256": "801e7d1b7f7eabc0a7b8b1e288c41179b863c04b67be0cfe980414c4460080aa",
+          "sha1": "ce3be95e41fffeaff1e7ed8ebe4fb28ed886cd52",
+          "md5": "da9193a3a657e3c8b6b5b290cb49515c"
+        }
+      ]
+    }
+  ]
+}
