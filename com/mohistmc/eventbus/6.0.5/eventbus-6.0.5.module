@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "eventbus",
+    "version": "6.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.+"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eventbus-6.0.5.jar",
+          "url": "eventbus-6.0.5.jar",
+          "size": 54306,
+          "sha512": "2b285cee7a02b43883e56cfce61d34a7a98264c1d082ab8c94baa0a3f629feec0069f7ee2eb22ab35f68091f3d905329950a2fb998eaa710609c1c0fbc6644e5",
+          "sha256": "54a535012a949d481eb3aa9ac85fa1faab0141e7ff1c4efe46d1271a46cf9049",
+          "sha1": "a60d7da079ef5cdcaff71ec179033cfaca94501e",
+          "md5": "5b6cfbe241b77600c6b3ab6aeef545f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "cpw.mods",
+          "module": "modlauncher",
+          "version": {
+            "requires": "10.0.+"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.+"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eventbus-6.0.5.jar",
+          "url": "eventbus-6.0.5.jar",
+          "size": 54306,
+          "sha512": "2b285cee7a02b43883e56cfce61d34a7a98264c1d082ab8c94baa0a3f629feec0069f7ee2eb22ab35f68091f3d905329950a2fb998eaa710609c1c0fbc6644e5",
+          "sha256": "54a535012a949d481eb3aa9ac85fa1faab0141e7ff1c4efe46d1271a46cf9049",
+          "sha1": "a60d7da079ef5cdcaff71ec179033cfaca94501e",
+          "md5": "5b6cfbe241b77600c6b3ab6aeef545f7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "eventbus-6.0.5-sources.jar",
+          "url": "eventbus-6.0.5-sources.jar",
+          "size": 35646,
+          "sha512": "979a4b9390da7b75c0576e50ae748cce0c34538185b53234b278b08d7c985ff46a9f57374583ba6d5ebf943f2f6132f64ae8e57e5687a487caa0f584eac00020",
+          "sha256": "4ef45b8bdc51381ca3b404dccc9334a380679e1e5904f035e45d26bb25ab1b33",
+          "sha1": "dc8331709792a9106e4ae8254d99861e381b1eff",
+          "md5": "3d5def3fc02b2b32588836f136ac73d1"
+        }
+      ]
+    }
+  ]
+}
