@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "librariesvault",
+    "version": "1.20.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "librariesvault-1.20.2.jar",
+          "url": "librariesvault-1.20.2.jar",
+          "size": 343981,
+          "sha512": "64d79cde6ed890dcd2cf4b845f13a271da0bdc159240eaa8c0b21b3a526749ab4bb58d4bfe52bfb9e31588cc0b0c51f63acd02e11eccba46bbdf9d46df133cc8",
+          "sha256": "827dba094185cc265cd7991fe57f39ad71d05a27c33267513ccda034a1c95d61",
+          "sha1": "6abb3ef7f56895e6f592e28ef8157100f99cf014",
+          "md5": "1abafb7e38a4adb7e6a682815ca56264"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "librariesvault-1.20.2.jar",
+          "url": "librariesvault-1.20.2.jar",
+          "size": 343981,
+          "sha512": "64d79cde6ed890dcd2cf4b845f13a271da0bdc159240eaa8c0b21b3a526749ab4bb58d4bfe52bfb9e31588cc0b0c51f63acd02e11eccba46bbdf9d46df133cc8",
+          "sha256": "827dba094185cc265cd7991fe57f39ad71d05a27c33267513ccda034a1c95d61",
+          "sha1": "6abb3ef7f56895e6f592e28ef8157100f99cf014",
+          "md5": "1abafb7e38a4adb7e6a682815ca56264"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "librariesvault-1.20.2.jar",
+          "url": "librariesvault-1.20.2.jar",
+          "size": 343981,
+          "sha512": "64d79cde6ed890dcd2cf4b845f13a271da0bdc159240eaa8c0b21b3a526749ab4bb58d4bfe52bfb9e31588cc0b0c51f63acd02e11eccba46bbdf9d46df133cc8",
+          "sha256": "827dba094185cc265cd7991fe57f39ad71d05a27c33267513ccda034a1c95d61",
+          "sha1": "6abb3ef7f56895e6f592e28ef8157100f99cf014",
+          "md5": "1abafb7e38a4adb7e6a682815ca56264"
+        }
+      ]
+    }
+  ]
+}
