@@ -27,11 +27,11 @@
         {
           "name": "industrialcraft-2-2.8.222-ex112.jar",
           "url": "industrialcraft-2-2.8.222-ex112.jar",
-          "size": 261,
-          "sha512": "e9e20b34210afaecce1fdbaadf10151c54fd6cf9da346236898def8b8ec6bb9a16a946612a5b8157351d8c59fbd282dc3fa1a8740872989b4cf6f68ea6f647f8",
-          "sha256": "3ee9d81650ec39da229313e3ec91348a1db86dbefbda8bd4b3a2adf29c9c3a01",
-          "sha1": "3494638d763cc446230f6d852d04054a945a5a5b",
-          "md5": "9357030fc6bcdb309a76b1e3bbaf10a5"
+          "size": 8226721,
+          "sha512": "0de107fa424fa72a2ba3c80cacd0bd9b1d9e490d436674122a1919fb796163d5cdfbf5893d0d224eec691b5a42fb2dd39b94a2641cdf3bdfcc52ad6517d36b42",
+          "sha256": "1ab3190c19a75457c07f186477fccb210170d9ed7f8948b9ea05ae16c257d84e",
+          "sha1": "a3a89cf742112e9b269869edb23c2693b064292c",
+          "md5": "50bcd1ed6c0d3bac5ebada74e1dcdfef"
         }
       ]
     },
@@ -48,11 +48,31 @@
         {
           "name": "industrialcraft-2-2.8.222-ex112.jar",
           "url": "industrialcraft-2-2.8.222-ex112.jar",
-          "size": 261,
-          "sha512": "e9e20b34210afaecce1fdbaadf10151c54fd6cf9da346236898def8b8ec6bb9a16a946612a5b8157351d8c59fbd282dc3fa1a8740872989b4cf6f68ea6f647f8",
-          "sha256": "3ee9d81650ec39da229313e3ec91348a1db86dbefbda8bd4b3a2adf29c9c3a01",
-          "sha1": "3494638d763cc446230f6d852d04054a945a5a5b",
-          "md5": "9357030fc6bcdb309a76b1e3bbaf10a5"
+          "size": 8226721,
+          "sha512": "0de107fa424fa72a2ba3c80cacd0bd9b1d9e490d436674122a1919fb796163d5cdfbf5893d0d224eec691b5a42fb2dd39b94a2641cdf3bdfcc52ad6517d36b42",
+          "sha256": "1ab3190c19a75457c07f186477fccb210170d9ed7f8948b9ea05ae16c257d84e",
+          "sha1": "a3a89cf742112e9b269869edb23c2693b064292c",
+          "md5": "50bcd1ed6c0d3bac5ebada74e1dcdfef"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "industrialcraft-2-2.8.222-ex112.jar",
+          "url": "industrialcraft-2-2.8.222-ex112.jar",
+          "size": 8226721,
+          "sha512": "0de107fa424fa72a2ba3c80cacd0bd9b1d9e490d436674122a1919fb796163d5cdfbf5893d0d224eec691b5a42fb2dd39b94a2641cdf3bdfcc52ad6517d36b42",
+          "sha256": "1ab3190c19a75457c07f186477fccb210170d9ed7f8948b9ea05ae16c257d84e",
+          "sha1": "a3a89cf742112e9b269869edb23c2693b064292c",
+          "md5": "50bcd1ed6c0d3bac5ebada74e1dcdfef"
         }
       ]
     }
