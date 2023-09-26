@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.industrial-craft",
+    "module": "industrialcraft-2",
+    "version": "2.8.222-ex112",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "industrialcraft-2-2.8.222-ex112.jar",
+          "url": "industrialcraft-2-2.8.222-ex112.jar",
+          "size": 261,
+          "sha512": "e9e20b34210afaecce1fdbaadf10151c54fd6cf9da346236898def8b8ec6bb9a16a946612a5b8157351d8c59fbd282dc3fa1a8740872989b4cf6f68ea6f647f8",
+          "sha256": "3ee9d81650ec39da229313e3ec91348a1db86dbefbda8bd4b3a2adf29c9c3a01",
+          "sha1": "3494638d763cc446230f6d852d04054a945a5a5b",
+          "md5": "9357030fc6bcdb309a76b1e3bbaf10a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "industrialcraft-2-2.8.222-ex112.jar",
+          "url": "industrialcraft-2-2.8.222-ex112.jar",
+          "size": 261,
+          "sha512": "e9e20b34210afaecce1fdbaadf10151c54fd6cf9da346236898def8b8ec6bb9a16a946612a5b8157351d8c59fbd282dc3fa1a8740872989b4cf6f68ea6f647f8",
+          "sha256": "3ee9d81650ec39da229313e3ec91348a1db86dbefbda8bd4b3a2adf29c9c3a01",
+          "sha1": "3494638d763cc446230f6d852d04054a945a5a5b",
+          "md5": "9357030fc6bcdb309a76b1e3bbaf10a5"
+        }
+      ]
+    }
+  ]
+}
