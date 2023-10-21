@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "kite",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kite-0.0.1.jar",
+          "url": "kite-0.0.1.jar",
+          "size": 5259115,
+          "sha512": "b1f36fedb7e25be8017f4bc3242d1d6b58e64445a61b5b09a67ffc78aa37fc4e506629d23a433c5821a1ab238fbbb43042f7dbd0d961eb2c31d44f1dc5895da7",
+          "sha256": "04dfe8a21591fd60542d66a7918d9fb99b4c11d96c741e6cdab3f861cafb1c99",
+          "sha1": "d528701986a3e7960379874105abc88a2897b4ef",
+          "md5": "4396a1404e99df14f7891c8b55f41591"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "mixin",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "23.0.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kite-0.0.1.jar",
+          "url": "kite-0.0.1.jar",
+          "size": 5259115,
+          "sha512": "b1f36fedb7e25be8017f4bc3242d1d6b58e64445a61b5b09a67ffc78aa37fc4e506629d23a433c5821a1ab238fbbb43042f7dbd0d961eb2c31d44f1dc5895da7",
+          "sha256": "04dfe8a21591fd60542d66a7918d9fb99b4c11d96c741e6cdab3f861cafb1c99",
+          "sha1": "d528701986a3e7960379874105abc88a2897b4ef",
+          "md5": "4396a1404e99df14f7891c8b55f41591"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kite-0.0.1.jar",
+          "url": "kite-0.0.1.jar",
+          "size": 5259115,
+          "sha512": "b1f36fedb7e25be8017f4bc3242d1d6b58e64445a61b5b09a67ffc78aa37fc4e506629d23a433c5821a1ab238fbbb43042f7dbd0d961eb2c31d44f1dc5895da7",
+          "sha256": "04dfe8a21591fd60542d66a7918d9fb99b4c11d96c741e6cdab3f861cafb1c99",
+          "sha1": "d528701986a3e7960379874105abc88a2897b4ef",
+          "md5": "4396a1404e99df14f7891c8b55f41591"
+        }
+      ]
+    }
+  ]
+}
