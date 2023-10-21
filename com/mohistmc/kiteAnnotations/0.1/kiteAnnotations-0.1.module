@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "kiteAnnotations",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kiteAnnotations-0.1.jar",
+          "url": "kiteAnnotations-0.1.jar",
+          "size": 639721,
+          "sha512": "1c55d8ade7e0057c086ba84729ba27ed3b1dde20f3530d9813f5130d31e2f1a7f1d61f5a1c59cf7f9babb8e9ffad076cf0f41c2f3e13a46e440d53a524ee22b6",
+          "sha256": "42394e7d93f1626416bbe43f731db8d136741cc8d75f8d632f35966719789098",
+          "sha1": "48e1d08f489c36ed701256816cf03f1ddf8917f8",
+          "md5": "b549fe1a4b896b286deb514363631685"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kiteAnnotations-0.1.jar",
+          "url": "kiteAnnotations-0.1.jar",
+          "size": 639721,
+          "sha512": "1c55d8ade7e0057c086ba84729ba27ed3b1dde20f3530d9813f5130d31e2f1a7f1d61f5a1c59cf7f9babb8e9ffad076cf0f41c2f3e13a46e440d53a524ee22b6",
+          "sha256": "42394e7d93f1626416bbe43f731db8d136741cc8d75f8d632f35966719789098",
+          "sha1": "48e1d08f489c36ed701256816cf03f1ddf8917f8",
+          "md5": "b549fe1a4b896b286deb514363631685"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kiteAnnotations-0.1.jar",
+          "url": "kiteAnnotations-0.1.jar",
+          "size": 639721,
+          "sha512": "1c55d8ade7e0057c086ba84729ba27ed3b1dde20f3530d9813f5130d31e2f1a7f1d61f5a1c59cf7f9babb8e9ffad076cf0f41c2f3e13a46e440d53a524ee22b6",
+          "sha256": "42394e7d93f1626416bbe43f731db8d136741cc8d75f8d632f35966719789098",
+          "sha1": "48e1d08f489c36ed701256816cf03f1ddf8917f8",
+          "md5": "b549fe1a4b896b286deb514363631685"
+        }
+      ]
+    }
+  ]
+}
