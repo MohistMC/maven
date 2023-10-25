@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "eventbus",
+    "version": "6.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eventbus-6.2.0.jar",
+          "url": "eventbus-6.2.0.jar",
+          "size": 54088,
+          "sha512": "24592346aaa0a27f25fb242e7a40a9ce5be24512c375cff6ad6ee9b9b1e44fb29f0dc0a18970fa31671c27770f5f4b768ab5925bf74c60d223d439ef0b549fa8",
+          "sha256": "77a4f5b1f50f8977102468af398c4832807972b509be55787490ec91d80000c8",
+          "sha1": "f06818dcbbf91e8ecd226faf562e5de626c3e3cd",
+          "md5": "42018152587f7067703e8c17e80d2c3a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "modlauncher",
+          "version": {
+            "requires": "10.1.1"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "securemodules",
+          "version": {
+            "requires": "2.2.2"
+          }
+        },
+        {
+          "group": "net.jodah",
+          "module": "typetools",
+          "version": {
+            "requires": "0.6.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "eventbus-6.2.0.jar",
+          "url": "eventbus-6.2.0.jar",
+          "size": 54088,
+          "sha512": "24592346aaa0a27f25fb242e7a40a9ce5be24512c375cff6ad6ee9b9b1e44fb29f0dc0a18970fa31671c27770f5f4b768ab5925bf74c60d223d439ef0b549fa8",
+          "sha256": "77a4f5b1f50f8977102468af398c4832807972b509be55787490ec91d80000c8",
+          "sha1": "f06818dcbbf91e8ecd226faf562e5de626c3e3cd",
+          "md5": "42018152587f7067703e8c17e80d2c3a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "eventbus-6.2.0-sources.jar",
+          "url": "eventbus-6.2.0-sources.jar",
+          "size": 31744,
+          "sha512": "5a2bd0e12393118143867e3ba1aaeceda4edc8e86e9356d15b8c9b430f73c752a34b166b28f75c2d76441f143af8e0098ee9e4165e28ba32529964c3354ee6ab",
+          "sha256": "92a336622050cb904323cf77f004911bc7d1e5e865e8bb584ef5cac971769366",
+          "sha1": "e41edfd81b71fcf0295b6e4ed4aa24c29ef7dd3a",
+          "md5": "4858f001040db6667c81ebd927d5ee01"
+        }
+      ]
+    }
+  ]
+}
