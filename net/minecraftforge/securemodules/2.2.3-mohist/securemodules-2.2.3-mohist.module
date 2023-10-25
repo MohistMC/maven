@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "securemodules",
+    "version": "2.2.3-mohist",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securemodules-2.2.3-mohist.jar",
+          "url": "securemodules-2.2.3-mohist.jar",
+          "size": 96481,
+          "sha512": "1bfc1651a2123c335ca01cf77e0ea0a3842aefe0b237eacd2cccdef3b2105858046a6ddce0e4dd9ae9b4d021ea0ea94f107a682d995ed1ebe6934d649f3e058c",
+          "sha256": "c1c34e9081adc3a3bf37ee04b53242cdc637aa830a6bb31fa37d7e54e9fb7a39",
+          "sha1": "3aaf05b1c114d3c8d002ff6ddaaf5c00749ee045",
+          "md5": "2b566f81a0968f11a38f7c5975c49dcf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "unsafe",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securemodules-2.2.3-mohist.jar",
+          "url": "securemodules-2.2.3-mohist.jar",
+          "size": 96481,
+          "sha512": "1bfc1651a2123c335ca01cf77e0ea0a3842aefe0b237eacd2cccdef3b2105858046a6ddce0e4dd9ae9b4d021ea0ea94f107a682d995ed1ebe6934d649f3e058c",
+          "sha256": "c1c34e9081adc3a3bf37ee04b53242cdc637aa830a6bb31fa37d7e54e9fb7a39",
+          "sha1": "3aaf05b1c114d3c8d002ff6ddaaf5c00749ee045",
+          "md5": "2b566f81a0968f11a38f7c5975c49dcf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "securemodules-2.2.3-mohist-sources.jar",
+          "url": "securemodules-2.2.3-mohist-sources.jar",
+          "size": 39368,
+          "sha512": "2cd4e2fede55620e6d28b3ea86d09f524a5c236fb93110cbaaea0c1286956f73c06e6049a0d60dc18278b5287cbbf75d3bf2d003ccf56c28212a2a00c24b204a",
+          "sha256": "136811ed349258fe95c5245eb74eb264c0a230e5789b7cff84ab03653400837f",
+          "sha1": "edff07d7cea04b595cabbb79aad8c130b8e0507a",
+          "md5": "25877d27dbe27fd4b6d3127fe026f303"
+        }
+      ]
+    }
+  ]
+}
