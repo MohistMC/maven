@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mohistmc.banner</groupId>
   <artifactId>banner-gradle-plugin</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <dependencies>
     <dependency>
       <groupId>org.cadixdev</groupId>
