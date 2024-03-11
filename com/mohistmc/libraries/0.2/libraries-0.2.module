@@ -3,7 +3,7 @@
   "component": {
     "group": "com.mohistmc",
     "module": "libraries",
-    "version": "0.1",
+    "version": "0.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "libraries-0.1.jar",
-          "url": "libraries-0.1.jar",
+          "name": "libraries-0.2.jar",
+          "url": "libraries-0.2.jar",
           "size": 8135,
-          "sha512": "f247c5cc5a6c9ea88d6e8844a69e173b8419b2fcd70c8d522153eeab89c06cb208d6e18904ef39325222b1b66858aa1a3a5abb93c25a7f1449d974a9cfa585e5",
-          "sha256": "a279dc295f54ee6106644265656edd3fb455cb2e043caeec74900207ac324050",
-          "sha1": "91d8e1f21620508cb0d5e91c346aef07d3a98b4a",
-          "md5": "7cbf52ebd6970ee6b21bbae5ee754533"
+          "sha512": "0ff01b7928b1c0e85cc0be12924d0d7c566db0d666e211826326bac8b65da82f0998849a8820c43bcfd24c10b2d9b66dd8d48d2e37041ebeb63cd603e85a73d6",
+          "sha256": "971eeba70b0f978a7877bda30d58c1440bd599ee780f5ed6b651a2dda14e61ff",
+          "sha1": "ccdc88d785a3fa9ed21693965558620834902fec",
+          "md5": "c2c5907eecb4830a2a4bc8d85bd17056"
         }
       ]
     },
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "libraries-0.1.jar",
-          "url": "libraries-0.1.jar",
+          "name": "libraries-0.2.jar",
+          "url": "libraries-0.2.jar",
           "size": 8135,
-          "sha512": "f247c5cc5a6c9ea88d6e8844a69e173b8419b2fcd70c8d522153eeab89c06cb208d6e18904ef39325222b1b66858aa1a3a5abb93c25a7f1449d974a9cfa585e5",
-          "sha256": "a279dc295f54ee6106644265656edd3fb455cb2e043caeec74900207ac324050",
-          "sha1": "91d8e1f21620508cb0d5e91c346aef07d3a98b4a",
-          "md5": "7cbf52ebd6970ee6b21bbae5ee754533"
+          "sha512": "0ff01b7928b1c0e85cc0be12924d0d7c566db0d666e211826326bac8b65da82f0998849a8820c43bcfd24c10b2d9b66dd8d48d2e37041ebeb63cd603e85a73d6",
+          "sha256": "971eeba70b0f978a7877bda30d58c1440bd599ee780f5ed6b651a2dda14e61ff",
+          "sha1": "ccdc88d785a3fa9ed21693965558620834902fec",
+          "md5": "c2c5907eecb4830a2a4bc8d85bd17056"
         }
       ]
     }
