@@ -3,7 +3,7 @@
   "component": {
     "group": "com.mohistmc",
     "module": "tools",
-    "version": "0.5",
+    "version": "0.5.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "tools-0.5.jar",
-          "url": "tools-0.5.jar",
-          "size": 28605,
-          "sha512": "9165da4ec2dfa82cc35d38bfc8f2fc72174aa625190e504d138a86fc1d9d942fa72f491d5644ad003a68eea1ea19c113647f39270cc3fde26228c870208c041b",
-          "sha256": "ba7e11f1963afc5f7b8449e41aac3c40c0a8ac3036960e63e9236b10205dc850",
-          "sha1": "db3980dfac832b4d3a02cfb836bca73ba0c6cbf4",
-          "md5": "f2788f1729fcdd0eca31c11d8e80b1da"
+          "name": "tools-0.5.1.jar",
+          "url": "tools-0.5.1.jar",
+          "size": 28993,
+          "sha512": "22244c572d6315535c2762058336b7f8edb619936f02bc5089a5b9463e7d26b92919cf437a9aad8364c2ef57b80ceff97ead435976270fee69181a7344eec9b6",
+          "sha256": "2445c9899cb92d88598a5699506393cbfd4c049bf901d87d26731459e07e9710",
+          "sha1": "99129be12d0b026632b0d9b5402927a8b75ac744",
+          "md5": "fabc608b832218bf52f43e523a16e536"
         }
       ]
     },
@@ -46,13 +46,13 @@
       },
       "files": [
         {
-          "name": "tools-0.5.jar",
-          "url": "tools-0.5.jar",
-          "size": 28605,
-          "sha512": "9165da4ec2dfa82cc35d38bfc8f2fc72174aa625190e504d138a86fc1d9d942fa72f491d5644ad003a68eea1ea19c113647f39270cc3fde26228c870208c041b",
-          "sha256": "ba7e11f1963afc5f7b8449e41aac3c40c0a8ac3036960e63e9236b10205dc850",
-          "sha1": "db3980dfac832b4d3a02cfb836bca73ba0c6cbf4",
-          "md5": "f2788f1729fcdd0eca31c11d8e80b1da"
+          "name": "tools-0.5.1.jar",
+          "url": "tools-0.5.1.jar",
+          "size": 28993,
+          "sha512": "22244c572d6315535c2762058336b7f8edb619936f02bc5089a5b9463e7d26b92919cf437a9aad8364c2ef57b80ceff97ead435976270fee69181a7344eec9b6",
+          "sha256": "2445c9899cb92d88598a5699506393cbfd4c049bf901d87d26731459e07e9710",
+          "sha1": "99129be12d0b026632b0d9b5402927a8b75ac744",
+          "md5": "fabc608b832218bf52f43e523a16e536"
         }
       ]
     }
