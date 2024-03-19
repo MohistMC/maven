@@ -27,11 +27,11 @@
         {
           "name": "json-0.3.jar",
           "url": "json-0.3.jar",
-          "size": 147603,
-          "sha512": "8dffbd57e24970bb9925e9c2e79a9a3a44fdafac3b935bdf13ff710c29213bb595482e4bfa08500e8c8095c40bb53c771539b1d945b38f4cfe0d35751c904417",
-          "sha256": "93c0d8ca5a13582fca3a2e67b8a05b672b084228bade42354afb604ca650f97f",
-          "sha1": "a590e61cb8d02a80d765b42865b7db17403994db",
-          "md5": "75288849379cc4970ec258674e19a5ee"
+          "size": 147595,
+          "sha512": "4939687cafd21cd25c979134a45a642d0c69e285b9fa09651761d88668f5508eed3078ae59c0388d832af771f13aacd7e60470efa8f015e4184ef606760f0419",
+          "sha256": "172293d13aa0976d0aa90196235e4a7a56c3b106f0e01ae861d767e385d86549",
+          "sha1": "218705ae0048443cdd3c7a51c7d2dfc029e018b3",
+          "md5": "69f4f157d28384709036d19eab8fd45c"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "json-0.3.jar",
           "url": "json-0.3.jar",
-          "size": 147603,
-          "sha512": "8dffbd57e24970bb9925e9c2e79a9a3a44fdafac3b935bdf13ff710c29213bb595482e4bfa08500e8c8095c40bb53c771539b1d945b38f4cfe0d35751c904417",
-          "sha256": "93c0d8ca5a13582fca3a2e67b8a05b672b084228bade42354afb604ca650f97f",
-          "sha1": "a590e61cb8d02a80d765b42865b7db17403994db",
-          "md5": "75288849379cc4970ec258674e19a5ee"
+          "size": 147595,
+          "sha512": "4939687cafd21cd25c979134a45a642d0c69e285b9fa09651761d88668f5508eed3078ae59c0388d832af771f13aacd7e60470efa8f015e4184ef606760f0419",
+          "sha256": "172293d13aa0976d0aa90196235e4a7a56c3b106f0e01ae861d767e385d86549",
+          "sha1": "218705ae0048443cdd3c7a51c7d2dfc029e018b3",
+          "md5": "69f4f157d28384709036d19eab8fd45c"
         }
       ]
     }
