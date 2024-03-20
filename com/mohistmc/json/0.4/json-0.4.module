@@ -3,7 +3,7 @@
   "component": {
     "group": "com.mohistmc",
     "module": "json",
-    "version": "0.3",
+    "version": "0.4",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "json-0.3.jar",
-          "url": "json-0.3.jar",
-          "size": 147595,
-          "sha512": "4939687cafd21cd25c979134a45a642d0c69e285b9fa09651761d88668f5508eed3078ae59c0388d832af771f13aacd7e60470efa8f015e4184ef606760f0419",
-          "sha256": "172293d13aa0976d0aa90196235e4a7a56c3b106f0e01ae861d767e385d86549",
-          "sha1": "218705ae0048443cdd3c7a51c7d2dfc029e018b3",
-          "md5": "69f4f157d28384709036d19eab8fd45c"
+          "name": "json-0.4.jar",
+          "url": "json-0.4.jar",
+          "size": 79491,
+          "sha512": "0defa28b2fb3819621664d55b838f9d779cbe459af8b694c499e64fbb5d6fe219cb4f256a5245f5be77c2379da5bd21300149310ab4bb4f5393a61fc8377f6e0",
+          "sha256": "28131727c5edcd041749cadb1b1b6674dd0717b4254e2a6423d8ff934955326e",
+          "sha1": "7748023a37003f2bc3384042f7265622c45fcae5",
+          "md5": "ae4f7516d37317569f602525a50417ef"
         }
       ]
     },
@@ -46,13 +46,13 @@
       },
       "files": [
         {
-          "name": "json-0.3.jar",
-          "url": "json-0.3.jar",
-          "size": 147595,
-          "sha512": "4939687cafd21cd25c979134a45a642d0c69e285b9fa09651761d88668f5508eed3078ae59c0388d832af771f13aacd7e60470efa8f015e4184ef606760f0419",
-          "sha256": "172293d13aa0976d0aa90196235e4a7a56c3b106f0e01ae861d767e385d86549",
-          "sha1": "218705ae0048443cdd3c7a51c7d2dfc029e018b3",
-          "md5": "69f4f157d28384709036d19eab8fd45c"
+          "name": "json-0.4.jar",
+          "url": "json-0.4.jar",
+          "size": 79491,
+          "sha512": "0defa28b2fb3819621664d55b838f9d779cbe459af8b694c499e64fbb5d6fe219cb4f256a5245f5be77c2379da5bd21300149310ab4bb4f5393a61fc8377f6e0",
+          "sha256": "28131727c5edcd041749cadb1b1b6674dd0717b4254e2a6423d8ff934955326e",
+          "sha1": "7748023a37003f2bc3384042f7265622c45fcae5",
+          "md5": "ae4f7516d37317569f602525a50417ef"
         }
       ]
     }
