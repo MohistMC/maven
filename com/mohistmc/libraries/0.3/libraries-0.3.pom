@@ -9,12 +9,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mohistmc</groupId>
   <artifactId>libraries</artifactId>
-  <version>0.2.1</version>
+  <version>0.3</version>
   <dependencies>
     <dependency>
       <groupId>com.mohistmc</groupId>
       <artifactId>tools</artifactId>
-      <version>0.4</version>
+      <version>0.5.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

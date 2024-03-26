@@ -3,7 +3,7 @@
   "component": {
     "group": "com.mohistmc",
     "module": "libraries",
-    "version": "0.2.1",
+    "version": "0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "libraries-0.2.1.jar",
-          "url": "libraries-0.2.1.jar",
-          "size": 7330,
-          "sha512": "711406b0d0b6b9cc51e3e2734d89358bbd623834a1bc616ca6c47a95a95bd888fa9c3cab8b8e5eb1d8d831ee9b5c77d1ee9f8e75458ba6a300cd89987af61c31",
-          "sha256": "2572550d9e6181b8f524abcbac334fa521e1a02f0eb89a743ec4c166db78558c",
-          "sha1": "518c7a1abc5b46f1eb93021d478ad8afadb2d3e3",
-          "md5": "ec133c3d41c5cbdb65901d7890eb24f1"
+          "name": "libraries-0.3.jar",
+          "url": "libraries-0.3.jar",
+          "size": 7340,
+          "sha512": "46bcd40676e92faa89235ca1312f9744b8f472a7de73e7a334ba3fb5f4c5229b4420d52aec1737b43d45163687023ad0fc6d15b5a4353388ff4c58736088223b",
+          "sha256": "8e7be820028fbb44c4d61b3d01f82dcf97d23c78d9f68b991f50b38e885340c3",
+          "sha1": "de137805eae176e1d699dcda48fb1b2dfd0e23be",
+          "md5": "5d7443602b767ff615f2e929465ed5f9"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "com.mohistmc",
           "module": "tools",
           "version": {
-            "requires": "0.4"
+            "requires": "0.5.1"
           }
         },
         {
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "libraries-0.2.1.jar",
-          "url": "libraries-0.2.1.jar",
-          "size": 7330,
-          "sha512": "711406b0d0b6b9cc51e3e2734d89358bbd623834a1bc616ca6c47a95a95bd888fa9c3cab8b8e5eb1d8d831ee9b5c77d1ee9f8e75458ba6a300cd89987af61c31",
-          "sha256": "2572550d9e6181b8f524abcbac334fa521e1a02f0eb89a743ec4c166db78558c",
-          "sha1": "518c7a1abc5b46f1eb93021d478ad8afadb2d3e3",
-          "md5": "ec133c3d41c5cbdb65901d7890eb24f1"
+          "name": "libraries-0.3.jar",
+          "url": "libraries-0.3.jar",
+          "size": 7340,
+          "sha512": "46bcd40676e92faa89235ca1312f9744b8f472a7de73e7a334ba3fb5f4c5229b4420d52aec1737b43d45163687023ad0fc6d15b5a4353388ff4c58736088223b",
+          "sha256": "8e7be820028fbb44c4d61b3d01f82dcf97d23c78d9f68b991f50b38e885340c3",
+          "sha1": "de137805eae176e1d699dcda48fb1b2dfd0e23be",
+          "md5": "5d7443602b767ff615f2e929465ed5f9"
         }
       ]
     }
