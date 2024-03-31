@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.6"
+      "version": "8.7"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "json-0.4.jar",
           "url": "json-0.4.jar",
-          "size": 79491,
-          "sha512": "0defa28b2fb3819621664d55b838f9d779cbe459af8b694c499e64fbb5d6fe219cb4f256a5245f5be77c2379da5bd21300149310ab4bb4f5393a61fc8377f6e0",
-          "sha256": "28131727c5edcd041749cadb1b1b6674dd0717b4254e2a6423d8ff934955326e",
-          "sha1": "7748023a37003f2bc3384042f7265622c45fcae5",
-          "md5": "ae4f7516d37317569f602525a50417ef"
+          "size": 79618,
+          "sha512": "20db32f8c6ee88e3a2d66f12893aee903ea64dcb62b77f92d447bde16d0ab65dc036a834a85eaeb69dfcdbf261ed5a749598e0a0de6169f63882c87a58301e0f",
+          "sha256": "f56c5bcedd94390d16d1fd8602c16ce9587e52b9c086e6935a7ab497b0c3c027",
+          "sha1": "163169459d2b32d07de4c9dbca74ceb38db62e64",
+          "md5": "b99f19ac7342b7b2ea846aac6cc6638c"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "json-0.4.jar",
           "url": "json-0.4.jar",
-          "size": 79491,
-          "sha512": "0defa28b2fb3819621664d55b838f9d779cbe459af8b694c499e64fbb5d6fe219cb4f256a5245f5be77c2379da5bd21300149310ab4bb4f5393a61fc8377f6e0",
-          "sha256": "28131727c5edcd041749cadb1b1b6674dd0717b4254e2a6423d8ff934955326e",
-          "sha1": "7748023a37003f2bc3384042f7265622c45fcae5",
-          "md5": "ae4f7516d37317569f602525a50417ef"
+          "size": 79618,
+          "sha512": "20db32f8c6ee88e3a2d66f12893aee903ea64dcb62b77f92d447bde16d0ab65dc036a834a85eaeb69dfcdbf261ed5a749598e0a0de6169f63882c87a58301e0f",
+          "sha256": "f56c5bcedd94390d16d1fd8602c16ce9587e52b9c086e6935a7ab497b0c3c027",
+          "sha1": "163169459d2b32d07de4c9dbca74ceb38db62e64",
+          "md5": "b99f19ac7342b7b2ea846aac6cc6638c"
         }
       ]
     }
