@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.6"
+      "version": "8.7"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "libraries-0.3.jar",
           "url": "libraries-0.3.jar",
-          "size": 7340,
-          "sha512": "46bcd40676e92faa89235ca1312f9744b8f472a7de73e7a334ba3fb5f4c5229b4420d52aec1737b43d45163687023ad0fc6d15b5a4353388ff4c58736088223b",
-          "sha256": "8e7be820028fbb44c4d61b3d01f82dcf97d23c78d9f68b991f50b38e885340c3",
-          "sha1": "de137805eae176e1d699dcda48fb1b2dfd0e23be",
-          "md5": "5d7443602b767ff615f2e929465ed5f9"
+          "size": 7541,
+          "sha512": "1f6ab70279ffb12a8130c8e855201eeec6e733905df7be633e717fd0a12129507e953c93141faf2c1da531f000ec83273421e1c98388f1d928c59412c7be6901",
+          "sha256": "b43a73334ca066a0665978f5aaec0e2db977cbe39d831c729c037af96539ea74",
+          "sha1": "d3cc094f4d1027b08cd7e0087f520111d30a7235",
+          "md5": "bcdb86299ae5bde2433283e22654de5d"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "libraries-0.3.jar",
           "url": "libraries-0.3.jar",
-          "size": 7340,
-          "sha512": "46bcd40676e92faa89235ca1312f9744b8f472a7de73e7a334ba3fb5f4c5229b4420d52aec1737b43d45163687023ad0fc6d15b5a4353388ff4c58736088223b",
-          "sha256": "8e7be820028fbb44c4d61b3d01f82dcf97d23c78d9f68b991f50b38e885340c3",
-          "sha1": "de137805eae176e1d699dcda48fb1b2dfd0e23be",
-          "md5": "5d7443602b767ff615f2e929465ed5f9"
+          "size": 7541,
+          "sha512": "1f6ab70279ffb12a8130c8e855201eeec6e733905df7be633e717fd0a12129507e953c93141faf2c1da531f000ec83273421e1c98388f1d928c59412c7be6901",
+          "sha256": "b43a73334ca066a0665978f5aaec0e2db977cbe39d831c729c037af96539ea74",
+          "sha1": "d3cc094f4d1027b08cd7e0087f520111d30a7235",
+          "md5": "bcdb86299ae5bde2433283e22654de5d"
         }
       ]
     }
