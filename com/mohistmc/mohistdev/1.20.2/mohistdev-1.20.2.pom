@@ -303,19 +303,19 @@
     <dependency>
       <groupId>com.mohistmc</groupId>
       <artifactId>dynamicenum</artifactId>
-      <version>0.1</version>
+      <version>0.3</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.mohistmc</groupId>
       <artifactId>i18n</artifactId>
-      <version>0.4</version>
+      <version>0.6</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.mohistmc</groupId>
       <artifactId>tools</artifactId>
-      <version>0.2</version>
+      <version>0.5.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

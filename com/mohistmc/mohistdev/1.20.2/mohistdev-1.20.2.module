@@ -27,11 +27,11 @@
         {
           "name": "mohistdev-1.20.2.jar",
           "url": "mohistdev-1.20.2.jar",
-          "size": 104377683,
-          "sha512": "2e479f8f87a80c6058a5b61d2ed1af4b02af734e8962cd1b6bf237eeda42a381559cd77f5df215c32f9fcb9ee03144382a656b5be525702bbf001bb51ec8387a",
-          "sha256": "471a61d297224893406b16f5cc3cba110e301ece501d767c78133fd4b9fa1cdb",
-          "sha1": "e36145ed323f5c053a59e9c0af769827243181fc",
-          "md5": "7a5811beff033cc2bf3426e1cd906f24"
+          "size": 104385320,
+          "sha512": "4d9b37fc255efc0389618c926c9109230e263f93d0f442f789da22397019357811bcefb6e1e17f46a45ce9be0fdfbda0d13cae47d569b28c61d8eaf21e4b6122",
+          "sha256": "f832937ab20e7b3ff01222a80563617683648093e0b7b0098945e70fe2a2a059",
+          "sha1": "86a345a000b5e41fd0e482ed263c1f55ffc9d172",
+          "md5": "93526c742fd9c9c620691aa642690381"
         }
       ]
     },
@@ -393,21 +393,21 @@
           "group": "com.mohistmc",
           "module": "dynamicenum",
           "version": {
-            "requires": "0.1"
+            "requires": "0.3"
           }
         },
         {
           "group": "com.mohistmc",
           "module": "i18n",
           "version": {
-            "requires": "0.4"
+            "requires": "0.6"
           }
         },
         {
           "group": "com.mohistmc",
           "module": "tools",
           "version": {
-            "requires": "0.2"
+            "requires": "0.5.1"
           }
         },
         {
@@ -625,11 +625,11 @@
         {
           "name": "mohistdev-1.20.2.jar",
           "url": "mohistdev-1.20.2.jar",
-          "size": 104377683,
-          "sha512": "2e479f8f87a80c6058a5b61d2ed1af4b02af734e8962cd1b6bf237eeda42a381559cd77f5df215c32f9fcb9ee03144382a656b5be525702bbf001bb51ec8387a",
-          "sha256": "471a61d297224893406b16f5cc3cba110e301ece501d767c78133fd4b9fa1cdb",
-          "sha1": "e36145ed323f5c053a59e9c0af769827243181fc",
-          "md5": "7a5811beff033cc2bf3426e1cd906f24"
+          "size": 104385320,
+          "sha512": "4d9b37fc255efc0389618c926c9109230e263f93d0f442f789da22397019357811bcefb6e1e17f46a45ce9be0fdfbda0d13cae47d569b28c61d8eaf21e4b6122",
+          "sha256": "f832937ab20e7b3ff01222a80563617683648093e0b7b0098945e70fe2a2a059",
+          "sha1": "86a345a000b5e41fd0e482ed263c1f55ffc9d172",
+          "md5": "93526c742fd9c9c620691aa642690381"
         }
       ]
     },
@@ -645,11 +645,11 @@
         {
           "name": "mohistdev-1.20.2.jar",
           "url": "mohistdev-1.20.2.jar",
-          "size": 104377683,
-          "sha512": "2e479f8f87a80c6058a5b61d2ed1af4b02af734e8962cd1b6bf237eeda42a381559cd77f5df215c32f9fcb9ee03144382a656b5be525702bbf001bb51ec8387a",
-          "sha256": "471a61d297224893406b16f5cc3cba110e301ece501d767c78133fd4b9fa1cdb",
-          "sha1": "e36145ed323f5c053a59e9c0af769827243181fc",
-          "md5": "7a5811beff033cc2bf3426e1cd906f24"
+          "size": 104385320,
+          "sha512": "4d9b37fc255efc0389618c926c9109230e263f93d0f442f789da22397019357811bcefb6e1e17f46a45ce9be0fdfbda0d13cae47d569b28c61d8eaf21e4b6122",
+          "sha256": "f832937ab20e7b3ff01222a80563617683648093e0b7b0098945e70fe2a2a059",
+          "sha1": "86a345a000b5e41fd0e482ed263c1f55ffc9d172",
+          "md5": "93526c742fd9c9c620691aa642690381"
         }
       ]
     }
