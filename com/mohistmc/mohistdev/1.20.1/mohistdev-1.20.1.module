@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.1.1"
+      "version": "8.7"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "mohistdev-1.20.1.jar",
           "url": "mohistdev-1.20.1.jar",
-          "size": 103258077,
-          "sha512": "b23bb5ddcb226eee61a8ad8fa89e50b965c4e5145616f4402cfd01133a021ea24936cb8da8108cc75e4ee78d846e7c2abe22a2ea70120a941dbd241415c3e62a",
-          "sha256": "05ed921fc2e684697cfa7da8c9655bb19c554fbecc565ace1adb29d4cf5d3900",
-          "sha1": "89979094563e7ed8accf0ce3b50a970486792f2a",
-          "md5": "4e40b75676ef762414f64de08bc3d2bd"
+          "size": 104685487,
+          "sha512": "d3e51de8049ef544eabb42a8b6d62923271e2e17d6045e7748758f65ce4ce7ac32a84d118fa02bb93555e7a3ccd742ecbaa2b0a9334bb75fb8fd078dedbb07d2",
+          "sha256": "e273eefa3c5da1e7dec255bf3851332156940ad1348b7e67f1f686af7c37855e",
+          "sha1": "cfc2da34886a1a97c247edd6b057fcf6cf37e93d",
+          "md5": "c10f4913f7a11b04cc70694013d27ade"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "mohistdev-1.20.1.jar",
           "url": "mohistdev-1.20.1.jar",
-          "size": 103258077,
-          "sha512": "b23bb5ddcb226eee61a8ad8fa89e50b965c4e5145616f4402cfd01133a021ea24936cb8da8108cc75e4ee78d846e7c2abe22a2ea70120a941dbd241415c3e62a",
-          "sha256": "05ed921fc2e684697cfa7da8c9655bb19c554fbecc565ace1adb29d4cf5d3900",
-          "sha1": "89979094563e7ed8accf0ce3b50a970486792f2a",
-          "md5": "4e40b75676ef762414f64de08bc3d2bd"
+          "size": 104685487,
+          "sha512": "d3e51de8049ef544eabb42a8b6d62923271e2e17d6045e7748758f65ce4ce7ac32a84d118fa02bb93555e7a3ccd742ecbaa2b0a9334bb75fb8fd078dedbb07d2",
+          "sha256": "e273eefa3c5da1e7dec255bf3851332156940ad1348b7e67f1f686af7c37855e",
+          "sha1": "cfc2da34886a1a97c247edd6b057fcf6cf37e93d",
+          "md5": "c10f4913f7a11b04cc70694013d27ade"
         }
       ]
     },
@@ -68,11 +68,11 @@
         {
           "name": "mohistdev-1.20.1.jar",
           "url": "mohistdev-1.20.1.jar",
-          "size": 103258077,
-          "sha512": "b23bb5ddcb226eee61a8ad8fa89e50b965c4e5145616f4402cfd01133a021ea24936cb8da8108cc75e4ee78d846e7c2abe22a2ea70120a941dbd241415c3e62a",
-          "sha256": "05ed921fc2e684697cfa7da8c9655bb19c554fbecc565ace1adb29d4cf5d3900",
-          "sha1": "89979094563e7ed8accf0ce3b50a970486792f2a",
-          "md5": "4e40b75676ef762414f64de08bc3d2bd"
+          "size": 104685487,
+          "sha512": "d3e51de8049ef544eabb42a8b6d62923271e2e17d6045e7748758f65ce4ce7ac32a84d118fa02bb93555e7a3ccd742ecbaa2b0a9334bb75fb8fd078dedbb07d2",
+          "sha256": "e273eefa3c5da1e7dec255bf3851332156940ad1348b7e67f1f686af7c37855e",
+          "sha1": "cfc2da34886a1a97c247edd6b057fcf6cf37e93d",
+          "md5": "c10f4913f7a11b04cc70694013d27ade"
         }
       ]
     }
