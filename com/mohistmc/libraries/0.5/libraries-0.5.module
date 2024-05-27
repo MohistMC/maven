@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "libraries",
+    "version": "0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libraries-0.5.jar",
+          "url": "libraries-0.5.jar",
+          "size": 14378,
+          "sha512": "e356f217ed20b37b450827515c1d768bddc90f653f6a933c64dc8586875acd0cd721b0cdab548ff640f0492d9456f961df333e3c127b14a65ffe266c8a8cef2c",
+          "sha256": "1438f45544d6fd8fbf5b39f335cc420e968987e826186dd5c2fba6b2195e86ef",
+          "sha1": "e030145356e1ba029567fb645170f4154e009823",
+          "md5": "985c3e277720e8a9fe6d2ac58ef71120"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mohistmc",
+          "module": "tools",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "com.mohistmc",
+          "module": "json",
+          "version": {
+            "requires": "0.5"
+          }
+        },
+        {
+          "group": "me.tongfei",
+          "module": "progressbar",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libraries-0.5.jar",
+          "url": "libraries-0.5.jar",
+          "size": 14378,
+          "sha512": "e356f217ed20b37b450827515c1d768bddc90f653f6a933c64dc8586875acd0cd721b0cdab548ff640f0492d9456f961df333e3c127b14a65ffe266c8a8cef2c",
+          "sha256": "1438f45544d6fd8fbf5b39f335cc420e968987e826186dd5c2fba6b2195e86ef",
+          "sha1": "e030145356e1ba029567fb645170f4154e009823",
+          "md5": "985c3e277720e8a9fe6d2ac58ef71120"
+        }
+      ]
+    }
+  ]
+}
