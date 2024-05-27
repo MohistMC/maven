@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge",
+    "module": "securemodules",
+    "version": "mohist-2.2.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securemodules-mohist-2.2.19.jar",
+          "url": "securemodules-mohist-2.2.19.jar",
+          "size": 99605,
+          "sha512": "ba94b4af7d492c42dbd3cea190540ed7d943216b9d88b2e19f141ed790d172c71f6e7edadb6900aa92ab51cc7419733c9b6da4ab137522b8beef4ba2106345c4",
+          "sha256": "1af56df09c0feb669a0a3281171288b2e7b2168545d54d80f44748784ee64a6e",
+          "sha1": "233cbfece2dd6f2a66ddd68fde08ba5054ecf7d3",
+          "md5": "3bbc5a7f313f0eb6e20367c8890711b4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.minecraftforge",
+          "name": "securemodules",
+          "version": "mohist-2.2.19"
+        },
+        {
+          "group": "cpw.mods",
+          "name": "securejarhandler",
+          "version": "mohist-2.2.19"
+        },
+        {
+          "group": "net.minecraftforge",
+          "name": "SecureModules",
+          "version": "mohist-2.2.19"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minecraftforge",
+          "module": "unsafe",
+          "version": {
+            "requires": "0.9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securemodules-mohist-2.2.19.jar",
+          "url": "securemodules-mohist-2.2.19.jar",
+          "size": 99605,
+          "sha512": "ba94b4af7d492c42dbd3cea190540ed7d943216b9d88b2e19f141ed790d172c71f6e7edadb6900aa92ab51cc7419733c9b6da4ab137522b8beef4ba2106345c4",
+          "sha256": "1af56df09c0feb669a0a3281171288b2e7b2168545d54d80f44748784ee64a6e",
+          "sha1": "233cbfece2dd6f2a66ddd68fde08ba5054ecf7d3",
+          "md5": "3bbc5a7f313f0eb6e20367c8890711b4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.minecraftforge",
+          "name": "securemodules",
+          "version": "mohist-2.2.19"
+        },
+        {
+          "group": "cpw.mods",
+          "name": "securejarhandler",
+          "version": "mohist-2.2.19"
+        },
+        {
+          "group": "net.minecraftforge",
+          "name": "SecureModules",
+          "version": "mohist-2.2.19"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "securemodules-mohist-2.2.19-sources.jar",
+          "url": "securemodules-mohist-2.2.19-sources.jar",
+          "size": 41894,
+          "sha512": "dc102b832d7255cb0ebac5e0d81c93041a92ab1d5d1eb7dac7ca11718c53d35fca37ccea032c5a5255acc57d19b06f06ad39c0d58d97c90729b76bbc264ec784",
+          "sha256": "1a191f20b58e5660ff3e26b74a4818557296e128ad086ab9a3eaeb9d75b0ea69",
+          "sha1": "16788b63a6a0ff1106868dae89c3ca85b2640e7a",
+          "md5": "a01b2fb3b05a932bfa144ff30be9524d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.minecraftforge",
+          "name": "securemodules",
+          "version": "mohist-2.2.19"
+        },
+        {
+          "group": "cpw.mods",
+          "name": "securejarhandler",
+          "version": "mohist-2.2.19"
+        },
+        {
+          "group": "net.minecraftforge",
+          "name": "SecureModules",
+          "version": "mohist-2.2.19"
+        }
+      ]
+    }
+  ]
+}
