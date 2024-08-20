@@ -7,7 +7,7 @@
   <!-- that they should prefer consuming it instead. -->
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>net.minecraftforge</groupId>
+  <groupId>cpw.mods</groupId>
   <artifactId>securejarhandler</artifactId>
   <version>mohist-2.1.12</version>
   <dependencies>

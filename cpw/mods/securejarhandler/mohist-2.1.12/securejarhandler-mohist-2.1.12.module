@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "net.minecraftforge",
+    "group": "cpw.mods",
     "module": "securejarhandler",
     "version": "mohist-2.1.12",
     "attributes": {
@@ -51,10 +51,10 @@
           "name": "securejarhandler-mohist-2.1.12.jar",
           "url": "securejarhandler-mohist-2.1.12.jar",
           "size": 89109,
-          "sha512": "143286d91c8341494df5078758ef6046cb23893de05ce7fc39295c9d979160daff9774b3ec129c5cfd578762aa73f9f8c4c66e292a4766198cf95b67f020c14c",
-          "sha256": "02c983217b77c1b38d3dac4a95faf70da06609a222861b660b03358188f54e06",
-          "sha1": "b21a750cb12add3ac3294bfa6fc2600ca194fc69",
-          "md5": "a7e99a9937dcadb7f17e813b5f6cc68c"
+          "sha512": "b678b2cc27dc8935b2c47bf33e056f5a2d7c19bb0776cc98a2fd4556682bed718064707e1c66ae1ef93299f93d4e1d01a347c258fe933c03b2133cbc4e07d5a2",
+          "sha256": "63fe277c578b779c8336b0bc52cf731b746d3ab32ec392f4ef6ad7211b002be6",
+          "sha1": "21efaeb1e94b87bf7fbbf123a684491d0ee4683c",
+          "md5": "01df862aaf83f857a356e7c165da3136"
         }
       ]
     },
@@ -102,10 +102,10 @@
           "name": "securejarhandler-mohist-2.1.12.jar",
           "url": "securejarhandler-mohist-2.1.12.jar",
           "size": 89109,
-          "sha512": "143286d91c8341494df5078758ef6046cb23893de05ce7fc39295c9d979160daff9774b3ec129c5cfd578762aa73f9f8c4c66e292a4766198cf95b67f020c14c",
-          "sha256": "02c983217b77c1b38d3dac4a95faf70da06609a222861b660b03358188f54e06",
-          "sha1": "b21a750cb12add3ac3294bfa6fc2600ca194fc69",
-          "md5": "a7e99a9937dcadb7f17e813b5f6cc68c"
+          "sha512": "b678b2cc27dc8935b2c47bf33e056f5a2d7c19bb0776cc98a2fd4556682bed718064707e1c66ae1ef93299f93d4e1d01a347c258fe933c03b2133cbc4e07d5a2",
+          "sha256": "63fe277c578b779c8336b0bc52cf731b746d3ab32ec392f4ef6ad7211b002be6",
+          "sha1": "21efaeb1e94b87bf7fbbf123a684491d0ee4683c",
+          "md5": "01df862aaf83f857a356e7c165da3136"
         }
       ]
     },
@@ -122,10 +122,10 @@
           "name": "securejarhandler-mohist-2.1.12-sources.jar",
           "url": "securejarhandler-mohist-2.1.12-sources.jar",
           "size": 31245,
-          "sha512": "17b8a34bc27802d36a9e7875d163152c08d29c230a14745ced843a2262997c1a9e081e594a9150d9be1f4a9e4237efcdf97e8b492bbbbf7d7cf1186e6d2d2d39",
-          "sha256": "262ef676b60e2ef9a59a0b50944cee6664f880185eac921c889fa5824b170bf0",
-          "sha1": "6bb3f9398f37dd76c0ebd0878985072a1024be16",
-          "md5": "d788d9ab2e3b4178e449ecd616ad2f74"
+          "sha512": "1ef3fcf4721c74e6c98b1231b4d90bc6204f4dadfd6d601e0915df291d7e411671a1c1267f5bbe3bfbba7b3f81bc5717abd399edfc0aa74c530aeaa818f9cdb3",
+          "sha256": "b369120e42e99e5091628864e5d46d24a45c121ec365bc5a40cff4b6e1276504",
+          "sha1": "716941716b35386f91e118462ff23bd053fce299",
+          "md5": "531e0217a11ecb48dcee326e1d5cac00"
         }
       ]
     }
