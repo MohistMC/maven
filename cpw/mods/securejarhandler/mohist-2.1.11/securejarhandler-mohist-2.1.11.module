@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "cpw.mods",
+    "group": "net.minecraftforge",
     "module": "securejarhandler",
     "version": "mohist-2.1.11",
     "attributes": {
@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.2"
+      "version": "8.4"
     }
   },
   "variants": [
@@ -28,21 +28,21 @@
           "group": "org.ow2.asm",
           "module": "asm",
           "version": {
-            "requires": "9.5"
+            "requires": "9.3"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-tree",
           "version": {
-            "requires": "9.5"
+            "requires": "9.3"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-commons",
           "version": {
-            "requires": "9.5"
+            "requires": "9.3"
           }
         }
       ],
@@ -50,11 +50,11 @@
         {
           "name": "securejarhandler-mohist-2.1.11.jar",
           "url": "securejarhandler-mohist-2.1.11.jar",
-          "size": 89199,
-          "sha512": "604a3e9485c9acbb5574b08491e6994e8cd0d1baca003b313d1810c01eed4e54d9b136739dc3f82551a9abde56af1d0566e151e75d033ce2df8b81468dc32983",
-          "sha256": "ed6363ad6b437e6510a5a79aacbbc708c62f1bfaaf7dbe36fd714bca68cac61d",
-          "sha1": "824902595f16771639483cce1ee4c2d374cd1fd4",
-          "md5": "1410479d83e42f9e2c3eb8b99b6d140e"
+          "size": 89347,
+          "sha512": "b9fe3ece7500d60699f607072e06cbe7e4b1889e348436cf3312681269dc01f66f1be843288ba87b740055084fe91f17b4a46b5e1f385c871fce074e6fd0d806",
+          "sha256": "26f0dde47f961140c0891d14043819a8deee28b361b3171194b5fb9ced21eda1",
+          "sha1": "d828b4c413ceac2ae31c9ae51d595dff4ae2828b",
+          "md5": "5c6df51593664f0daa24a84180c6d4f7"
         }
       ]
     },
@@ -69,24 +69,31 @@
       },
       "dependencies": [
         {
+          "group": "net.minecraftforge",
+          "module": "unsafe",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
           "group": "org.ow2.asm",
           "module": "asm",
           "version": {
-            "requires": "9.5"
+            "requires": "9.3"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-tree",
           "version": {
-            "requires": "9.5"
+            "requires": "9.3"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-commons",
           "version": {
-            "requires": "9.5"
+            "requires": "9.3"
           }
         }
       ],
@@ -94,11 +101,31 @@
         {
           "name": "securejarhandler-mohist-2.1.11.jar",
           "url": "securejarhandler-mohist-2.1.11.jar",
-          "size": 89199,
-          "sha512": "604a3e9485c9acbb5574b08491e6994e8cd0d1baca003b313d1810c01eed4e54d9b136739dc3f82551a9abde56af1d0566e151e75d033ce2df8b81468dc32983",
-          "sha256": "ed6363ad6b437e6510a5a79aacbbc708c62f1bfaaf7dbe36fd714bca68cac61d",
-          "sha1": "824902595f16771639483cce1ee4c2d374cd1fd4",
-          "md5": "1410479d83e42f9e2c3eb8b99b6d140e"
+          "size": 89347,
+          "sha512": "b9fe3ece7500d60699f607072e06cbe7e4b1889e348436cf3312681269dc01f66f1be843288ba87b740055084fe91f17b4a46b5e1f385c871fce074e6fd0d806",
+          "sha256": "26f0dde47f961140c0891d14043819a8deee28b361b3171194b5fb9ced21eda1",
+          "sha1": "d828b4c413ceac2ae31c9ae51d595dff4ae2828b",
+          "md5": "5c6df51593664f0daa24a84180c6d4f7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "securejarhandler-mohist-2.1.11-sources.jar",
+          "url": "securejarhandler-mohist-2.1.11-sources.jar",
+          "size": 31479,
+          "sha512": "fcae9b602a142253b9194a52e60cf7dec2b4e1949942c2d6a337269bafd39453febe3a57ee3ecd463d8ef4bced5cbd7664852f11d147e0310de77d7a01fd1861",
+          "sha256": "6cbc4046b00890c1d16375daddd55880e383f9bbfb853c205c5a211e4315047f",
+          "sha1": "b88a44988d07160ff466649f5028fb936aa8e2b1",
+          "md5": "6d4cafd227ae36d284f02c3386b8cb44"
         }
       ]
     }
