@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.minecraftforge</groupId>
   <artifactId>securejarhandler</artifactId>
-  <version>mohist-2.1.11</version>
+  <version>mohist-2.1.12</version>
   <dependencies>
     <dependency>
       <groupId>org.ow2.asm</groupId>

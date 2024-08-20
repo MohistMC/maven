@@ -3,7 +3,7 @@
   "component": {
     "group": "net.minecraftforge",
     "module": "securejarhandler",
-    "version": "mohist-2.1.11",
+    "version": "mohist-2.1.12",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -48,13 +48,13 @@
       ],
       "files": [
         {
-          "name": "securejarhandler-mohist-2.1.11.jar",
-          "url": "securejarhandler-mohist-2.1.11.jar",
-          "size": 89111,
-          "sha512": "a15825ded99da5384b41b690b5858a7f9f3bd9d8cc1cb6ccb84787cb220002f1df58ee6ade1f8a3b2b2c594442aa79c9bc3ed65d44fa42fe066ed2cdb826a5f6",
-          "sha256": "1b314ba1116aaffc7d754074f889136b449268568fb10d2bf26e92912e062902",
-          "sha1": "f676513ebbdad209c539baa483dd361462a44f6d",
-          "md5": "4a661d6c47f8c7c1257b376d5ea987ac"
+          "name": "securejarhandler-mohist-2.1.12.jar",
+          "url": "securejarhandler-mohist-2.1.12.jar",
+          "size": 89109,
+          "sha512": "143286d91c8341494df5078758ef6046cb23893de05ce7fc39295c9d979160daff9774b3ec129c5cfd578762aa73f9f8c4c66e292a4766198cf95b67f020c14c",
+          "sha256": "02c983217b77c1b38d3dac4a95faf70da06609a222861b660b03358188f54e06",
+          "sha1": "b21a750cb12add3ac3294bfa6fc2600ca194fc69",
+          "md5": "a7e99a9937dcadb7f17e813b5f6cc68c"
         }
       ]
     },
@@ -99,13 +99,13 @@
       ],
       "files": [
         {
-          "name": "securejarhandler-mohist-2.1.11.jar",
-          "url": "securejarhandler-mohist-2.1.11.jar",
-          "size": 89111,
-          "sha512": "a15825ded99da5384b41b690b5858a7f9f3bd9d8cc1cb6ccb84787cb220002f1df58ee6ade1f8a3b2b2c594442aa79c9bc3ed65d44fa42fe066ed2cdb826a5f6",
-          "sha256": "1b314ba1116aaffc7d754074f889136b449268568fb10d2bf26e92912e062902",
-          "sha1": "f676513ebbdad209c539baa483dd361462a44f6d",
-          "md5": "4a661d6c47f8c7c1257b376d5ea987ac"
+          "name": "securejarhandler-mohist-2.1.12.jar",
+          "url": "securejarhandler-mohist-2.1.12.jar",
+          "size": 89109,
+          "sha512": "143286d91c8341494df5078758ef6046cb23893de05ce7fc39295c9d979160daff9774b3ec129c5cfd578762aa73f9f8c4c66e292a4766198cf95b67f020c14c",
+          "sha256": "02c983217b77c1b38d3dac4a95faf70da06609a222861b660b03358188f54e06",
+          "sha1": "b21a750cb12add3ac3294bfa6fc2600ca194fc69",
+          "md5": "a7e99a9937dcadb7f17e813b5f6cc68c"
         }
       ]
     },
@@ -119,13 +119,13 @@
       },
       "files": [
         {
-          "name": "securejarhandler-mohist-2.1.11-sources.jar",
-          "url": "securejarhandler-mohist-2.1.11-sources.jar",
+          "name": "securejarhandler-mohist-2.1.12-sources.jar",
+          "url": "securejarhandler-mohist-2.1.12-sources.jar",
           "size": 31245,
-          "sha512": "084f62d664f6b5de89a8a2cbcb623df42e6e8cf94a7bfab4ac7de9d8e7e91a92b25af3ee23e19dc24057ec06200b006e32750defb1bcc84edc571eb513693090",
-          "sha256": "5ab41be98a115d890dd2a69e92dc86a251c61afe34713c9287ed9b178686c04e",
-          "sha1": "cf1ab3d9c3545354fef874d215cb270350889511",
-          "md5": "7158d979fa238c9bfedc6ff27e48bc40"
+          "sha512": "17b8a34bc27802d36a9e7875d163152c08d29c230a14745ced843a2262997c1a9e081e594a9150d9be1f4a9e4237efcdf97e8b492bbbbf7d7cf1186e6d2d2d39",
+          "sha256": "262ef676b60e2ef9a59a0b50944cee6664f880185eac921c889fa5824b170bf0",
+          "sha1": "6bb3f9398f37dd76c0ebd0878985072a1024be16",
+          "md5": "d788d9ab2e3b4178e449ecd616ad2f74"
         }
       ]
     }
