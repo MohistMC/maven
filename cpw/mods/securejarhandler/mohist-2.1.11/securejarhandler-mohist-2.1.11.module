@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "net.minecraftforge",
+    "group": "cpw.mods",
     "module": "securejarhandler",
     "version": "mohist-2.1.11",
     "attributes": {
