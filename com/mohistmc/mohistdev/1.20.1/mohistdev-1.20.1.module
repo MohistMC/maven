@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.7"
+      "version": "8.12.1"
     }
   },
   "variants": [
@@ -28,10 +28,10 @@
           "name": "mohistdev-1.20.1.jar",
           "url": "mohistdev-1.20.1.jar",
           "size": 104248579,
-          "sha512": "56479e15a8001b3f120f6a223f738cc305d2520dfb6b86cdd306eceb7947459dfac14c5a7bde84bea542bc8f055c52773583728dd478fc73f010ccc4b7b3823d",
-          "sha256": "9f913a932587baac5f72316abb6e84aa14312b5d576f7f34cddb32a689458ce1",
-          "sha1": "87f836c5eb95b914d68a66889c98be638def01a8",
-          "md5": "f50504982d5180ee08aeeea58a409d76"
+          "sha512": "cd6b705ecea72ae3d39e413fd5f7cb22c74e4d5762b4bb445dbcc2cdf2ba81beafb8caa872182548b05f38e5fbeefbfedcbe77207e8b944a4f185b2fb57d8277",
+          "sha256": "6de13e297e32716b7f4f03c715b71a6f5455f9fc125b5db95da55fc4fd9b65e7",
+          "sha1": "5115610c49b3312f17d3095d36e988c40a0bb50a",
+          "md5": "0aad1e8eaa0957af5f0a96937d87aa6d"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "mohistdev-1.20.1.jar",
           "url": "mohistdev-1.20.1.jar",
           "size": 104248579,
-          "sha512": "56479e15a8001b3f120f6a223f738cc305d2520dfb6b86cdd306eceb7947459dfac14c5a7bde84bea542bc8f055c52773583728dd478fc73f010ccc4b7b3823d",
-          "sha256": "9f913a932587baac5f72316abb6e84aa14312b5d576f7f34cddb32a689458ce1",
-          "sha1": "87f836c5eb95b914d68a66889c98be638def01a8",
-          "md5": "f50504982d5180ee08aeeea58a409d76"
+          "sha512": "cd6b705ecea72ae3d39e413fd5f7cb22c74e4d5762b4bb445dbcc2cdf2ba81beafb8caa872182548b05f38e5fbeefbfedcbe77207e8b944a4f185b2fb57d8277",
+          "sha256": "6de13e297e32716b7f4f03c715b71a6f5455f9fc125b5db95da55fc4fd9b65e7",
+          "sha1": "5115610c49b3312f17d3095d36e988c40a0bb50a",
+          "md5": "0aad1e8eaa0957af5f0a96937d87aa6d"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "mohistdev-1.20.1.jar",
           "url": "mohistdev-1.20.1.jar",
           "size": 104248579,
-          "sha512": "56479e15a8001b3f120f6a223f738cc305d2520dfb6b86cdd306eceb7947459dfac14c5a7bde84bea542bc8f055c52773583728dd478fc73f010ccc4b7b3823d",
-          "sha256": "9f913a932587baac5f72316abb6e84aa14312b5d576f7f34cddb32a689458ce1",
-          "sha1": "87f836c5eb95b914d68a66889c98be638def01a8",
-          "md5": "f50504982d5180ee08aeeea58a409d76"
+          "sha512": "cd6b705ecea72ae3d39e413fd5f7cb22c74e4d5762b4bb445dbcc2cdf2ba81beafb8caa872182548b05f38e5fbeefbfedcbe77207e8b944a4f185b2fb57d8277",
+          "sha256": "6de13e297e32716b7f4f03c715b71a6f5455f9fc125b5db95da55fc4fd9b65e7",
+          "sha1": "5115610c49b3312f17d3095d36e988c40a0bb50a",
+          "md5": "0aad1e8eaa0957af5f0a96937d87aa6d"
         }
       ]
     }
