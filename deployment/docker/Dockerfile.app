@@ -1,7 +1,12 @@
 FROM alpine:latest
 
-RUN mkdir -p /var/www/maven
+RUN mkdir -p /usr/app
 
-WORKDIR /var/www/maven
+WORKDIR /usr/app
 
 COPY . .
+
+COPY deployment/docker/start.sh /usr/app/start.sh
+RUN chmod +x /usr/app/start.sh
+
+CMD ["/usr/app/start.sh"]
