@@ -1,3 +1,4 @@
 #!/bin/sh
 
-rsync -av --exclude='start.sh' /usr/app/ /var/www/maven/
+cp -R /usr/app/* /var/www/maven/
+rm -rf /var/www/maven/start.sh
