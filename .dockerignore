@@ -1,0 +1,6 @@
+deployment
+ansible
+.dockerignore
+.gitmodules
+.github
+.gitignore
