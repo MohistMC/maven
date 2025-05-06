@@ -220,7 +220,7 @@ p {
 
 /* error */
 .error-page {
-	background: url(http://maven.mohistmc.com/images/wallpaper.jpg) no-repeat top;
+	background: url(/images/maven.png) no-repeat top;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -257,7 +257,6 @@ p {
 	font-size: 17px;
 	line-height: 25px;
 	color: #c5c5c5;
-	margin-top: 15px;
 	max-width: 550px;
 	margin: 10px auto 0;
 }
@@ -280,8 +279,9 @@ p {
 }
 
 .copyrights p {
-	color: #d2d2d2;
+	color: #ffffff;
 	font-size: 15px;
+    font-weight: bold;
 }
 
 .copyrights p a {

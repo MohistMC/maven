@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Mohist-Maven</title>
+    <title>MohistMC-Maven</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -28,7 +28,7 @@
 				<div class="bottom-header">
 					<!-- copyright -->
 					<div class="copyrights text-center">
-						<p>MohistMC ©2019-2021 — All rights reserved</a> </p>
+						<p>MohistMC ©<span id="currentYearRange"></span> — All rights reserved</p>
 					</div>
 				</div>
 			</div>
@@ -38,3 +38,9 @@
 </body>
 
 </html>
+
+<script>    const startYear = 2019;
+const currentYear = new Date().getFullYear();
+const yearRange = startYear === currentYear ? currentYear : `${startYear}-${currentYear}`;
+document.getElementById("currentYearRange").textContent = yearRange;
+</script>
