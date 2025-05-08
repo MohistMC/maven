@@ -1,0 +1,13 @@
+name: GitHub CI/CD
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  deploy:
+    uses: MohistMC/devops/.github/workflows/deploy.yml@main
+    with:
+      tag: ${{ github.ref_name }}
+    secrets: inherit
