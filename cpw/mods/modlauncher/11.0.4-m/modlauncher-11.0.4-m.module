@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cpw.mods",
+    "module": "modlauncher",
+    "version": "11.0.4-m",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "modlauncher-11.0.4-m.jar",
+          "url": "modlauncher-11.0.4-m.jar",
+          "size": 116343,
+          "sha512": "087728c0a652aef59db66090bfe922b58c6d80785acfbd5c6118e4c068999eb8ec89ee0915dec2b9371b36f451617de44504f8c21eca1081610063a7787121fa",
+          "sha256": "6cc2f2ca9291fc69463f60c1943a188c82c0de6f2892862ac3270f70c4828366",
+          "sha1": "8a029823d1888f5fda25d302515acfe24b3ecad7",
+          "md5": "e4fba2a4c1e7b5a9dca1b74ee7972034"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "cpw.mods",
+          "module": "securejarhandler",
+          "version": {
+            "requires": "3.0.4"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.20.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.20.0"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.7"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "modlauncher-11.0.4-m.jar",
+          "url": "modlauncher-11.0.4-m.jar",
+          "size": 116343,
+          "sha512": "087728c0a652aef59db66090bfe922b58c6d80785acfbd5c6118e4c068999eb8ec89ee0915dec2b9371b36f451617de44504f8c21eca1081610063a7787121fa",
+          "sha256": "6cc2f2ca9291fc69463f60c1943a188c82c0de6f2892862ac3270f70c4828366",
+          "sha1": "8a029823d1888f5fda25d302515acfe24b3ecad7",
+          "md5": "e4fba2a4c1e7b5a9dca1b74ee7972034"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "modlauncher-11.0.4-m-sources.jar",
+          "url": "modlauncher-11.0.4-m-sources.jar",
+          "size": 68474,
+          "sha512": "a648d45688edeb3fd2fadbd1cac501e1a3b57da760dd230b174080a41c6b746fea801b2e11bd84a1a2678adaac908dbc7a163f4aaa218bb2edb47681fcfaa629",
+          "sha256": "be81e82b04ca93c801b56a6d094e50d9f8dd8fbcb0c87d91047d0d45e95f0696",
+          "sha1": "a53d3840f4b485af1d67bcea65b687d1c655ad5f",
+          "md5": "c2ea02090c65e7473aa3db7d5ff479c7"
+        }
+      ]
+    }
+  ]
+}
