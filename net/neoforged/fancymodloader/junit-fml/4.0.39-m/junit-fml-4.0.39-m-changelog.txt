@@ -1,4 +1,26 @@
- - `5.0.0` FML 5.0
+ - `4.0.39` Backport to 1.21.1: Enable dev launch targets to also run from userdev (#280)
+   
+   * Deprecate userdev launch targets and merge them into the dev launch targets (#215)
+   
+   ---------
+   
+   Co-authored-by: Technici4n <13494793+Technici4n@users.noreply.github.com>
+   (cherry picked from commit e45a8dbe0dafa34441ea15db52e0bd8b0367dbb1)
+ - `4.0.38` Backport to 1.21.1: Catch any exception during EBS injection (#254)
+   
+   Co-authored-by: Matyrobbrt <65940752+Matyrobbrt@users.noreply.github.com>
+ - `4.0.37` Backport #243 to 1.21.1 (#249)
+   
+   Co-authored-by: jellysquid3 <1363084+jellysquid3@users.noreply.github.com>
+ - `4.0.36` Backport #238 to 1.21.1 (#242)
+   
+   Co-authored-by: Lolothepro <68275908+Lolothepro@users.noreply.github.com>
+ - `4.0.35` Add the ability to make mixin configs in neoforge.mods.toml only load when certain mods are present. (#237) (#239)
+ - `4.0.34` Add dependency overrides (#214) (#221)
+ - `4.0.33` Clean up default config writing (#218) (#219)
+   
+   Co-authored-by: Bruno Ploumhans <13494793+Technici4n@users.noreply.github.com>
+ - `4.0.32` Prepare 1.21.1 branch for more releases
  - `4.0.31` Fix: Disambiguate libraries by their module name. (#206)
  - `4.0.30` Configure Renovate [skip ci] (#205)
  - `4.0.29` Fix window icon not being set on startup. (#204)

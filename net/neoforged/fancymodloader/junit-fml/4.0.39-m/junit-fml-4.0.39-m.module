@@ -27,11 +27,11 @@
         {
           "name": "junit-fml-4.0.39-m.jar",
           "url": "junit-fml-4.0.39-m.jar",
-          "size": 3723,
-          "sha512": "662b237533849e062f799af7c4e1da943c323031ba6ef48cc50b04ea37cac21ab548fffea8d6654309245c50032e6e5c048952f2de3a3a9f47dd6ff52a5cb3ed",
-          "sha256": "5e43d2e9e8f23252f310c0955fdbd0cf7c7c17e53aabac1f2f9b8dde9cd08829",
-          "sha1": "de9f82d66d14853a8acd5f71dca311e1b2b1b3f0",
-          "md5": "e710163e96c9b86b73170f1b9de043b4"
+          "size": 3724,
+          "sha512": "76ffa52f46bbf09e9f4ed53d45e4242b5849d61a8738054d101b44a6fafdd5aa7ddecb43120c44cf366cb59342010190278ffb41d61b943c5822ea578e0f1eed",
+          "sha256": "b040c0f627ff6fa929df0e3a6da82211d54700184fa98d6f97f508b45248d56b",
+          "sha1": "c243e84063fb874bef643bb7ef291d099f852d67",
+          "md5": "814548931c54e792aae2f7430d87ffaa"
         }
       ]
     },
@@ -65,11 +65,11 @@
         {
           "name": "junit-fml-4.0.39-m.jar",
           "url": "junit-fml-4.0.39-m.jar",
-          "size": 3723,
-          "sha512": "662b237533849e062f799af7c4e1da943c323031ba6ef48cc50b04ea37cac21ab548fffea8d6654309245c50032e6e5c048952f2de3a3a9f47dd6ff52a5cb3ed",
-          "sha256": "5e43d2e9e8f23252f310c0955fdbd0cf7c7c17e53aabac1f2f9b8dde9cd08829",
-          "sha1": "de9f82d66d14853a8acd5f71dca311e1b2b1b3f0",
-          "md5": "e710163e96c9b86b73170f1b9de043b4"
+          "size": 3724,
+          "sha512": "76ffa52f46bbf09e9f4ed53d45e4242b5849d61a8738054d101b44a6fafdd5aa7ddecb43120c44cf366cb59342010190278ffb41d61b943c5822ea578e0f1eed",
+          "sha256": "b040c0f627ff6fa929df0e3a6da82211d54700184fa98d6f97f508b45248d56b",
+          "sha1": "c243e84063fb874bef643bb7ef291d099f852d67",
+          "md5": "814548931c54e792aae2f7430d87ffaa"
         }
       ]
     },
