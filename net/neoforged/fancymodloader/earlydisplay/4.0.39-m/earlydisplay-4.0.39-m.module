@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.neoforged.fancymodloader",
+    "module": "earlydisplay",
+    "version": "4.0.39-m",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "earlydisplay-4.0.39-m.jar",
+          "url": "earlydisplay-4.0.39-m.jar",
+          "size": 261723,
+          "sha512": "702564d2f98bd99af9427f0a1f433ab15a8cd62a62602ce2b2c8c0be0ffde22cc716f91d1500329e6363dfbf25e19dbc64f7b0d39289aec4469bf6f6d8b446f3",
+          "sha256": "c4980cdb6a8bcd2ddfd81fb6ca7e66308bc7efddd013398eedeb3c2a2a1c5f05",
+          "sha1": "40c340a84a9ec8c174b041c831dad013cabf970c",
+          "md5": "4c070ee0512cd468b603849f170052b5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.neoforged.fancymodloader",
+          "module": "loader",
+          "version": {
+            "requires": "4.0.39-m"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-tinyfd",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.8.0-beta4"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "earlydisplay-4.0.39-m.jar",
+          "url": "earlydisplay-4.0.39-m.jar",
+          "size": 261723,
+          "sha512": "702564d2f98bd99af9427f0a1f433ab15a8cd62a62602ce2b2c8c0be0ffde22cc716f91d1500329e6363dfbf25e19dbc64f7b0d39289aec4469bf6f6d8b446f3",
+          "sha256": "c4980cdb6a8bcd2ddfd81fb6ca7e66308bc7efddd013398eedeb3c2a2a1c5f05",
+          "sha1": "40c340a84a9ec8c174b041c831dad013cabf970c",
+          "md5": "4c070ee0512cd468b603849f170052b5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "earlydisplay-4.0.39-m-sources.jar",
+          "url": "earlydisplay-4.0.39-m-sources.jar",
+          "size": 229985,
+          "sha512": "6be4492d8471b19c7c0c995dba531d91fa83cbf356367d26d1b55d6e0692153b2dcadd81e74281a938e2c35e666939955b2a5fabe61b2b6eacc03b988a9bf6e2",
+          "sha256": "3c1113303854e3e2766b44d94f4dba29e0f9ae78edc9975c20bcf8c819149037",
+          "sha1": "00d988bf1ebfda6b4c09ec3dfa0894fce98eb494",
+          "md5": "e052d00c618376115e604a9a3297814f"
+        }
+      ]
+    }
+  ]
+}
