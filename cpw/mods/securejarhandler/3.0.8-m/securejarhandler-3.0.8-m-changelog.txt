@@ -1,0 +1,574 @@
+ - `3.0.9` Fix `UnionFileSystemProvider#newDirectoryStream` to obey contract of `FileSystemProvider#newDirectoryStream` (#79)
+   
+   Fixes #78; use of `Files.walk` should now produce `Path`s that are as if
+   resolved from the root path. This required a change to `JarContentsImpl`
+   as it relied on the old (incorrect!) behavior where `walk` returned
+   explicitly relative paths no matter what, as well as some changes to
+   certain tests where similar assumptions were made.
+ - `3.0.8` Move JB annotations dependency to compile-only (#75)
+   
+   Fixes it ending up on the module path when resolving SJH transitively.
+ - `3.0.7` Add close() methods throughout the SecureJar->JarContents chain to allow closing the backing file systems (#68)
+ - `3.0.6` Always load UnionURLStreamHandler even in non-modular environments (#74)
+   
+   The use case for this is the use of SJH inside of FML unit tests where
+   SJH itself was not loaded as a module.
+   
+   It is perfectly capable of being used, but fails due to the `union`
+   protocol handler not being loaded. This change makes SJH always load its
+   own protocol handler regardless of layer and supports the extension
+   point in non modular environments too.
+   
+   As an aside: The extension point does not seem to be used by anyone else
+   according to a GH search and can likely be deprecated/removed at some
+   point.
+ - `3.0.5` Remove outdated compile args for J21 target (#73)
+ - `3.0.4` Add the path to the rethrown exception in case the zipfs can't be opened (#71)
+ - `3.0.3` Pass basePath as Path during path filtering (#70)
+   
+   We're using the path filter mostly for filtering out resources / class
+   from Minecraft jars.
+   The basePath is important to unconditionally include certain resources
+   from specific basepaths of the union filesystem (client-extra jar). Not
+   having to do string matching on the basepath makes this more robust.
+   
+   p.s.: This change is also motivated by SJH normalizing the base path
+   such that it becomes a relative path, but only on Linux.
+   So, `/tmp/blah.jar` becomes `tmp/blah.jar`.
+   
+   Co-authored-by: Marc Hermans <marc.hermans@ldtteam.com>
+ - `3.0.2` Update to Java 21 (#69)
+   
+   This removes the `ZipFileSystem.exists` hack and implements
+   `FileSystemProvider.readAttributesIfExists` and
+   `FileSystemProvider.exists`. While I was working on this, I also
+   improved the #63 optimization in `readAttributes` by passing already
+   known attributes.
+ - `3.0.1` Merge pull request #67
+   
+   * Removed deprecated methods
+   
+   (cherry picked from commit 72f8d15d81eec0ba2bbab14c7df5c81e632bf8f2)
+ - `3.0.0` Prepare for 3.0
+ - `2.1.33` Revert "Merge pull request #67"
+   
+   This reverts commit 72f8d15d81eec0ba2bbab14c7df5c81e632bf8f2.
+ - `2.1.32` Merge pull request #67
+   
+   * Removed deprecated methods
+ - `2.1.31` Add utility method to quickly construct JarContent if no filters or replacement manifests are to be used (#65)
+   
+   The most common use of JarContentBuilder is:
+   
+   ```java
+   new JarContentsBuilder().paths(path).build()
+   ```
+   
+   This allows:
+   
+   ```java
+   JarContents.of(path)
+   
+   or
+   
+   paths.map(JarContents::of)
+   ```
+ - `2.1.30` Reject invalid service files (#62)
+   
+   Currently, SJH throws when building a module descriptor for jars which
+   contain files in META-INF/services which aren't valid. All this PR does
+   is filter out these invalid files:
+   - I've added a set of known "naughty" service files which don't follow
+   the format correctly - It was mentioned in Discord that certain Groovy
+   libraries define extensions with these invalid service files so I wanted
+   to include these too
+   - JLine 3.22.0 and above define a nested file in
+   `META-INF/services/org/jline/terminal/provider/` which doesn't follow
+   the service file format (it's in fact a properties file). This causes
+   SJH to throw because `exec` is not within a named package, and is
+   blocking upgrading to newer versions of JLine
+ - `2.1.29` Avoid slow Files#isDirectory call in testFilter (#63)
+   
+   On ZIP file systems, `Files.isDirectory` ends up being very slow if the
+   path does not exist (similarly to `Files.exists`, which is worked around
+   in UnionFS). We can take advantage of the existing workaround by using
+   our `getFileAttributes` method instead, which attempts to check if the
+   file exists using much more efficient logic.
+   
+   See the profiler screenshot below for an example of the problem.
+   
+   
+   ![zfas_neo](https://github.com/McModLauncher/securejarhandler/assets/42941056/f4001d99-a657-499d-8218-25e5ded84c4d)
+ - `2.1.28` Handle the case of a Multi-Release Jar not actually containing Multi-Release Classes (#42)
+   
+   Seen a couple of people encounter this in mod dev (when adding
+   dependencies):
+   
+   SJH considers a Jar to be `Multi-Release` based on the `Manifest`
+   
+   <https://github.com/McModLauncher/securejarhandler/blob/96a7b6a8fe1f1117e01dfd94c640757154372a68/src/main/java/cpw/mods/jarhandling/impl/Jar.java#L124>
+   
+   If it is then it resolves a path to `/META-INF/versions`
+   
+   <https://github.com/McModLauncher/securejarhandler/blob/96a7b6a8fe1f1117e01dfd94c640757154372a68/src/main/java/cpw/mods/jarhandling/impl/Jar.java#L126>
+   
+   And tries to walk it
+   
+   <https://github.com/McModLauncher/securejarhandler/blob/96a7b6a8fe1f1117e01dfd94c640757154372a68/src/main/java/cpw/mods/jarhandling/impl/Jar.java#L127>
+   
+   This works for most Jars, however it does not consider the case where a
+   Jar is erroneously marked as `Multi-Release`, with `/META-INF/versions`
+   **not** existing.
+   
+   If this is the case, `Files.walk` will throw a
+   `UnionFileSystem$NoSuchFileException` which is then wrapped and rethrown
+   as a `UncheckedIOException`
+   
+   <https://github.com/McModLauncher/securejarhandler/blob/96a7b6a8fe1f1117e01dfd94c640757154372a68/src/main/java/cpw/mods/jarhandling/impl/Jar.java#L138>
+   
+   Attached Example Stacktrace,
+   <https://gist.github.com/AterAnimAvis/35ded98d52a78c2f257d59173c86366c>
+   
+   ---
+   
+   Current implementation of a fix is from a bit of spitballing [in
+   Discord](https://discord.com/channels/313125603924639766/922237746460893234/1129415771567689738)
+ - `2.1.27` Allow ModuleClassLoader to optionally delegate class-loading to parent (#60)
+ - `2.1.26` Fix loading package-info classes (#56)
+   
+   ## The issue
+   
+   Currently, SJH's `ModuleClassLoader` is unable to load `package-info`
+   classes, which are placed in the unnamed module when it calls
+   `definePackage`.
+   
+   Java offers 2 ways of defining packages - one with version information
+   and another with a module parameter, which are mutually exclusive.
+   However, our use case requires both package versioning information and
+   the module to be present.
+   
+   `ModuleClassLoader` is designed to only load classes from named modules.
+   When calling `Class.getPackage().getPackageInfo()`, Java will try to
+   load the package-info class using `ClassLoader#findClass(String
+   moduleName, String name)`, passing in `null` for the moduleName
+   parameter as the package is placed in an unnamed module. Here, MCL
+   expects `moduleName` to be non-null at all times. However, that is not
+   true according to java's
+   [documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/ClassLoader.html#findResource(java.lang.String,java.lang.String)):
+   > **Parameters:**
+   moduleName - The module name; or null to find a resource in the [unnamed
+   module](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/ClassLoader.html#getUnnamedModule())
+   for this class loader
+   
+   MCL will happily pass this parameter to `Configuration#findModule`,
+   which expects a non-null value, resulting in a NPE.
+   ### Steps to reproduce
+   
+   1. Invoke `getPackage().getPackageInfo()` on your favourite class, which
+   is loaded by a `ModuleClassLoader`
+   2. Expect a NPE
+   
+   ### Expected behavior
+   
+   Much like other classes, `package-info` classes should be placed in
+   named modules, too, rather than being loaded in the unnamed module.
+   
+   ## The solution
+   
+   To make java load package-info classes in their module, we must replace
+   the value of the `NamedPackage#module` field. Since java puts no
+   restrictions in place that would prevent us from setting a named module
+   on a `NamedPackage` instance, we reflectively replace the default
+   unnamed module value with the package's actual module.
+   
+   Step 1: Grab the trusted method lookup instance and create a field
+   handle for the package module field
+   ```java
+   var trustedLookupField = MethodHandles.Lookup.class.getDeclaredField("IMPL_LOOKUP");  
+   trustedLookupField.setAccessible(true);  
+   MethodHandles.Lookup trustedLookup = (MethodHandles.Lookup) trustedLookupField.get(null);  
+     
+   Class<?> namedPackage = Class.forName("java.lang.NamedPackage");  
+   PKG_MODULE_HANDLE = trustedLookup.findVarHandle(namedPackage, "module", Module.class);
+   ```
+   
+   Step 2: After defining each class (necessary for the module to be
+   known), ensure its package is placed in a named module
+   ```java
+   // Get package module
+   Module value = (Module) PKG_MODULE_HANDLE.get(pkg);  
+   // Check if the value is not a named module
+   if (value == null || !value.isNamed()) {  
+       try {
+           // Replace the value with the loaded class's module
+           PKG_MODULE_HANDLE.set(pkg, module);  
+       } catch (Throwable t) {  
+           throw new RuntimeException(t);  
+       }  
+   }
+   ```
+ - `2.1.25` Use JDK 17 as the Gradle Toolchain (#59)
+   
+   Use the same JDK version as in the other NeoForged projects, preventing
+   Gradle from downloading yet another JDK 16 just for this project.
+ - `2.1.24` Use NoSuchFileException for missing files (#58)
+ - `2.1.23` Compute jar module descriptors in parallel (#57)
+   
+   To compute a module descriptor, we need to compute the package list, and
+   that is often slow. So do it in parallel! (And defer computation of the
+   module descriptor until it is actually needed).
+   
+   Also added a new method to retrieve the provided services without
+   computing the full module descriptor, for use in the
+   `ModDirTransformerDiscoverer`.
+   
+   Tested in ATM8.
+ - `2.1.22` Add lastModified&contentLength to SJH URLConnections (#55)
+   
+   Implement last modification time and content length in URLConnection for
+   SJH modular class loaders. Enables support for javacpp.
+   
+   javacpp tries to extract the native DLLs it is wrapping into a cache
+   directory. In normal operation, it retrieves the lastModifiedDate+size
+   from a JarURLConnection to handle conflicts. When using javacpp in
+   Neoforge, this fails. javacpp cannot use its JarUrlConnection special
+   case and will fall back to using the generic URLConnection methods
+   `getContentLength` and `getLastModified`, which SJH does not implement.
+   That leads to crashes (since javacpp can no longer detect if the DLL it
+   is trying to extract is different from the one already on disk).
+   Implementing these two methods in SJH fixes the issue.
+   
+   Fixes https://github.com/bytedeco/javacpp/issues/697
+ - `2.1.21` Add `VirtualJar` for generated packages (#54)
+   
+   This will let frameworks like mixin define additional packages in the
+   GAME layer for runtime generated classes with the following additional
+   code in a transformation service:
+   ```java
+       @Override
+       public List<Resource> completeScan(final IModuleLayerManager layerManager) {
+           try {
+               return List.of(
+                       new Resource(IModuleLayerManager.Layer.GAME, List.of(
+                               new VirtualJar(
+                                       "mixin_generated_classes",
+                                       Path.of(getClass().getProtectionDomain().getCodeSource().getLocation().toURI()),
+                                       Constants.SYNTHETIC_PACKAGE,
+                                       Constants.SYNTHETIC_PACKAGE + ".args"))));
+           } catch (URISyntaxException e) {
+               throw new RuntimeException(e);
+           }
+   ```
+   
+   Fixes McModLauncher/modlauncher#90. Tested with a forgedev `@ModifyArgs`
+   mixin :)
+   
+   ---------
+   
+   Co-authored-by: Matyrobbrt <65940752+Matyrobbrt@users.noreply.github.com>
+ - `2.1.20` Fix UnionPath existence checks with nested union file systems (#53)
+   
+   Fixes `Files.exists` always returning true for layered/nested
+   UnionFileSystems. The bug happens because of a missing `else` branch in
+   `checkAccess` for non-default and non-zip file systems.
+   
+   Added a test to reproduce the issue, and consolidated the fs-specific
+   code to avoid such issues in the future.
+ - `2.1.19` Fix ServiceLoader queries using ModuleClassLoader & add related tests (#52)
+   
+   The fix is just to call the package-private
+   `ModuleLayer.bindToLoader(ClassLoader)` method on the parent layers when
+   creating the `ModuleClassLoader`.
+   
+   The rest of the PR is a complicated testing setup, to make sure that we
+   can test with both CP-loaded and SJH-loaded source sets.
+   
+   Closes MCModLauncher/modlauncher#100.
+ - `2.1.18` Improve runtime of ModuleClassLoader constructor (#48)
+   
+   In old startup profiles from 1.19/1.20, `ModuleClassLoader` often takes
+   at least a second or two to be constructed in large modpacks. This
+   likely boils down to the high amounts of iteration being done over the
+   module list - in particular, constructing `parentLoaders` would have
+   O(n^2) runtime in a scenario where every module reads the other modules.
+   
+   This PR makes some changes to the constructor to avoid redundant
+   iteration. I have not profiled the changes, but I don't see a reason why
+   they could be slower than the status quo. In particular, the
+   `parentLoaders` loop has been heavily optimized to cache data for each
+   module, which should provide noticeable speedup to the automatic module
+   case.
+ - `2.1.17` Remove the `notExistingPath` check and use proper lazy streams (#50)
+   
+   The `!= notExistingPath` doesn't do anything, and the `newDirStream`
+   method would accumulate the results in a list, which is not efficient
+   for dir streams that early-exit. Streams are meant to be lazy.
+ - `2.1.16` Refactor `SecureJar` implementation and add package exclusions (#47)
+   
+   * Add SecureJarBuilder
+   
+   * Split SecureJar implementation across new JarContents and JarSigningData
+   
+   * Add option to exclude some folder from the package scan
+   
+   * Restore not scanning META-INF for packages
+   
+   * Allow instantiating JarContents separately from the SecureJar
+   
+   * Remove SecureJarBuilder, JarContentsBuilder is enough
+   
+   * Use gradle.properties for dependency versions
+   
+   * Simplify readMultiReleaseInfo and add a test for it
+   
+   * Apply suggestions from code review
+   
+   Co-authored-by: Matyrobbrt <65940752+Matyrobbrt@users.noreply.github.com>
+   
+   * Make ignoredRootPackages a Set in more cases
+   
+   * Replace BiPredicate<String,String> by UnionPathFilter in JarContentsBuilder
+   
+   * Move root package exclusion from JarContentsBuilder to getPackagesExcluding
+   
+   * Add some @deprecated annotations
+   
+   * Add since=2.1.16 to terminal deprecations
+   
+   ---------
+   
+   Co-authored-by: Matyrobbrt <65940752+Matyrobbrt@users.noreply.github.com>
+ - `2.1.15` Publish to the correct maven repository - `2.1.14` Publish the sources jar correctly - `2.1.13` Build and publish with GitHub actions (#46)
+ - `2.1.12` Optimise path finding to remove the last exists test (#45)
+   
+   * Optimise path finding and remove the last exists test
+   
+   * Docs
+ - `2.1.11` Update to NeoForged.
+ - `2.1.10` Fix issue with JarInJar, probably.
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `2.1.9` Merge pull request #41
+   
+   * Try and make ourselves a lot less vulnerable to Thread interruption, …
+   
+   * Try and detect if we've lost our zipfilesystem due to an unexpected c…
+ - `2.1.8` Force it to detect the 1.x branch
+ - `2.1.7` Add all a.b branches as buildable remote targets for release.
+ - `2.1.6` Make version guessing more robust, and error messages more informative. (#38)
+ - `2.1.5` Fix version guessing for paths without extensions, or extensions other then .jar (#34)
+ - `2.1.4` Use StringBuilder not StringJoiner for a small efficiency bonus..
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `2.1.3` Avoid using Pattern and Streams in UnionPath init
+   
+   Speeds up creation of UnionPath significantly. Reduces time spend in testJarFileExists from 7585 to 2777, other tests like testCommonPathUtilities see improvements as well
+ - `2.1.2` Add tests for dir walking, and and optimize the directory stream
+   to not construct so many strings thru pattern matching. Also SPLIT is a regex. Also add JFR JMH profiler option, useful for inspecting traces
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `2.1.1` Static patterns rather than implicit, for another 10% improvement in performance.
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `2.1.0` Fix up JMH test, and improve existence test performance, especially for Windows.
+   
+   Note that Windows C (system) drive seems to have some core protections enabled that will always make file access slower for it. Put your stuff on a separate partition or drive.
+ - `2.0.3` Fallback getResource to fallbackClassLoader
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `2.0.2` Allow SecureJar to be FS independent. Update gradle and disable JMH pending fixup for modules.
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `2.0.1` Export union so we can see it elsewhere and bump asm
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `2.0.0` Remove the required NIO FS implementations for JarInJar
+ - `1.0.5` Fix hierarchy computation of boot layer classes (#28)
+   
+   * Use system classloader as fallback for transformable class bytes
+   fixes #27
+   
+   * Handle missing transformable class bytes
+   Throw ClassNotFoundException if they're not found, remove fallback classloader
+   
+   * Move empty bytes check behind transformation
+ - `1.0.4` Filter modules by reference type, allows launching without BSL (#25)
+ - `1.0.3` Handle partial jar paths, fixes #19 (#23)
+ - `1.0.2` Avoid trying to load classes from the default package (fixes #21) (#22)
+ - `1.0.1` Fix test and clean up cast
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `1.0.0` Merge branch 'OrionDevelopment_main'
+ - `0.9.61` Add support for file attribute views in the union file system provider (#18)
+   
+   * Add support for file attribute views in the union file system provider
+   
+   Fixes #17 (crash with JetBrains JVM)
+   
+   * Add file attribute tests
+ - `0.9.60` Fix UnionPath (#4)
+   
+   * Fix UnionPath#relativize
+   
+   * Fix the other of the relativize method as wel land add test for reletivizing absolute union paths.
+   
+   * Went through UnionPath and change methods to behave as they should. It is pasing test now however better testing for the UnionPath methods is required.
+   
+   * Some more union path bugfixes and added tests for many other methods of UnionPath
+   
+   * Little changes to Jar to make it work with the changes and made UnionPath#getFileName return an empty string for the empty absolute path.
+ - `0.9.59` handle empty jar, add test (#16)
+ - `0.9.58` Revert "Update project name"
+   
+   This reverts commit ab653d1a42605a03bffcd09d802ab4b8902543e5.
+ - `0.9.57` Update project name
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.56` TeamCity changeover part 2
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.55` TeamCity changeover
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `list.0` Implement proper automatic path splitting behaviour when paths are resolved which contain the path splitter.
+ - `0.9.61` Remove the automatic detection of zips.
+   Split on `!/` only.
+ - `0.9.60` Remove redundant escapes.
+ - `0.9.59` Support jars because we are in java land.
+ - `0.9.58` Remove the needed splitting on the URI level using a seperator.
+ - `0.9.57` Provide support on the PathFS side for path creation interception on the provider level.
+ - `0.9.56` Fix the unit tests due to the PathFSProvider derpage.
+ - `0.9.55` Initial working implementation.
+   Several nice to haves are still missing. But I will add those later.
+ - `0.9.54` Filter non-existent paths from Jar's constructor.
+   Throw UncheckedIOException if you pass a empty/non-existant list.
+ - `0.9.53` Move to Unsafe, which does not require module opens. (#11)
+   
+   Added system property to specify which accessor to use. -Dsecurejarhandler.useUnsafeAccessor=false (defaults to true)
+ - `0.9.52` Search all paths for a manifest. (#12)
+ - `0.9.51` Use custom implementation for verifying manifest entries.
+ - `0.9.50` Close DirectoryStreams in UnionFileSystem (#9)
+ - `0.9.49` Improve performance of building JarModuleFinder (#6)
+   
+   Skip calculating filter params if filter is static true, remove exists from readAttributes (getFileAttributes will return an empty optional if the file does not exist), redo findFirstFiltered without streams to avoid many toRealPath calls
+ - `0.9.48` Add JMH benchmark (#7)
+ - `0.9.47` Better sanitization of module names & detect maven-like paths (#5)
+   
+   Better sanitization of module names.
+   Detect when modules are in a maven-like path hierarchy and use the path to split the filename.
+   Improve regex to use lookbehind/lookahead instead of match groups, and fix adjacent keyword matching.
+   Fix the version string sanitization.
+ - `0.9.46` Only consider paths part of a Union FS if they actually exist. (#3)
+ - `0.9.45` Fix package attributes being ignored.
+ - `0.9.44` Fix module name generation and other fixes (#2)
+ - `0.9.43` Add discord notifications.
+ - `0.9.42` Filter reserved ! from union keys, it breaks splitting.
+ - `0.9.41` Rework UnionFilleSystemProvider to allow multiple views of the the same base path to exist at the same time.
+ - `0.9.40` Fix filters on zips
+ - `0.9.39` Fix path filtering test on certain Linux installs
+ - `0.9.38` Fix path filtering test on certain Linux installs
+ - `0.9.37` Enable tests, but filter out ones requiring files that arnt in the repo.
+   Fix filtering of directory listings.
+ - `0.9.36` Add caching to Jar.getPackages/getProviders, and fix another windows path issue.
+ - `0.9.35` Path standerdization
+ - `0.9.34` Fix filter system to properly validate directories, and use standardized paths.
+ - `0.9.33` Move union URI handling to use normal Java conversions which should solve linux vs windows inconsistencies.
+ - `0.9.32` add in a mechanism to allow a filter, to prevent certain resources loading from certain jars due to smushed jars in server and stuff..
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.31` don't throw in toAbsolute - assume it's a full path and root it with the root..
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.30` fix relativize properly...
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.29` return emptypath when relativize matches exactly
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.28` query last element of the paths list for manifest data, not the first.
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.27` fix relativize to work properly
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.26` fix endwith check
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.25` use forge gradleutils
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.24` implement relativize so things can work
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.23` use asm to parse moduleinfo instead of JDK so we can HACK it...
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.22` fix that basepath is flipped
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.21` fix unionfs appending a trailing slash
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.20` tweaks to classloader
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.19` fix tests
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.18` expose file status checker and use right method
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.17` expose file status checker
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.16` get the root
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.15` expose a way to get explicit paths...
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.14` allow constructing custom jarmetadata
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.13` update other artifacts, expose a method for getting primary path from a unionFS
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.12` update jenkinsfile for new gradleproperties
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.11` allow passing a context to maybe
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.10` expose a byte transformation fetch without classloading
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.9` make sure to expose zero byte operations too..
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.8` expose method for byte transformation.
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.7` fix derp
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.6` don't allow supplying the parent classloader, rather use the same way the Loader does it..
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.5` allow supplying the parent..
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.4` there can be multiple paths for a single Jar. that's the POINT of unionFS
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.3` Wrong name for verify
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.2` Don't add empty provider lists
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.1` No tests for now
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
+ - `0.9.0` This is now actually securejarhandler for doing modular jars. Keeping legacy history because..
+   
+   Signed-off-by: cpw <cpw+github@weeksfamily.ca>
