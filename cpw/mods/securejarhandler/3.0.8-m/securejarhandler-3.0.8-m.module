@@ -28,21 +28,21 @@
           "group": "org.ow2.asm",
           "module": "asm",
           "version": {
-            "requires": "9.3"
+            "requires": "9.7"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-tree",
           "version": {
-            "requires": "9.3"
+            "requires": "9.7"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-commons",
           "version": {
-            "requires": "9.3"
+            "requires": "9.7"
           }
         }
       ],
@@ -50,11 +50,11 @@
         {
           "name": "securejarhandler-3.0.8-m.jar",
           "url": "securejarhandler-3.0.8-m.jar",
-          "size": 104231,
-          "sha512": "4beeb8fddc4dfe30ae9b5b97274230321ab2b120a721c3abcc73db13cfb5287427d40ad1badd01b061d58a01bea84e64944d2a2e3636be68c65ba4ad74661e7f",
-          "sha256": "c523d3eb5dd7c64f0bcad8900bd380514ddee4fb96fa5b9086998f454fc3f205",
-          "sha1": "a00c19052737b1d47bbe49886159905263427865",
-          "md5": "8d96ece2be843a26fe56b06aba8d94b3"
+          "size": 104291,
+          "sha512": "a865d589c528ad4abfe870482ebf3ab73b483474a94fe10633b11ed36c2cc5c7ce377b4ebb8987d8c044feeb441b673916165ca61d9aa5139058eb8c91a36a77",
+          "sha256": "1020d6d75719a38046db3753f6298afc1a4b050ba765f80d75eb9712faccb56a",
+          "sha1": "859600e4fee75790003f9b4555ee1ffa6939ec28",
+          "md5": "46ae3b4796a146d74aaa225b2369c32d"
         }
       ]
     },
@@ -72,21 +72,21 @@
           "group": "org.ow2.asm",
           "module": "asm",
           "version": {
-            "requires": "9.3"
+            "requires": "9.7"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-tree",
           "version": {
-            "requires": "9.3"
+            "requires": "9.7"
           }
         },
         {
           "group": "org.ow2.asm",
           "module": "asm-commons",
           "version": {
-            "requires": "9.3"
+            "requires": "9.7"
           }
         }
       ],
@@ -94,11 +94,11 @@
         {
           "name": "securejarhandler-3.0.8-m.jar",
           "url": "securejarhandler-3.0.8-m.jar",
-          "size": 104231,
-          "sha512": "4beeb8fddc4dfe30ae9b5b97274230321ab2b120a721c3abcc73db13cfb5287427d40ad1badd01b061d58a01bea84e64944d2a2e3636be68c65ba4ad74661e7f",
-          "sha256": "c523d3eb5dd7c64f0bcad8900bd380514ddee4fb96fa5b9086998f454fc3f205",
-          "sha1": "a00c19052737b1d47bbe49886159905263427865",
-          "md5": "8d96ece2be843a26fe56b06aba8d94b3"
+          "size": 104291,
+          "sha512": "a865d589c528ad4abfe870482ebf3ab73b483474a94fe10633b11ed36c2cc5c7ce377b4ebb8987d8c044feeb441b673916165ca61d9aa5139058eb8c91a36a77",
+          "sha256": "1020d6d75719a38046db3753f6298afc1a4b050ba765f80d75eb9712faccb56a",
+          "sha1": "859600e4fee75790003f9b4555ee1ffa6939ec28",
+          "md5": "46ae3b4796a146d74aaa225b2369c32d"
         }
       ]
     },
@@ -114,11 +114,11 @@
         {
           "name": "securejarhandler-3.0.8-m-sources.jar",
           "url": "securejarhandler-3.0.8-m-sources.jar",
-          "size": 42873,
-          "sha512": "564d4d1d76b7711760e0819233c48b7ad347cac9ba87f0572db5954c02f19f33509ecc81bf08e12e696d34326d5b14d8f5a57dae42b912b7b26d0ee5bf0ca522",
-          "sha256": "a281a8172b848b043700ddc4ccf032edf5bfbcb9b39e0bafcc35b9e2723ac0ac",
-          "sha1": "7aa63ddf492170395ddd27657c34e66d8e819d00",
-          "md5": "89b3f614dc182c29c48d1d85d41f1160"
+          "size": 42918,
+          "sha512": "988bbb94c4b0fe33b559b2b6282e1887d5d3a6018c700731a1c210fbae1f31ee79d37d33a02cfe08923506f39d00d3a3745a9c14469765a5bbf867a44dd36aa6",
+          "sha256": "5b210dc76a371aa407d66f4ea97f4f784a742a024dfa334ccfbaaa44ec6fbde7",
+          "sha1": "0c359dbb5d9290eabaa30d725e6aa15bf2a376b3",
+          "md5": "646835a1803c2cdfae70b6a0421ec9d6"
         }
       ]
     }
