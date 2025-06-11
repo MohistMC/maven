@@ -27,11 +27,11 @@
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 811002,
-          "sha512": "238d1de737875e2c242acd042408296e334db370c76355aa79b42b0077d7eda3d138904bb70a56cd396afe94ae039ea26cd3c690bbd5b4e69634a2c8669a7d7b",
-          "sha256": "2878e4dafd2f91aa0bf87f1a69b1707eb2488d985ab10367d39c556af6951db5",
-          "sha1": "d61ebd9922750b8c8b5b4635906f10ecbf2587cf",
-          "md5": "f7213b28433609d9ad51849263be6f4e"
+          "size": 1146348,
+          "sha512": "b36374f9330f42389abcda8e831354e1db3d79bc058bcb9768586b17dfae4dea2f1450ce6dd9353427705ce59caf7d20e952c317ac1def70052c3ddf3e8e5357",
+          "sha256": "b9afb98d95cffbc405a1a14d93224b9b72b6bab27771588c4452dda23a05e89d",
+          "sha1": "95f62238eca893c4ee5e8b4406d7dc77ff49ca0e",
+          "md5": "eedc88e3978f1abab368c13b828ccb5e"
         }
       ]
     },
@@ -45,6 +45,13 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
         {
           "group": "javax.inject",
           "module": "javax.inject",
@@ -64,11 +71,11 @@
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 811002,
-          "sha512": "238d1de737875e2c242acd042408296e334db370c76355aa79b42b0077d7eda3d138904bb70a56cd396afe94ae039ea26cd3c690bbd5b4e69634a2c8669a7d7b",
-          "sha256": "2878e4dafd2f91aa0bf87f1a69b1707eb2488d985ab10367d39c556af6951db5",
-          "sha1": "d61ebd9922750b8c8b5b4635906f10ecbf2587cf",
-          "md5": "f7213b28433609d9ad51849263be6f4e"
+          "size": 1146348,
+          "sha512": "b36374f9330f42389abcda8e831354e1db3d79bc058bcb9768586b17dfae4dea2f1450ce6dd9353427705ce59caf7d20e952c317ac1def70052c3ddf3e8e5357",
+          "sha256": "b9afb98d95cffbc405a1a14d93224b9b72b6bab27771588c4452dda23a05e89d",
+          "sha1": "95f62238eca893c4ee5e8b4406d7dc77ff49ca0e",
+          "md5": "eedc88e3978f1abab368c13b828ccb5e"
         }
       ]
     },
@@ -84,11 +91,11 @@
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 811002,
-          "sha512": "238d1de737875e2c242acd042408296e334db370c76355aa79b42b0077d7eda3d138904bb70a56cd396afe94ae039ea26cd3c690bbd5b4e69634a2c8669a7d7b",
-          "sha256": "2878e4dafd2f91aa0bf87f1a69b1707eb2488d985ab10367d39c556af6951db5",
-          "sha1": "d61ebd9922750b8c8b5b4635906f10ecbf2587cf",
-          "md5": "f7213b28433609d9ad51849263be6f4e"
+          "size": 1146348,
+          "sha512": "b36374f9330f42389abcda8e831354e1db3d79bc058bcb9768586b17dfae4dea2f1450ce6dd9353427705ce59caf7d20e952c317ac1def70052c3ddf3e8e5357",
+          "sha256": "b9afb98d95cffbc405a1a14d93224b9b72b6bab27771588c4452dda23a05e89d",
+          "sha1": "95f62238eca893c4ee5e8b4406d7dc77ff49ca0e",
+          "md5": "eedc88e3978f1abab368c13b828ccb5e"
         }
       ]
     }
