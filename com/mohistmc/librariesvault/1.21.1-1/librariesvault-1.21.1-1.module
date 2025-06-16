@@ -27,11 +27,11 @@
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 1146348,
-          "sha512": "b36374f9330f42389abcda8e831354e1db3d79bc058bcb9768586b17dfae4dea2f1450ce6dd9353427705ce59caf7d20e952c317ac1def70052c3ddf3e8e5357",
-          "sha256": "b9afb98d95cffbc405a1a14d93224b9b72b6bab27771588c4452dda23a05e89d",
-          "sha1": "95f62238eca893c4ee5e8b4406d7dc77ff49ca0e",
-          "md5": "eedc88e3978f1abab368c13b828ccb5e"
+          "size": 3531365,
+          "sha512": "3671bcc9958d9aa230a544079221064d3569ed09b3f8840cb375200a09426d32c93363afc3cfd23a86be906662f9c18c0313bb441fd562a93d2915c96ac11c3a",
+          "sha256": "8c9d615965c498613130229e7ff3ea5cda16d66897b57d4783ded91d949720fd",
+          "sha1": "c623cdcb9941038c188285a172dedce20f61aaa0",
+          "md5": "194a9beeb32de1c2605655ab2476f54e"
         }
       ]
     },
@@ -65,17 +65,108 @@
           "version": {
             "requires": "4.2.0-SNAPSHOT"
           }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-builder-support",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-model",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-model-builder",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-repository-metadata",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-api",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-connector-basic",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-impl",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-named-locks",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-spi",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-transport-http",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-util",
+          "version": {
+            "requires": "1.9.18"
+          }
         }
       ],
       "files": [
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 1146348,
-          "sha512": "b36374f9330f42389abcda8e831354e1db3d79bc058bcb9768586b17dfae4dea2f1450ce6dd9353427705ce59caf7d20e952c317ac1def70052c3ddf3e8e5357",
-          "sha256": "b9afb98d95cffbc405a1a14d93224b9b72b6bab27771588c4452dda23a05e89d",
-          "sha1": "95f62238eca893c4ee5e8b4406d7dc77ff49ca0e",
-          "md5": "eedc88e3978f1abab368c13b828ccb5e"
+          "size": 3531365,
+          "sha512": "3671bcc9958d9aa230a544079221064d3569ed09b3f8840cb375200a09426d32c93363afc3cfd23a86be906662f9c18c0313bb441fd562a93d2915c96ac11c3a",
+          "sha256": "8c9d615965c498613130229e7ff3ea5cda16d66897b57d4783ded91d949720fd",
+          "sha1": "c623cdcb9941038c188285a172dedce20f61aaa0",
+          "md5": "194a9beeb32de1c2605655ab2476f54e"
         }
       ]
     },
@@ -91,11 +182,11 @@
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 1146348,
-          "sha512": "b36374f9330f42389abcda8e831354e1db3d79bc058bcb9768586b17dfae4dea2f1450ce6dd9353427705ce59caf7d20e952c317ac1def70052c3ddf3e8e5357",
-          "sha256": "b9afb98d95cffbc405a1a14d93224b9b72b6bab27771588c4452dda23a05e89d",
-          "sha1": "95f62238eca893c4ee5e8b4406d7dc77ff49ca0e",
-          "md5": "eedc88e3978f1abab368c13b828ccb5e"
+          "size": 3531365,
+          "sha512": "3671bcc9958d9aa230a544079221064d3569ed09b3f8840cb375200a09426d32c93363afc3cfd23a86be906662f9c18c0313bb441fd562a93d2915c96ac11c3a",
+          "sha256": "8c9d615965c498613130229e7ff3ea5cda16d66897b57d4783ded91d949720fd",
+          "sha1": "c623cdcb9941038c188285a172dedce20f61aaa0",
+          "md5": "194a9beeb32de1c2605655ab2476f54e"
         }
       ]
     }
