@@ -1,0 +1,37 @@
+ - `2.0.8` Disable the configuration cache due to the Nexus Publishing Plugin - `2.0.7` Fixed missed separator for methods (#10)
+ - `2.0.6` Update Gradle to 8.11 and use Newer Plugins (#14)
+ - `2.0.5` Add support for remapping annotation attributes (#13)
+ - `2.0.4` Add the ability to load mappings from multiple files (#12)
+ - `2.0.3` Use updated dependencies that are present on central (#8)
+ - `2.0.2` Document the --unfinal-params option. (#7)
+ - `2.0.1` Add a new option to strip final from parameters (#6)
+ - `2.0.0` Switch to NeoForged SRGUtils and repackage to `net.neoforged.art` (#5)
+ - `1.0.15` Use buffered IO streams in renamer (#4)
+   
+   Also fix several unclosed file-handle/stream issues.
+   
+   ---------
+   
+   Co-authored-by: Sebastian Hartte <shartte@users.noreply.github.com>
+ - `1.0.14` Fix input jar loop aborting on dir (#2)
+ - `1.0.13` Bump cli-utils
+   
+   Fix incompatibility with Java 8
+ - `1.0.12` Progress reporting using cli-utils (#1)
+ - `1.0.11` Update to the new workflows
+ - `1.0.10` Fix CI
+   
+   Update to Gradle 8.4 and GU 3
+ - `1.0.9` Move to GH Actions
+ - `1.0.8` Add README
+ - `1.0.7` Fix description of `--record-fix`
+   
+   The new change to RecordFixer was erroneously added to `--ann-fix` instead of the proper `--record-fix`
+ - `1.0.6` Make `--record-fix` readd the record attribute if it is missing - `1.0.5` Update to javadoctor v2 and fix some issues
+ - `1.0.4` Update TC config
+ - `1.0.3` Add support for remapping javadoctor.json files
+   
+   Move to neoforged
+ - `1.0.2` Fix name stripping on multi-release jars. Closes #28
+ - `1.0.1` Add option to disable generation of abstract param file (#27)
+ - `1.0.0` Update licenses and move to SPDX
