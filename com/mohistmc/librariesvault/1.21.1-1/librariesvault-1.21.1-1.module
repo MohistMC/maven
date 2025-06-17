@@ -27,11 +27,11 @@
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 3531365,
-          "sha512": "3671bcc9958d9aa230a544079221064d3569ed09b3f8840cb375200a09426d32c93363afc3cfd23a86be906662f9c18c0313bb441fd562a93d2915c96ac11c3a",
-          "sha256": "8c9d615965c498613130229e7ff3ea5cda16d66897b57d4783ded91d949720fd",
-          "sha1": "c623cdcb9941038c188285a172dedce20f61aaa0",
-          "md5": "194a9beeb32de1c2605655ab2476f54e"
+          "size": 5772446,
+          "sha512": "09e4c741cf4538e66ca283110d96abd31fb74e2d79c4c098a1275febb601ecb86d48900daa86b9d08910359489799819ffdcd556d1ecca009b12a80abcb3dc76",
+          "sha256": "30d85b7b692b5d5f28ae68b679ce93a024ec7f939890726c6331a943271eee4b",
+          "sha1": "03f6a9a1deddc43c54d488db674ab342f62a7122",
+          "md5": "108aefa1c8805504dece2db46bf96f1f"
         }
       ]
     },
@@ -156,17 +156,24 @@
           "version": {
             "requires": "1.9.18"
           }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
         }
       ],
       "files": [
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 3531365,
-          "sha512": "3671bcc9958d9aa230a544079221064d3569ed09b3f8840cb375200a09426d32c93363afc3cfd23a86be906662f9c18c0313bb441fd562a93d2915c96ac11c3a",
-          "sha256": "8c9d615965c498613130229e7ff3ea5cda16d66897b57d4783ded91d949720fd",
-          "sha1": "c623cdcb9941038c188285a172dedce20f61aaa0",
-          "md5": "194a9beeb32de1c2605655ab2476f54e"
+          "size": 5772446,
+          "sha512": "09e4c741cf4538e66ca283110d96abd31fb74e2d79c4c098a1275febb601ecb86d48900daa86b9d08910359489799819ffdcd556d1ecca009b12a80abcb3dc76",
+          "sha256": "30d85b7b692b5d5f28ae68b679ce93a024ec7f939890726c6331a943271eee4b",
+          "sha1": "03f6a9a1deddc43c54d488db674ab342f62a7122",
+          "md5": "108aefa1c8805504dece2db46bf96f1f"
         }
       ]
     },
@@ -182,11 +189,11 @@
         {
           "name": "librariesvault-1.21.1-1.jar",
           "url": "librariesvault-1.21.1-1.jar",
-          "size": 3531365,
-          "sha512": "3671bcc9958d9aa230a544079221064d3569ed09b3f8840cb375200a09426d32c93363afc3cfd23a86be906662f9c18c0313bb441fd562a93d2915c96ac11c3a",
-          "sha256": "8c9d615965c498613130229e7ff3ea5cda16d66897b57d4783ded91d949720fd",
-          "sha1": "c623cdcb9941038c188285a172dedce20f61aaa0",
-          "md5": "194a9beeb32de1c2605655ab2476f54e"
+          "size": 5772446,
+          "sha512": "09e4c741cf4538e66ca283110d96abd31fb74e2d79c4c098a1275febb601ecb86d48900daa86b9d08910359489799819ffdcd556d1ecca009b12a80abcb3dc76",
+          "sha256": "30d85b7b692b5d5f28ae68b679ce93a024ec7f939890726c6331a943271eee4b",
+          "sha1": "03f6a9a1deddc43c54d488db674ab342f62a7122",
+          "md5": "108aefa1c8805504dece2db46bf96f1f"
         }
       ]
     }
