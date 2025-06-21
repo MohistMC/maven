@@ -155,7 +155,7 @@
           "group": "net.neoforged",
           "module": "bus",
           "version": {
-            "requires": "8.0.1"
+            "requires": "8.0.5"
           }
         }
       ],
@@ -172,11 +172,11 @@
         {
           "name": "loader-4.0.40.jar",
           "url": "loader-4.0.40.jar",
-          "size": 507774,
-          "sha512": "4122473db969cf42ebc06355f190e8e2e2731e4d153e2bc5f0f450e8c482113d24e148df02810e7b3278bc50ca6ef06f68d88571a9d6c154a5a9e2d6c1ddd3db",
-          "sha256": "420aac6abe72a16a085447fb51e0b8fd303952837f7ca41aecb6cbe41d666ce0",
-          "sha1": "93c1f7e7e81035fa85716022f5ef491885598f37",
-          "md5": "9f54dc7f4ad52cc1120d43b2b177ac4e"
+          "size": 507897,
+          "sha512": "cfbfbcb5963ff88c2328a49fe40708537d4aa32cf8657fa6508834ad5197f96c5492b9306497bd3c615f1844053019a7d65c81d5a9df78e08207fb70eb2a3cd6",
+          "sha256": "f6e78475e570e05ae34c30a4a78d4945824699caa692e94341127816461ba72a",
+          "sha1": "7e9d5433eaef340c5108cab7f58581cf89840ea3",
+          "md5": "28f7dec9dd523a97fd7465af6630e2c9"
         }
       ]
     },
@@ -390,7 +390,7 @@
           "group": "net.neoforged",
           "module": "bus",
           "version": {
-            "requires": "8.0.1"
+            "requires": "8.0.5"
           }
         }
       ],
@@ -407,11 +407,11 @@
         {
           "name": "loader-4.0.40.jar",
           "url": "loader-4.0.40.jar",
-          "size": 507774,
-          "sha512": "4122473db969cf42ebc06355f190e8e2e2731e4d153e2bc5f0f450e8c482113d24e148df02810e7b3278bc50ca6ef06f68d88571a9d6c154a5a9e2d6c1ddd3db",
-          "sha256": "420aac6abe72a16a085447fb51e0b8fd303952837f7ca41aecb6cbe41d666ce0",
-          "sha1": "93c1f7e7e81035fa85716022f5ef491885598f37",
-          "md5": "9f54dc7f4ad52cc1120d43b2b177ac4e"
+          "size": 507897,
+          "sha512": "cfbfbcb5963ff88c2328a49fe40708537d4aa32cf8657fa6508834ad5197f96c5492b9306497bd3c615f1844053019a7d65c81d5a9df78e08207fb70eb2a3cd6",
+          "sha256": "f6e78475e570e05ae34c30a4a78d4945824699caa692e94341127816461ba72a",
+          "sha1": "7e9d5433eaef340c5108cab7f58581cf89840ea3",
+          "md5": "28f7dec9dd523a97fd7465af6630e2c9"
         }
       ]
     },
@@ -427,11 +427,11 @@
         {
           "name": "loader-4.0.40-sources.jar",
           "url": "loader-4.0.40-sources.jar",
-          "size": 277846,
-          "sha512": "bc3b1dad5b7ee2642f56f2ab4957e09b18b12a3d0efad6de137b5797a6333f3cf583a1bb2cadf97dcbf2ea897860afbda1e532d652d7f2d9d5c387aef92a151d",
-          "sha256": "559e9d9e06058ece83d1abdcc605c00873a5318a10c1ca20458079af1518dfbf",
-          "sha1": "80e698d49dfbc82bb88917391c7f3fcd229c18cb",
-          "md5": "9e7dd214b3da4c0964a995698fc821f7"
+          "size": 278193,
+          "sha512": "2ad330e9e559898a47144f35e2f8522eba9682feb64adf1c7d296c2298e1419014326a09a52a126a7289807e0cffac6553d915077f8845d2a025918193c8c687",
+          "sha256": "2f6d1dbd5a932e45765dabec4d4aacdaa4f0741948e26ecb9314d69c8435bf83",
+          "sha1": "55950cc294c9fbb18e3381fc329c6eb489333824",
+          "md5": "07daa5012acb2aeb42fa3ba2fcfe0996"
         }
       ]
     }

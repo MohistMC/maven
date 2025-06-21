@@ -27,11 +27,11 @@
         {
           "name": "earlydisplay-4.0.40.jar",
           "url": "earlydisplay-4.0.40.jar",
-          "size": 261718,
-          "sha512": "ecbaee7a3cf4e45dcc3524ae27c6cee959c9edd4a19700e7880cee1049cadfa5ddb78becea6183f22eef839e8c940082613df51aca3d79c5ffe2c682b57a81f0",
-          "sha256": "5b2ca79a474d0e693fc91ee3fa7f00389edbe4fe8d932ed139227253c59df182",
-          "sha1": "997d2b159d009aeba6bc768bb15f4a93fededecf",
-          "md5": "b1ef2420f4953790a8c1e34a00c09d7b"
+          "size": 261716,
+          "sha512": "016082cf35e7534f5f7b5595a4f7d7b2f1c4bc5177eb597c61cfffd066ebf3ebe5dde04a7f1037576a28cdacc1d1a5bbd3b93b27b9ce1cdc0bad85a67e47c074",
+          "sha256": "43c0545f20332587da64c9c5204d496da8830b793f1ea752eeb9a155158522c3",
+          "sha1": "3d5d3ad0c789ab7d0333e6dafcfde3ca8a2be639",
+          "md5": "1b1c939b559d12cd20d394a17241b359"
         }
       ]
     },
@@ -106,11 +106,11 @@
         {
           "name": "earlydisplay-4.0.40.jar",
           "url": "earlydisplay-4.0.40.jar",
-          "size": 261718,
-          "sha512": "ecbaee7a3cf4e45dcc3524ae27c6cee959c9edd4a19700e7880cee1049cadfa5ddb78becea6183f22eef839e8c940082613df51aca3d79c5ffe2c682b57a81f0",
-          "sha256": "5b2ca79a474d0e693fc91ee3fa7f00389edbe4fe8d932ed139227253c59df182",
-          "sha1": "997d2b159d009aeba6bc768bb15f4a93fededecf",
-          "md5": "b1ef2420f4953790a8c1e34a00c09d7b"
+          "size": 261716,
+          "sha512": "016082cf35e7534f5f7b5595a4f7d7b2f1c4bc5177eb597c61cfffd066ebf3ebe5dde04a7f1037576a28cdacc1d1a5bbd3b93b27b9ce1cdc0bad85a67e47c074",
+          "sha256": "43c0545f20332587da64c9c5204d496da8830b793f1ea752eeb9a155158522c3",
+          "sha1": "3d5d3ad0c789ab7d0333e6dafcfde3ca8a2be639",
+          "md5": "1b1c939b559d12cd20d394a17241b359"
         }
       ]
     },

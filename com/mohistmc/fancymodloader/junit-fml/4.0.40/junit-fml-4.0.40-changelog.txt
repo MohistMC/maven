@@ -1,3 +1,7 @@
+ - `4.0.41` Backport #291 to 1.21.1 (#301)
+   
+   Co-authored-by: embeddedt <42941056+embeddedt@users.noreply.github.com>
+ - `4.0.40` Backport to 1.21.1: Remove the need to specify a bus in @EventBusSubscriber (#297)
  - `4.0.39` Backport to 1.21.1: Enable dev launch targets to also run from userdev (#280)
    
    * Deprecate userdev launch targets and merge them into the dev launch targets (#215)
