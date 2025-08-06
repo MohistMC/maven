@@ -1,0 +1,268 @@
+ - `4.0.39` Backport to 1.21.1: Enable dev launch targets to also run from userdev (#280)
+   
+   * Deprecate userdev launch targets and merge them into the dev launch targets (#215)
+   
+   ---------
+   
+   Co-authored-by: Technici4n <13494793+Technici4n@users.noreply.github.com>
+   (cherry picked from commit e45a8dbe0dafa34441ea15db52e0bd8b0367dbb1)
+ - `4.0.38` Backport to 1.21.1: Catch any exception during EBS injection (#254)
+   
+   Co-authored-by: Matyrobbrt <65940752+Matyrobbrt@users.noreply.github.com>
+ - `4.0.37` Backport #243 to 1.21.1 (#249)
+   
+   Co-authored-by: jellysquid3 <1363084+jellysquid3@users.noreply.github.com>
+ - `4.0.36` Backport #238 to 1.21.1 (#242)
+   
+   Co-authored-by: Lolothepro <68275908+Lolothepro@users.noreply.github.com>
+ - `4.0.35` Add the ability to make mixin configs in neoforge.mods.toml only load when certain mods are present. (#237) (#239)
+ - `4.0.34` Add dependency overrides (#214) (#221)
+ - `4.0.33` Clean up default config writing (#218) (#219)
+   
+   Co-authored-by: Bruno Ploumhans <13494793+Technici4n@users.noreply.github.com>
+ - `4.0.32` Prepare 1.21.1 branch for more releases
+ - `4.0.31` Fix: Disambiguate libraries by their module name. (#206)
+ - `4.0.30` Configure Renovate [skip ci] (#205)
+ - `4.0.29` Fix window icon not being set on startup. (#204)
+ - `4.0.28` Clarify EarlyDisplay screen's memory data label and remove offheap text (#196)
+ - `4.0.27` Undo bump of AccessTransformers to 10.0.1 (#193)
+   
+   Co-authored-by: shartte <shartte@users.noreply.github.com>
+ - `4.0.26` Add alphabetical sorted ModList to start of latest.log file (#188)
+ - `4.0.25` Add the ability to install and run a production client and server as well as moddev for testing FML. (#177)
+ - `4.0.24` Add 1.21 as fully compatible with 1.21.1 (#190)
+ - `4.0.23` Support ordering of dependency locators (#189)
+ - `4.0.22` Add simple getter for configs by mod and the loaded configs (#185)
+ - `4.0.21` Improve duplicate config registration exception message (#179)
+ - `4.0.20` Add a method to validate the config spec (#184)
+ - `4.0.19` Fix NetworkedEnum annotation retention (#181)
+ - `4.0.18` Config cleanup, part 2 (#178)
+   
+   * Rewrite config read/write logic to be more straightforward
+   
+   * Remove config tracking from the `ModContainer` itself
+ - `4.0.17` Update NightConfig and cleanup config code (#172)
+   
+   Co-authored-by: Sebastian Hartte <shartte@users.noreply.github.com>
+ - `4.0.16` Crash at most once after earlydisplay errors (#176)
+ - `4.0.15` Remove FML's synthetic package provider for Mixin (#175)
+   
+   Mixin 0.8.6 includes a synthetic package provider.
+ - `4.0.14` Bump TerminalConsoleAppender to get rid of warning in dev (#174)
+ - `4.0.13` Better error reporting in dev (#170)
+ - `4.0.12` Update upstream Mixin version (#173)
+ - `4.0.11` Use ByteBuddy in unit tests to avoid having to add add-opens to unit tests (#171)
+ - `4.0.10` Refactor ModLoadingIssue Warning/Error Translations (#167)
+   
+   * Move all implicit mod loading issue arguments to indices 100+ and assert that all loading issue translations have a special prefix.
+   
+   * Update translation key usage in Java code
+   
+   * Reformat caused by processing of files.
+   
+   * Updated translations to new key scheme
+   
+   * Make argument 101 the "affected file path" and use it.
+ - `4.0.9` New Crowdin updates (#154)
+ - `4.0.8` Remove unnecessary IConfigEvent and ConfigConfig (#164)
+ - `4.0.7` Remove unused URL handler (#165)
+ - `4.0.6` Refactor Custom Formatting Patterns, write tests and fix a translation (#162)
+ - `4.0.5` Use a TransformingClassLoader in tests and write Data-Driven Enum Extension tests (#163)
+ - `4.0.4` Remove ModularURLHandler hacks in tests (#157)
+ - `4.0.3` Add testcase for RuntimeDistCleaner (#156)
+ - `4.0.2` Data-driven addition of enum constants (#148)
+ - `4.0.1` 1.21 deprecations (#161)
+ - `4.0.0` Start 4.0 BC cycle
+ - `3.0.45` Improve hasErrors implementations (#159)
+ - `3.0.44` Replace use of "extension" with explicit method on RuntimeDistCleaner (#155)
+ - `3.0.43` Add startup configs for early usage (#150)
+ - `3.0.42` Respect the foreground color in more places in the early display (#153)
+ - `3.0.41` Add Java Core Mods (#79)
+   
+   Mods must ship a separate Jar-file (for example via jar-in-jar) and mark it as FMLModType: LIBRARY to make it load above the GAME layer. They then must provide an implementation of ICoreMod via the Java ServiceLoader to contribute their transformers.
+   
+   ---------
+   
+   Co-authored-by: Matyrobbrt <65940752+Matyrobbrt@users.noreply.github.com>
+ - `3.0.40` New Crowdin updates (#143)
+   
+   * New translations fml_messages.json (Ukrainian)
+   [ci skip]
+   
+   * New translations fml_messages.json (Ukrainian)
+   [ci skip]
+   
+   * New translations fml_messages.json (Ukrainian)
+   [ci skip]
+   
+   * New translations fml_messages.json (Tatar)
+   [ci skip]
+   
+   ---------
+   
+   Co-authored-by: shartte <shartte@users.noreply.github.com>
+ - `3.0.39` Make the message for ModLoadingException show a translated (english) message. (#147)
+ - `3.0.38` Remove service provider declarations that don't exist anymore (#149)
+ - `3.0.37` Add a subproject with a JUnit session listener (#54)
+ - `3.0.36` Remove message that at least one entrypoint is required (#146)
+ - `3.0.35` Be more specific about @Mod initializer order (#145)
+   
+   Side-agnostic initializers will always run before side-specific initializers.
+ - `3.0.34` New Crowdin updates (#133)
+ - `3.0.33` Fix exceptions directly thrown by init tasks not being reported as mod loading issues. (#142)
+ - `3.0.32` Fix translation issues and introduce translation formatting for issues (#139)
+   
+   Split translation keys if they're used for both warnings and errors since the implicitly added translation arguments differ.
+   
+   Added a lot of tests for translated error messages.
+ - `3.0.31` Fix Neoforge not being loaded in case of errors due to missing Jar Manifest (#138)
+ - `3.0.30` Safeguard against crashes if the PerformanceInfo fails to update (#137)
+ - `3.0.29` Require `IModLanguageLoader`s to specify their version (#135)
+ - `3.0.28` Fix discovery of FML services from mods folder in ML (#136)
+ - `3.0.27` Allow FML translations to use the vanilla format specifier (#134)
+ - `3.0.26` Add a missing translation for dangling entrypoints (#132)
+ - `3.0.25` New Crowdin updates (#131)
+ - `3.0.24` Move some translations to FML (#128)
+ - `3.0.23` Consider all completed module layers when looking up services (#130)
+   
+   Fixes #129
+ - `3.0.22` Implement validation in lang loaders (#127)
+ - `3.0.21` Rewrite locators and allow multiple entrypoints per mod (#126)
+ - `3.0.20` Implement dependency-based (partial) ordering for parallel initialization tasks (#123)
+ - `3.0.19` Locator rewrite (#112)
+   
+   Co-authored-by: Technici4n <13494793+technici4n@users.noreply.github.com>
+   Co-authored-by: Sebastian Hartte <shartte@users.noreply.github.com>
+ - `3.0.18` Fix AutomaticEventSubscriber after FORGE->GAME bus rename (#120)
+ - `3.0.17` Move `EventBusSubscriber` to top-level and cleanup Bindings suppliers (#118)
+   
+   * Move EventBusSubscriber to top-level and cleanup Bindings suppliers
+   
+   * Inline I18nParser into IBindingsProvider
+   
+   * Rename FORGE bus to GAME bus
+   
+   * Add EBS snippet in javadoc
+ - `3.0.16` [no ci] Add JarCompatibilityChecker workflows (#119)
+ - `3.0.15` Make the sync worker thread a deamon thread (#117)
+ - `3.0.14` Update Java to 21, Gradle to 8.7 (#114)
+ - `3.0.13` Make ModLoader fully static, remove duplicate class (#115)
+ - `3.0.12` Vastly simplify mod initialization (#110)
+ - `3.0.11` Bump dependencies on SJH and BSL (#113)
+ - `3.0.10` Merge SPI into loader sourceset (#109)
+ - `3.0.9` Format with Spotless (#108)
+ - `3.0.8` Remove OptionalMod (#104)
+ - `3.0.7` Remove FMLModType.LANGPROVIDER (you can use LIBRARY instead) (#105)
+ - `3.0.6` Remove logs/ files produced by SPI test (#107)
+ - `3.0.5` Use CoreMods directly instead of going through SPI abstraction (#106)
+   
+   * Use CoreMods directly instead of going through SPI abstraction
+   
+   * Bump CoreMods and ModLauncher
+ - `3.0.4` Remove unused DisplayTest (#103)
+ - `3.0.3` Simplify extension point system (#80)
+ - `3.0.2` Make jarjar use LIBRARY not GAMELIBRARY by default (#96)
+ - `3.0.1` Rename mods.toml to neoforge.mods.toml (#100)
+   
+   Remember to update corresponding `processResources` gradle steps.
+ - `3.0.0` Bump version to 3.0
+ - `2.0.20` Add support for locating mod sources with services from the classpath. (#93)
+   
+   Co-authored-by: Technici4n <13494793+Technici4n@users.noreply.github.com>
+ - `2.0.19` Add `registerConfig` method to `ModContainer` (#99)
+ - `2.0.18` Update CI workflows
+ - `2.0.17` Only log errors when scanning mod file contents (#95)
+ - `2.0.16` Switch to Fabric Mixin (#94)
+ - `2.0.15` Fix wayland get window position (#68)
+   
+   * Fix wayland get window position
+   
+   * Moving wayland glfw error handle
+ - `2.0.14` Look in the SERVICE layer for ImmediateWindowProvider implementations (#92)
+ - `2.0.13` Add extensible crash report header system (#88)
+ - `2.0.12` Adds the neoforged_icon.png that early display is trying to load. (#87)
+ - `2.0.11` Restore log4j configuration override in prod (#75)
+ - `2.0.10` Remove legacy ServerMain and empty ICrashCallable (#77)
+ - `2.0.9` Check for explicitly set logger config before overwriting it (#70)
+   
+   This change allows users to utilize the `log4j2.configurationFile`
+   system property for configuring the logging context to their liking.
+   
+   This property is read by log4j2 to find the configuration file it should
+   load during initialization. Previously, setting this property only
+   affected logging output during the boot stage (anything before launching
+   Minecraft itself) due to the unconditional logger context reconfiguration.
+   
+   Tying this logic to the already existing system property used by log4j2
+   seemed the most logical, considering that this property is the only
+   approachable way for specifying an alternative configuration in the
+   first place.
+ - `2.0.8` Merge core, events, languages subprojects into loader (#63)
+ - `2.0.7` Remove annoying logging caused by Netty (#61)
+ - `2.0.6` Only crash for `mandatory` fields used by dev mods (#60)
+   
+   Dev mods -- mods which are being developed in the current development 
+   environment -- are located and provided by `MinecraftLocator`.
+   
+   This allows mod dependencies in the dev environment to use the 
+   deprecated `mandatory` field (if they haven't been updated yet by
+   their respective authors) while still forcing the mod developer to
+   replace their own use of the field in their dev mods.
+ - `2.0.5` Merge SPI into FML (#58)
+ - `2.0.4` Provide the dependency reason to required dependencies too (#55)
+ - `2.0.3` Deprecate the `mandatory` dependency field and replace it with a `type` field (#51)
+ - `2.0.2` Get rid of CapabilityTokenSubclass and ObjectHolderDefinalize (#53)
+ - `2.0.1` Add implementations of IModFileInfo#showAsDataPack for data pack grouping (#21)
+ - `2.0.0` Allow loading configs from a specified override path and simplify logic for removing the file watch (#48)
+ - `1.0.17` Deprecate `FMLJavaModLoadingContext` for removal (#47)
+ - `1.0.16` Expect either NoSuchFileException in `loadResourceFromModFile` (#43)
+ - `1.0.15` Fixing and cleaning up configs (#40)
+   
+   * Simplify config event firing and handling
+   * Cleanup `ConfigFileTypeHandler` a bit
+   * Reset to default config if loading the config fails (instead of crashing the game)
+   * Allow disabling config watcher
+ - `1.0.14` Update the AT version and allow mods to specify a list of ATs (and their paths) in the mods.toml (#41)
+   
+   Example:
+   ```toml
+   [[accessTransformers]]
+   file="modid_base.at"
+   
+   [[accessTransformers]]
+   file="modid_extra.at"
+   ```
+   
+   Fall back to `META-INF/accesstransformer.cfg` if no AT file is given with that syntax.
+ - `1.0.13` Apply SJH updates and remove deprecated members (#38)
+ - `1.0.12` Don't turn off VSync when rendering from Minecraft context (#36)
+ - `1.0.11` Wait for window initialization to complete in setupMinecraftWindow (#37)
+   
+   * Wait for window initialization to complete in setupMinecraftWindow
+   
+   * Time out on window initialization after 30 seconds
+ - `1.0.10` Update neoforge jar path to remove the MC version prefix (#35)
+ - `1.0.9` Run annotation scanner in parallel across different mod jars (#32)
+ - `1.0.8` Mixin changes (#31)
+   
+   * Rework mixin handling - now an array in META-INF/mixinconfigs.json
+   
+   * Defer mixin configuration loading to mixin init phase 2 (agent prepare)
+   
+   * Update licenses
+   
+   * Add both mods from loading list and gamelibraries to GAME layer
+   
+   * Let mixins be defined in mods.toml instead
+   
+   * Gradlew
+ - `1.0.7` Update two mentions of Forge (#30)
+   
+   fix https://github.com/neoforged/FancyModLoader/issues/29
+ - `1.0.6` Support event priorities for events posted via ModLoader (#27)
+ - `1.0.5` Allow only one public mod constructor. Add Dist as injected parameter. (#28)
+ - `1.0.4` Request Java 17
+ - `1.0.3` Move to actions
+ - `1.0.2` Remove now unneeded gametest launch handlers
+ - `1.0.1` Update fromTag for changelog
+ - `1.0.0` Update forge modid to neoforge & update branding

@@ -107,5 +107,11 @@
       <version>1.9.18</version>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-math3</artifactId>
+      <version>3.6.1</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
