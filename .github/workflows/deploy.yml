@@ -9,5 +9,5 @@ jobs:
   deploy:
     uses: MohistMC/devops/.github/workflows/deploy.yml@main
     with:
-      tag: ${{ github.ref_name }}
+      tag: ${{ github.ref_name }}-${{ github.sha }}
     secrets: inherit
