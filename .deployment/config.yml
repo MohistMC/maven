@@ -1,3 +1,3 @@
 options:
   remote_build: true
-  enable_debug_logs: true  
+  enable_debug_logs: true   
