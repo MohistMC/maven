@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "youerdev",
+    "version": "1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "youerdev-1.21.1.jar",
+          "url": "youerdev-1.21.1.jar",
+          "size": 101193286,
+          "sha512": "aa278377ad682de615161b26970452648de577350c3f34fcc7a4b30dabbfdff38036e24bff556aa5b9016e8a2dd92236992611512b610a0b82335d448374207b",
+          "sha256": "352bf0fa0dcbac33d3db2e71bc1d4886e673342da06a7d4aa860e15557166265",
+          "sha1": "ae590a5935428aae1e153e6fe03a2cd4c09526c2",
+          "md5": "ce49a28de2da3ece84a1f4f7ff05cc3d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "youerdev-1.21.1.jar",
+          "url": "youerdev-1.21.1.jar",
+          "size": 101193286,
+          "sha512": "aa278377ad682de615161b26970452648de577350c3f34fcc7a4b30dabbfdff38036e24bff556aa5b9016e8a2dd92236992611512b610a0b82335d448374207b",
+          "sha256": "352bf0fa0dcbac33d3db2e71bc1d4886e673342da06a7d4aa860e15557166265",
+          "sha1": "ae590a5935428aae1e153e6fe03a2cd4c09526c2",
+          "md5": "ce49a28de2da3ece84a1f4f7ff05cc3d"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "youerdev-1.21.1.jar",
+          "url": "youerdev-1.21.1.jar",
+          "size": 101193286,
+          "sha512": "aa278377ad682de615161b26970452648de577350c3f34fcc7a4b30dabbfdff38036e24bff556aa5b9016e8a2dd92236992611512b610a0b82335d448374207b",
+          "sha256": "352bf0fa0dcbac33d3db2e71bc1d4886e673342da06a7d4aa860e15557166265",
+          "sha1": "ae590a5935428aae1e153e6fe03a2cd4c09526c2",
+          "md5": "ce49a28de2da3ece84a1f4f7ff05cc3d"
+        }
+      ]
+    }
+  ]
+}
