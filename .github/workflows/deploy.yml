@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    uses: MohistMC/devops-framework/.github/workflows/deploy.yml@main
+    uses: MohistMC/dockflow/.github/workflows/deploy.yml@main
     with:
       version: ${{ github.ref_name }}-${{ github.sha }}    
     secrets: inherit
