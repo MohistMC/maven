@@ -2,9 +2,9 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name maven.mohistmc.com www.maven.mohistmc.com;
+    server_name {{ app_url }} www.{{ app_url }};
 
-    root /var/www/maven;
+    root {{ app_path }};
     index index.html index.htm index.php;
 
     location / {

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cp -R /usr/app/* /var/www/maven/
-rm -rf /var/www/maven/start.sh
+cp -R /usr/app/* {{ app_path }}
+rm -rf {{ app_path }}/start.sh
 
 tail -f /dev/null
