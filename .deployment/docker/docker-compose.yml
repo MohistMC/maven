@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile.app
     restart: always
     volumes:
-      - /var/www/maven:/var/www/maven
+      - {{ app_path }}:{{ app_path }}
