@@ -6,7 +6,7 @@ options:
 image_management:
   # Number of healthy versions to keep (each version can have multiple images)
   # Older healthy versions will be automatically cleaned up
-  # Default: 1 version kept
+  # Default: 1 version kept 
   keep_healthy_versions: 1
   
   # Clean up failed deployment images immediately
