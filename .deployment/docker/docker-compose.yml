@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile.app
     restart: always
     volumes:
-      - "{{ app_path }}:{{ app_path }}"
+      - "{{ app_path }}:{{ app_path }}" 
