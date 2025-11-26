@@ -27,11 +27,11 @@
         {
           "name": "tools-0.6.3.jar",
           "url": "tools-0.6.3.jar",
-          "size": 54725,
-          "sha512": "2dcc34f0fcadc083f4deb4864c8f4207f7ed2befc46ae07388b40ffce4e251a4c9600e1234c64f2f4a9a1242c03f3fffa21ab6bc1bd0017324fdd4fe05631b34",
-          "sha256": "137b9ade79bdfc002f0e9458d16e4caa5e080d66fbcc24f53de5108dcd5ad8f1",
-          "sha1": "43736e56930e2f8b3909a9721cc538a9c807406c",
-          "md5": "97d82c7b374112162320b9bee73f8bf2"
+          "size": 57778,
+          "sha512": "f28ebf234b1e59ad30296a545ee98aba81b651ec61fbea6a73bb016af3cc1874a42077dc2449a94c7d9a49c2af02647fc2f7c477a8587c0658513e49a21ea500",
+          "sha256": "a077e2c6986374e04f8c16213ff14bf73d54957a365e2c5874fae3f757de6d56",
+          "sha1": "bece5f338401bd07b043a7aa40f91e11227d2652",
+          "md5": "1b54347867eedd913c226dd403ed046b"
         }
       ]
     },
@@ -48,11 +48,11 @@
         {
           "name": "tools-0.6.3.jar",
           "url": "tools-0.6.3.jar",
-          "size": 54725,
-          "sha512": "2dcc34f0fcadc083f4deb4864c8f4207f7ed2befc46ae07388b40ffce4e251a4c9600e1234c64f2f4a9a1242c03f3fffa21ab6bc1bd0017324fdd4fe05631b34",
-          "sha256": "137b9ade79bdfc002f0e9458d16e4caa5e080d66fbcc24f53de5108dcd5ad8f1",
-          "sha1": "43736e56930e2f8b3909a9721cc538a9c807406c",
-          "md5": "97d82c7b374112162320b9bee73f8bf2"
+          "size": 57778,
+          "sha512": "f28ebf234b1e59ad30296a545ee98aba81b651ec61fbea6a73bb016af3cc1874a42077dc2449a94c7d9a49c2af02647fc2f7c477a8587c0658513e49a21ea500",
+          "sha256": "a077e2c6986374e04f8c16213ff14bf73d54957a365e2c5874fae3f757de6d56",
+          "sha1": "bece5f338401bd07b043a7aa40f91e11227d2652",
+          "md5": "1b54347867eedd913c226dd403ed046b"
         }
       ]
     }
