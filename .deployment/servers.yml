@@ -1,0 +1,7 @@
+servers:
+  main_server:
+    role: manager
+    tags: [production]
+    env:
+      APP_URL: "maven.mohistmc.com"
+      APP_PATH: "/var/www/maven"
