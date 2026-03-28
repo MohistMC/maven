@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "mixin-tools",
+    "version": "1.2.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mixin-tools-1.2.7.jar",
+          "url": "mixin-tools-1.2.7.jar",
+          "size": 53577,
+          "sha512": "89ace2b71a454dc00139c8c3a7bf0402c2dc28662b52f7d56dcf2ea3f8b78ec75c8757d7ae42943a2552b699de6d74a4ac17452b507006f679464b9b696b84b0",
+          "sha256": "3e11795f924e32be5e1430582d12ce348ffa3acb072ee30d6a79955d8ba2f2f9",
+          "sha1": "bb9058376a59529c2e9b12a25057d6cbdaacbdad",
+          "md5": "75e556d9c03a2d566ae7f2b88fd9e223"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "mixin",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.9.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.25.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mixin-tools-1.2.7.jar",
+          "url": "mixin-tools-1.2.7.jar",
+          "size": 53577,
+          "sha512": "89ace2b71a454dc00139c8c3a7bf0402c2dc28662b52f7d56dcf2ea3f8b78ec75c8757d7ae42943a2552b699de6d74a4ac17452b507006f679464b9b696b84b0",
+          "sha256": "3e11795f924e32be5e1430582d12ce348ffa3acb072ee30d6a79955d8ba2f2f9",
+          "sha1": "bb9058376a59529c2e9b12a25057d6cbdaacbdad",
+          "md5": "75e556d9c03a2d566ae7f2b88fd9e223"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mixin-tools-1.2.7-sources.jar",
+          "url": "mixin-tools-1.2.7-sources.jar",
+          "size": 24865,
+          "sha512": "501c0b0aebb3ca565b5938ba5d82a05c323ff7cc0db1384599a11db81eb5dc844fbe5c422f4da3558536181b792fd2f1a5053a60c506fa4fdcaa1d661030c06a",
+          "sha256": "176d44ff15e65956b4be6f8fad4bb1e3982cb8afb9b2d8fddbed8330b31194c6",
+          "sha1": "8e28f0bde920e589df193c876b0a38e240551d0d",
+          "md5": "8d8a470c517bb6d0c166815f1ee4690e"
+        }
+      ]
+    }
+  ]
+}
