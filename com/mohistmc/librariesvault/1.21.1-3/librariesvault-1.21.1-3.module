@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohistmc",
+    "module": "librariesvault",
+    "version": "1.21.1-3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "librariesvault-1.21.1-3.jar",
+          "url": "librariesvault-1.21.1-3.jar",
+          "size": 13805741,
+          "sha512": "df2b322e1601267aa6c79497a97cf5773545587bf1510cb2973ed91bc863a5be3157bc1bf3fcbd5bb2cc1e069a31044db3633c4421960c3d206214300baa3e2d",
+          "sha256": "076ec033cc29647da1658d3f79079430709fb8a1922350665e2cf45c3aea9820",
+          "sha1": "022ccfebea872854d9228d66d099179a7eaeaa65",
+          "md5": "e847f69291b5241bd6ce12e781420a47"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-builder-support",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-model",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-model-builder",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-repository-metadata",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-resolver-provider",
+          "version": {
+            "requires": "3.9.6"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-api",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-connector-basic",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-impl",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-named-locks",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-spi",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-transport-http",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.maven.resolver",
+          "module": "maven-resolver-util",
+          "version": {
+            "requires": "1.9.18"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.mariadb.jdbc",
+          "module": "mariadb-java-client",
+          "version": {
+            "requires": "3.1.4"
+          }
+        },
+        {
+          "group": "com.github.luben",
+          "module": "zstd-jni",
+          "version": {
+            "requires": "1.5.7-6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "librariesvault-1.21.1-3.jar",
+          "url": "librariesvault-1.21.1-3.jar",
+          "size": 13805741,
+          "sha512": "df2b322e1601267aa6c79497a97cf5773545587bf1510cb2973ed91bc863a5be3157bc1bf3fcbd5bb2cc1e069a31044db3633c4421960c3d206214300baa3e2d",
+          "sha256": "076ec033cc29647da1658d3f79079430709fb8a1922350665e2cf45c3aea9820",
+          "sha1": "022ccfebea872854d9228d66d099179a7eaeaa65",
+          "md5": "e847f69291b5241bd6ce12e781420a47"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "librariesvault-1.21.1-3.jar",
+          "url": "librariesvault-1.21.1-3.jar",
+          "size": 13805741,
+          "sha512": "df2b322e1601267aa6c79497a97cf5773545587bf1510cb2973ed91bc863a5be3157bc1bf3fcbd5bb2cc1e069a31044db3633c4421960c3d206214300baa3e2d",
+          "sha256": "076ec033cc29647da1658d3f79079430709fb8a1922350665e2cf45c3aea9820",
+          "sha1": "022ccfebea872854d9228d66d099179a7eaeaa65",
+          "md5": "e847f69291b5241bd6ce12e781420a47"
+        }
+      ]
+    }
+  ]
+}
