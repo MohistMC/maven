@@ -1,0 +1,25 @@
+project_name: "mohistmc-maven"
+
+upload:
+  - src: .
+    dest: "{{ current.env.app_path }}"
+    compress: false
+    exclude:
+      - .dockflow
+      - .github
+      - .idea
+      - .git
+      - .gitignore
+      - .dockerignore
+      - .env.dockflow
+
+health_checks:
+  enabled: true
+  on_failure: "fail"
+  endpoints:
+    - name: "Main Application"
+      url: "https://{{ current.env.app_url }}/"
+      expected_status: 200
+      timeout: 30
+      retries: 3
+      retry_delay: 5

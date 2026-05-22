@@ -1,9 +1,0 @@
-services:
-  app:
-    image: mohistmc-maven
-    build:
-      context: ../..
-      dockerfile: Dockerfile.app
-    restart: always
-    volumes:
-      - "{{ app_path }}:{{ app_path }}" 
