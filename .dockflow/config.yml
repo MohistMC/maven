@@ -1,4 +1,5 @@
 project_name: "mohistmc-maven"
+no_services: true
 
 upload:
   - src: .
