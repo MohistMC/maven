@@ -1,7 +1,7 @@
 project_name: "mohistmc-maven"
 no_services: true
 
-upload:
+uploads:
   - src: .
     dest: "{{ current.env.app_path }}"
     compress: false
