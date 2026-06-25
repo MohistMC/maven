@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecrell",
+    "module": "terminalconsoleappender",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.26.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-reader",
+          "version": {
+            "requires": "3.20.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "terminalconsoleappender-1.5.0.jar",
+          "url": "terminalconsoleappender-1.5.0.jar",
+          "size": 41521,
+          "sha512": "a744ecbff4474650814665b82114e80d6c741531b2160c6adb83d2ae95d711090686a61fa986407d4f352740d279e1640b0ab58d933925cdeb170fe35c56ba34",
+          "sha256": "6d142feb32395ebb37b4ad4caa388aee00a2a9d9065c06f3ffd3135db93369f9",
+          "sha1": "f3d041f91703149a9699a0018967aae8d801f969",
+          "md5": "6035de5937e0fd0169f1cadd35dc8100"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.26.0"
+          }
+        },
+        {
+          "group": "org.jline",
+          "module": "jline-reader",
+          "version": {
+            "requires": "3.20.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "terminalconsoleappender-1.5.0.jar",
+          "url": "terminalconsoleappender-1.5.0.jar",
+          "size": 41521,
+          "sha512": "a744ecbff4474650814665b82114e80d6c741531b2160c6adb83d2ae95d711090686a61fa986407d4f352740d279e1640b0ab58d933925cdeb170fe35c56ba34",
+          "sha256": "6d142feb32395ebb37b4ad4caa388aee00a2a9d9065c06f3ffd3135db93369f9",
+          "sha1": "f3d041f91703149a9699a0018967aae8d801f969",
+          "md5": "6035de5937e0fd0169f1cadd35dc8100"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "terminalconsoleappender-1.5.0-sources.jar",
+          "url": "terminalconsoleappender-1.5.0-sources.jar",
+          "size": 35908,
+          "sha512": "804fb04aac824472b282c2b47a631a12e8e8fe73505ff70262f171c35687b36403f0daf077ff236824431c2549b5a96f61fb9859e0a2faaa5e5ab8af524261e5",
+          "sha256": "c10f3d9f6798c20f1b612316575f669527c7c1dd590da2395f5a426f8a69e3ac",
+          "sha1": "29d02729995c466cb305451aa689a70334bc25cb",
+          "md5": "1bb02e7f8ced43f8f098e2f4ef362e94"
+        }
+      ]
+    }
+  ]
+}
