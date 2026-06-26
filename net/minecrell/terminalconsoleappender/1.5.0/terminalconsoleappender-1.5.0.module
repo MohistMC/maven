@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 25,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -43,11 +43,11 @@
         {
           "name": "terminalconsoleappender-1.5.0.jar",
           "url": "terminalconsoleappender-1.5.0.jar",
-          "size": 41521,
-          "sha512": "a744ecbff4474650814665b82114e80d6c741531b2160c6adb83d2ae95d711090686a61fa986407d4f352740d279e1640b0ab58d933925cdeb170fe35c56ba34",
-          "sha256": "6d142feb32395ebb37b4ad4caa388aee00a2a9d9065c06f3ffd3135db93369f9",
-          "sha1": "f3d041f91703149a9699a0018967aae8d801f969",
-          "md5": "6035de5937e0fd0169f1cadd35dc8100"
+          "size": 41519,
+          "sha512": "044ada0792cfbbebf12ac09eeb541dbb4bd055b48db2aa21bbf101b2a3e27fb57242a6e3a0b57c414bc2fce0ce4a327cb0fc0862752639532f903c09f3265d4b",
+          "sha256": "7d46ecbf5b6807dcbcec821986c2554ff6f52696c676e9e049e3cd9b40a9949b",
+          "sha1": "e11e081f2fa1c58b55165692bd643a1f7104a65a",
+          "md5": "7bd87419505a903cbf88ed30e2e99203"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 25,
+        "org.gradle.jvm.version": 21,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -80,11 +80,11 @@
         {
           "name": "terminalconsoleappender-1.5.0.jar",
           "url": "terminalconsoleappender-1.5.0.jar",
-          "size": 41521,
-          "sha512": "a744ecbff4474650814665b82114e80d6c741531b2160c6adb83d2ae95d711090686a61fa986407d4f352740d279e1640b0ab58d933925cdeb170fe35c56ba34",
-          "sha256": "6d142feb32395ebb37b4ad4caa388aee00a2a9d9065c06f3ffd3135db93369f9",
-          "sha1": "f3d041f91703149a9699a0018967aae8d801f969",
-          "md5": "6035de5937e0fd0169f1cadd35dc8100"
+          "size": 41519,
+          "sha512": "044ada0792cfbbebf12ac09eeb541dbb4bd055b48db2aa21bbf101b2a3e27fb57242a6e3a0b57c414bc2fce0ce4a327cb0fc0862752639532f903c09f3265d4b",
+          "sha256": "7d46ecbf5b6807dcbcec821986c2554ff6f52696c676e9e049e3cd9b40a9949b",
+          "sha1": "e11e081f2fa1c58b55165692bd643a1f7104a65a",
+          "md5": "7bd87419505a903cbf88ed30e2e99203"
         }
       ]
     },
