@@ -18,6 +18,14 @@ uploads:
       - .dockerignore
       - .env.dockflow
       - dockflow.yml
+      - deploy
+# the vhost of the host's nginx, from deploy/nginx/maven.mohistmc.com.conf: checked and reloaded when it changes
+plugins:
+  - use: nginx
+    with:
+      domain: [maven.mohistmc.com, www.maven.mohistmc.com]
+      template: deploy/nginx/maven.mohistmc.com.conf
+      name: maven.mohistmc.com.conf
 health:
   endpoints:
     - name: maven
