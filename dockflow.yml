@@ -23,7 +23,6 @@ uploads:
 plugins:
   - use: nginx
     with:
-      domain: [maven.mohistmc.com, www.maven.mohistmc.com]
       template: deploy/nginx/maven.mohistmc.com.conf
       name: maven.mohistmc.com.conf
 health:
