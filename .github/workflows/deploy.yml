@@ -1,16 +1,20 @@
-# .github/workflows/dockflow-deploy.yml
 name: Deploy
- 
+
+# Every push to master publishes the repository to maven.mohistmc.com.
 on:
   push:
-    branches:
-      - '*'
- 
+    branches: [master]
+  workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    concurrency: deploy-production
     steps:
       - uses: actions/checkout@v4
-      - run: npx @dockflow-tools/cli deploy production "${{ github.ref_name }}-${{ github.sha }}"
+      - name: Install dockflow
+        run: curl -fsSL https://raw.githubusercontent.com/Shawiizz/dockflow/main/install.sh | sh -s -- --version v4.0.0-alpha.8
+      - name: Deploy
+        run: dockflow deploy production --wait-lock 10m
         env:
-          DOCKFLOW_SECRETS: ${{ toJSON(secrets) }}
+          PRODUCTION_CONNECTION: ${{ secrets.PRODUCTION_CONNECTION }}

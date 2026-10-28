@@ -1,0 +1,32 @@
+# Deployment with Dockflow v2: https://dockflow.shawiizz.dev
+# Secret (GitHub Actions secrets, or .env.dockflow locally): PRODUCTION_CONNECTION.
+# The host's nginx serves /var/www/maven as maven.mohistmc.com. Each deploy sends only the files that changed,
+# and deletes the ones removed from the repository.
+version: 1
+app: mohistmc-maven
+uploads:
+  - src: .
+    dest: /var/www/maven
+    mirror: true
+    # the deploy user's, as the files were before
+    owner: "1002:1002"
+    exclude:
+      - .git
+      - .github
+      - .idea
+      - .gitignore
+      - .dockerignore
+      - .env.dockflow
+      - dockflow.yml
+health:
+  endpoints:
+    - name: maven
+      url: https://maven.mohistmc.com/
+      expected_status: 200
+      timeout: 30s
+      retries: 3
+      retry_delay: 5s
+releases:
+  keep: 3
+environments:
+  production: {}
